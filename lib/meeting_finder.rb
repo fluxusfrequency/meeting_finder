@@ -1,5 +1,5 @@
 require "meeting_finder/version"
+require "meeting_finder/search"
 
 module MeetingFinder
-  # Your code goes here...
 end

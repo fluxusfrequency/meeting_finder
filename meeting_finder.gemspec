@@ -6,10 +6,10 @@ require 'meeting_finder/version'
 Gem::Specification.new do |spec|
   spec.name          = "meeting_finder"
   spec.version       = MeetingFinder::VERSION
-  spec.authors       = ["Ben Lewis"]
-  spec.email         = ["bennlewis@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.authors       = ["Ben Lewis", "Ben Horne", "Billy Griffin"]
+  spec.email         = ["bennlewis@gmail.com", "benhorne44@gmail.com", "navyosu@gmail.com"]
+  spec.description   = "Gem to assist in searching for AA meetings at intherooms.com"
+  spec.summary       = "Find AA Meetings more easily!"
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -20,4 +20,9 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "vcr"
+  spec.add_development_dependency "webmock"
+  spec.add_development_dependency "rspec"
+
+  spec.add_runtime_dependency "faraday"
 end
