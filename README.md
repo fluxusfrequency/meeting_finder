@@ -1,6 +1,20 @@
 # MeetingFinder
 
-TODO: Write a gem description
+Gem to assist in searching for AA meetings at intherooms.com
+
+## Methods
+
+Find meetings by name, location, address, day, time, fellowship, latitude, longitude
+MeetingFinder::Search.find_by takes a search hash with those attributes as keys and the search strings as values.
+
+For example:
+
+```ruby
+MeetingFinder::Search.find_by({"latitude" => 39.7316982, "longitude" => -104.9213643})
+```
+
+This gives back a MeetingFinder::Meeting object, from which you can access the various attributes using the following methods: 
+name, location, address, day, time, fellowship, lat, lng
 
 ## Installation
 
