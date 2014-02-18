@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://meetings.intherooms.com/meetings/search?search=&zip=80203
+    uri: http://meetings.intherooms.com/meetings/search?proximity=10&search=&zip=80203
     body:
       encoding: US-ASCII
       string: ''
@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 18 Feb 2014 17:05:36 GMT
+      - Tue, 18 Feb 2014 21:00:10 GMT
       Content-Type:
       - text/html; charset=utf-8
       Transfer-Encoding:
@@ -57,18 +57,18 @@ http_interactions:
         node = document.getElementsByTagName('script')[0];\nnode.parentNode.insertBefore(gads,
         node);\n})();\n</script>\n\n<script type='text/javascript'>\ngoogletag.cmd.push(function()
         {\ngoogletag.defineSlot('/1033324/Meeting_728x90', [728, 90], 'div-gpt-ad-1392223336329-0').addService(googletag.pubads());\ngoogletag.pubads().enableSingleRequest();\ngoogletag.enableServices();\n});\n</script>\n\n
-        \       <title>AA NA Meetings in Potwin, KS | In The Rooms</title>\t\t\n        <meta
-        http-equiv=\"Keywords\" content=\"AA NA Meetings, Potwin, KS, Kansas\" />\n
-        \       <meta http-equiv=\"Description\" content=\"AA Meetings, NA Meetings,
-        Potwin, KS and other 12-Step Fellowship Meetings around the world. The most
-        comprehensive list of 12-Step meetings in Kansas\" />\n        <meta name=\"google-site-verification\"
-        content=\"YHw31b5MXSvt-rVlAL-7RqchVDTxZsO2i_p_M1cAJBU\" />\n\t<meta name=\"google-site-verification\"
-        content=\"WZZAgCaWeaMyrpuerognNgYOwOdViQiNvgsdqhW_Rr4\" />\n\t\t\n\t\t<link
-        rel=\"stylesheet\" href=\"/css/960.css\" type=\"text/css\" />\n\t\t<link rel=\"stylesheet\"
-        href=\"/css/style.css\" type=\"text/css\" />\n\t\t<link rel=\"stylesheet\"
-        href=\"/css/jquery.tooltip.css\" type=\"text/css\" />\n\t\t<link rel=\"stylesheet\"
-        href=\"/css/thickbox.css\" type=\"text/css\" />\t\t\n\n\n        <!--link
-        rel=\"stylesheet\" href=\"http://sandbox.iloverecovery.com/meetings/mobile-working.css\"
+        \       <title>AA NA Meetings in Englewood, CO | In The Rooms</title>\t\t\n
+        \       <meta http-equiv=\"Keywords\" content=\"AA NA Meetings, Englewood,
+        CO, Colorado\" />\n        <meta http-equiv=\"Description\" content=\"AA Meetings,
+        NA Meetings, Englewood, CO and other 12-Step Fellowship Meetings around the
+        world. The most comprehensive list of 12-Step meetings in Colorado\" />\n
+        \       <meta name=\"google-site-verification\" content=\"YHw31b5MXSvt-rVlAL-7RqchVDTxZsO2i_p_M1cAJBU\"
+        />\n\t<meta name=\"google-site-verification\" content=\"WZZAgCaWeaMyrpuerognNgYOwOdViQiNvgsdqhW_Rr4\"
+        />\n\t\t\n\t\t<link rel=\"stylesheet\" href=\"/css/960.css\" type=\"text/css\"
+        />\n\t\t<link rel=\"stylesheet\" href=\"/css/style.css\" type=\"text/css\"
+        />\n\t\t<link rel=\"stylesheet\" href=\"/css/jquery.tooltip.css\" type=\"text/css\"
+        />\n\t\t<link rel=\"stylesheet\" href=\"/css/thickbox.css\" type=\"text/css\"
+        />\t\t\n\n\n        <!--link rel=\"stylesheet\" href=\"http://sandbox.iloverecovery.com/meetings/mobile-working.css\"
         type=\"text/css\" /-->\n\n\t\t\t\t<script type=\"text/javascript\" src=\"/js/jquery-1.4.min.js\"></script>\n\t\t<script
         type=\"text/javascript\" src=\"/js/jquery.tooltip.min.js\"></script>\n\t\t<script
         type=\"text/javascript\" src=\"/js/jquery.thickbox.js\"></script>\n\t\t<script
@@ -95,7 +95,7 @@ http_interactions:
         \                                   </div>\n                <h1>\n                    <a
         href=\"/\" title=\"In The Rooms 12 Step Meeting List\"></a>\n                    Alcoholics
         Anonymous Meetings, Narcotics Anonymous Meetings, AA Meetings, NA Meetings
-        \n                                            Potwin, KS                                    </h1>\n
+        \n                                            Englewood, CO                                    </h1>\n
         \               \n                <div id='div-gpt-ad-1392223336329-0' style=\"float:right;
         height:90px; width:728px; border-left: solid 1px #bbb; margin-bottom:1px\">\n
         \               <!-- Meeting_728x90 -->\n                    <script type='text/javascript'>\n
@@ -150,7 +150,7 @@ http_interactions:
         Centers accept insurance/financing</a>\n\t\t<a href=\"http://directory.intherooms.com/category/Online-Recovery/18\">Online
         Recovery</a>\n\t</div>\n        \n\n\n<div class=\"breadcrumbs\">\n    <li><a
         href=\"/\">Home</a></li>\n    <li>&raquo;</li>\n    <li>AA NA Meetings in
-        Potwin, KS</li>\n</div><!-- breadcrumbs -->\n\n\n\n\t<script type=\"text/javascript\">\n\t\t//
+        Englewood, CO</li>\n</div><!-- breadcrumbs -->\n\n\n\n\t<script type=\"text/javascript\">\n\t\t//
         if(typeof(_gat)!='object')document.write('<sc'+'ript src=\"http'+ (document.location.protocol=='https:'?'s://ssl':'://www')+
         '.google-analytics.com/ga.js\"></sc'+'ript>')\n\t</script>\n\n    <div id=\"js-errors\"
         class=\"error-pane\" style=\"display: none;\"></div>\n    \n    <div id=\"meetings-signup-b\">\n
@@ -187,11 +187,11 @@ http_interactions:
         \               <h1>Enter the word in the image below to complete registration</h1>\n
         \               <div class=\"error-pane\" id=\"captcha-error\" style=\"display:
         none; margin:0 10px 5px 10px;\"></div>\n                <div class=\"captcha\"
-        style=\"margin-top:10px;\">\n                    <img src=\"/captcha/show/large?cccid=14832d49dddaf5b7ad85e4b6d3569bfa\"><br>\n
+        style=\"margin-top:10px;\">\n                    <img src=\"/captcha/show/large?cccid=b648dccdab399a6ff17ab7d723a8f753\"><br>\n
         \                   <input id=\"captcha-word\" type=\"text\" class=\"text-sm\"
         name=\"word\" style=\"width:250px; margin-top: 15px;\" onkeypress=\"handleEnterKeyCaptcha(event)\"><br>\n
         \                   <input id=\"captcha-cccid\" type=\"hidden\" name=\"cccid\"
-        value=\"14832d49dddaf5b7ad85e4b6d3569bfa\" />\n                    \n                    <a
+        value=\"b648dccdab399a6ff17ab7d723a8f753\" />\n                    \n                    <a
         href=\"javascript:;\" onclick=\"registerSubmit();\">\n                        <img
         style=\"margin:15px 0;\" id=\"itr-register-btn\" src=\"http://media.intherooms.com/images/home/home-register.gif\"
         />\n                    </a>\n                </div>\n            </div>\n
@@ -250,159 +250,163 @@ http_interactions:
         />\n    \n    <input type=\"hidden\" name=\"latitude\" id=\"latitude\" value=\"false\">\n
         \   <input type=\"hidden\" name=\"longitude\" id=\"longitude\" value=\"false\">\n
         \   <input type=\"hidden\" name=\"process\" value=\"1\">\n    <input type=\"hidden\"
-        name=\"page_city\" id=\"page_city\" value=\"Potwin\">\n    <input type=\"hidden\"
-        name=\"page_state\" id=\"page_state\" value=\"KS\">\n\n</form><!-- filter-results
+        name=\"page_city\" id=\"page_city\" value=\"Englewood\">\n    <input type=\"hidden\"
+        name=\"page_state\" id=\"page_state\" value=\"CO\">\n\n</form><!-- filter-results
         -->\n\n\n<div class=\"search-paging\"><span class=\"prevNext\">&laquo; Previous</span><span
-        class=\"current\">1</span><a href=\"/meetings/search?search=&latitude=38&longitude=-97&proximity=500&page_city=Potwin&page_state=KS&page=1&results_per_page=25&page=2\">2</a><a
-        href=\"/meetings/search?search=&latitude=38&longitude=-97&proximity=500&page_city=Potwin&page_state=KS&page=1&results_per_page=25&page=3\">3</a><a
-        href=\"/meetings/search?search=&latitude=38&longitude=-97&proximity=500&page_city=Potwin&page_state=KS&page=1&results_per_page=25&page=4\">4</a><a
-        href=\"/meetings/search?search=&latitude=38&longitude=-97&proximity=500&page_city=Potwin&page_state=KS&page=1&results_per_page=25&page=5\">5</a><a
-        href=\"/meetings/search?search=&latitude=38&longitude=-97&proximity=500&page_city=Potwin&page_state=KS&page=1&results_per_page=25&page=6\">6</a><a
-        href=\"/meetings/search?search=&latitude=38&longitude=-97&proximity=500&page_city=Potwin&page_state=KS&page=1&results_per_page=25&page=7\">7</a><span>...</span><a
-        href=\"/meetings/search?search=&latitude=38&longitude=-97&proximity=500&page_city=Potwin&page_state=KS&page=1&results_per_page=25&page=399\">399</a><a
-        href=\"/meetings/search?search=&latitude=38&longitude=-97&proximity=500&page_city=Potwin&page_state=KS&page=1&results_per_page=25&page=400\">400</a><a
-        href=\"/meetings/search?search=&latitude=38&longitude=-97&proximity=500&page_city=Potwin&page_state=KS&page=1&results_per_page=25&page=2\"
+        class=\"current\">1</span><a href=\"/meetings/search?search=&proximity=500&latitude=39.6135&longitude=-104.9034&page_city=Englewood&page_state=CO&page=1&results_per_page=25&page=2\">2</a><a
+        href=\"/meetings/search?search=&proximity=500&latitude=39.6135&longitude=-104.9034&page_city=Englewood&page_state=CO&page=1&results_per_page=25&page=3\">3</a><a
+        href=\"/meetings/search?search=&proximity=500&latitude=39.6135&longitude=-104.9034&page_city=Englewood&page_state=CO&page=1&results_per_page=25&page=4\">4</a><a
+        href=\"/meetings/search?search=&proximity=500&latitude=39.6135&longitude=-104.9034&page_city=Englewood&page_state=CO&page=1&results_per_page=25&page=5\">5</a><a
+        href=\"/meetings/search?search=&proximity=500&latitude=39.6135&longitude=-104.9034&page_city=Englewood&page_state=CO&page=1&results_per_page=25&page=6\">6</a><a
+        href=\"/meetings/search?search=&proximity=500&latitude=39.6135&longitude=-104.9034&page_city=Englewood&page_state=CO&page=1&results_per_page=25&page=7\">7</a><span>...</span><a
+        href=\"/meetings/search?search=&proximity=500&latitude=39.6135&longitude=-104.9034&page_city=Englewood&page_state=CO&page=1&results_per_page=25&page=263\">263</a><a
+        href=\"/meetings/search?search=&proximity=500&latitude=39.6135&longitude=-104.9034&page_city=Englewood&page_state=CO&page=1&results_per_page=25&page=264\">264</a><a
+        href=\"/meetings/search?search=&proximity=500&latitude=39.6135&longitude=-104.9034&page_city=Englewood&page_state=CO&page=1&results_per_page=25&page=2\"
         class=\"prevNext\">Next &raquo;</a></div>\n<table class=\"all-meetings\">\n
         \   <tr>\n        <th>Meeting Title</th>\n        <th>Location</th>\n        <th>Address</th>\n
         \       <th>Day</th>\n        <th>Time</th>\n        <th>Fellowship</th>\n
         \   </tr>\n\n\n                            <tr>\n                    <td><a
-        href=\"/na/Martinson-Christian-Church/15375\">Martinson Christian Church</a></td>\n
-        \                   <td><a href=\"/locations/Potwin/Martinson-Christian-Church/6826\">Martinson
-        Christian Church</a></td>\n                    <td>1653 S. Martinson<br>Potwin,
-        KS </td>\n                    <td>MONDAY</td>\n                    <td>7:00
+        href=\"/alanon/Recovery-Spoken-Here-AFG/105896\">Recovery Spoken Here AFG</a></td>\n
+        \                   <td><a href=\"/locations/denver/Orchard-Club-South/48503\">Orchard
+        Club South</a></td>\n                    <td>8081 E Orchard Road Suite 115
+        <br>denver, CO 80111</td>\n                    <td>MONDAY</td>\n                    <td>5:45
+        PM</td>\n                    <td>Alanon Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/alanon/Recovery-Spoken-Here-AFG/106118\">Recovery
+        Spoken Here AFG</a></td>\n                    <td><a href=\"/locations/Greenwood-Village/Orchard-Club-South/48601\">Orchard
+        Club South</a></td>\n                    <td>8081 E Orchard Rd #115<br>Greenwood
+        Village, CO 80111</td>\n                    <td>FRIDAY</td>\n                    <td>5:45
+        AM</td>\n                    <td>Alanon Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/alanon/Mens-Step-Based-AFG/106120\">Men's
+        Step-Based AFG</a></td>\n                    <td><a href=\"/locations/Greenwood-Village/Orchard-Club-South/48601\">Orchard
+        Club South</a></td>\n                    <td>8081 E Orchard Rd #115<br>Greenwood
+        Village, CO 80111</td>\n                    <td>THURSDAY</td>\n                    <td>4:45
+        PM</td>\n                    <td>Alanon Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/alanon/Serenity-Solutions-AFG/106121\">Serenity
+        Solutions AFG</a></td>\n                    <td><a href=\"/locations/Greenwood-Village/Orchard-Club-South/48601\">Orchard
+        Club South</a></td>\n                    <td>8081 E Orchard Rd #115<br>Greenwood
+        Village, CO 80111</td>\n                    <td>THURSDAY</td>\n                    <td>12:00
+        PM</td>\n                    <td>Alanon Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/alanon/Serenity-Solutions-AFG/106122\">Serenity
+        Solutions AFG</a></td>\n                    <td><a href=\"/locations/Greenwood-Village/Orchard-Club-South/48601\">Orchard
+        Club South</a></td>\n                    <td>8081 E Orchard Rd #115<br>Greenwood
+        Village, CO 80111</td>\n                    <td>SUNDAY</td>\n                    <td>1:00
+        AM</td>\n                    <td>Alanon Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/alanon/It-Really-Works-AFG/106127\">It
+        Really Works AFG</a></td>\n                    <td><a href=\"/locations/Greenwood-Village/Orchard-Club-South/48601\">Orchard
+        Club South</a></td>\n                    <td>8081 E Orchard Rd #115<br>Greenwood
+        Village, CO 80111</td>\n                    <td>WEDNESDAY</td>\n                    <td>7:00
+        PM</td>\n                    <td>Alanon Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/alanon/Serenity-Seekers-AFG/106128\">Serenity
+        Seekers AFG</a></td>\n                    <td><a href=\"/locations/Greenwood-Village/Orchard-Club-South/48601\">Orchard
+        Club South</a></td>\n                    <td>8081 E Orchard Rd #115<br>Greenwood
+        Village, CO 80111</td>\n                    <td>WEDNESDAY</td>\n                    <td>10:00
+        AM</td>\n                    <td>Alanon Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/oa/Orchard-Club-South/78225\">Orchard
+        Club South</a></td>\n                    <td><a href=\"/locations/Greenwood-Village/Orchard-Club-South/32724\">Orchard
+        Club South</a></td>\n                    <td>8081 E.Orchard Road<br>Greenwood
+        Village, CO 80111</td>\n                    <td>MONDAY</td>\n                    <td>10:30
+        AM</td>\n                    <td>Overeaters Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/na/The-Orchard-Club/119400\">The
+        Orchard Club</a></td>\n                    <td><a href=\"/locations/Greenwood-Village/The-Orchard-Club/53694\">The
+        Orchard Club</a></td>\n                    <td>8081 East Orchard Road<br>Greenwood
+        Village, CO 80111-2501</td>\n                    <td>WEDNESDAY</td>\n                    <td>5:45
         PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/Real-Life-Christian-Church/116111\">Real
-        Life Christian Church</a></td>\n                    <td><a href=\"/locations/El-Dorado/Real-Life-Christian-Church/52075\">Real
-        Life Christian Church</a></td>\n                    <td>2405 West Central
-        Avenue<br>El Dorado, KS 67042-3472</td>\n                    <td>TUESDAY</td>\n
-        \                   <td>6:30 PM</td>\n                    <td>Narcotics Anonymous</td>\n
+        \                       <tr>\n                    <td><a href=\"/alanon/New-Beginnings-AFG/106029\">New
+        Beginnings AFG</a></td>\n                    <td><a href=\"/locations/Centennial/Our-Father-Lutheran-Church/48557\">Our
+        Father Lutheran Church</a></td>\n                    <td>6335 S Holly St<br>Centennial,
+        CO 80121</td>\n                    <td>TUESDAY</td>\n                    <td>7:00
+        PM</td>\n                    <td>Alanon Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/aa/Happy-Hour-Saturday/56553\">Happy
+        Hour Saturday</a></td>\n                    <td><a href=\"/locations/Littleton/Happy-Hour-Saturday/24045\">Happy
+        Hour Saturday</a></td>\n                    <td>6335 So. Holly (Ch)<br>Littleton,
+        \ 80121</td>\n                    <td>SATURDAY</td>\n                    <td>12:00
+        PM</td>\n                    <td>Alcoholics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/alanon/Courage-to-Change-AFG/106132\">Courage
+        to Change AFG</a></td>\n                    <td><a href=\"/locations/englewood/St-Peters-Lutheran-Church-/48609\">St
+        Peter's Lutheran Church </a></td>\n                    <td>9300 E Belleview
+        Ave<br>englewood, CO 80111</td>\n                    <td>SATURDAY</td>\n                    <td>11:30
+        AM</td>\n                    <td>Alanon Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/alanon/New-Freedom-AFG/105898\">New
+        Freedom AFG</a></td>\n                    <td><a href=\"/locations/englewood/Cherry-Creek-Presbyterian-Church/48505\">Cherry
+        Creek Presbyterian Church</a></td>\n                    <td>10000 E Belleview
+        Ave Classroom Bldg 210 <br>englewood, CO 80111</td>\n                    <td>SUNDAY</td>\n
+        \                   <td>10:00 AM</td>\n                    <td>Alanon Anonymous</td>\n
         \               </tr>\n                        <tr>\n                    <td><a
-        href=\"/na/Real-Life-Christian-Church/116133\">Real Life Christian Church</a></td>\n
-        \                   <td><a href=\"/locations/El-Dorado/Real-Life-Christian-Church/52075\">Real
-        Life Christian Church</a></td>\n                    <td>2405 West Central
-        Avenue<br>El Dorado, KS 67042-3472</td>\n                    <td>FRIDAY</td>\n
-        \                   <td>6:30 PM</td>\n                    <td>Narcotics Anonymous</td>\n
+        href=\"/alanon/New-Freedom-AFG/105936\">New Freedom AFG</a></td>\n                    <td><a
+        href=\"/locations/englewood/Cherry-Creek-Presbyterian-Church/48505\">Cherry
+        Creek Presbyterian Church</a></td>\n                    <td>10000 E Belleview
+        Ave Classroom Bldg 210 <br>englewood, CO 80111</td>\n                    <td>MONDAY</td>\n
+        \                   <td>10:00 AM</td>\n                    <td>Alanon Anonymous</td>\n
         \               </tr>\n                        <tr>\n                    <td><a
-        href=\"/na/First-Menanite-Church/15362\">First Menanite Church</a></td>\n
-        \                   <td><a href=\"/locations/Newton/First-Menanite-Church/6822\">First
-        Menanite Church</a></td>\n                    <td>429 East 1st Street<br>Newton,
-        KS 67114-3855</td>\n                    <td>SUNDAY</td>\n                    <td>7:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/First-Menanite-Church/15363\">First
-        Menanite Church</a></td>\n                    <td><a href=\"/locations/Newton/First-Menanite-Church/6822\">First
-        Menanite Church</a></td>\n                    <td>429 East 1st Street<br>Newton,
-        KS 67114-3855</td>\n                    <td>TUESDAY</td>\n                    <td>8:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/First-Menanite-Church/15364\">First
-        Menanite Church</a></td>\n                    <td><a href=\"/locations/Newton/First-Menanite-Church/6822\">First
-        Menanite Church</a></td>\n                    <td>429 East 1st Street<br>Newton,
-        KS 67114-3855</td>\n                    <td>THURSDAY</td>\n                    <td>7:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/First-Menanite-Church/15365\">First
-        Menanite Church</a></td>\n                    <td><a href=\"/locations/Newton/First-Menanite-Church/6822\">First
-        Menanite Church</a></td>\n                    <td>429 East 1st Street<br>Newton,
-        KS 67114-3855</td>\n                    <td>FRIDAY</td>\n                    <td>8:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/First-Menanite-Church/15366\">First
-        Menanite Church</a></td>\n                    <td><a href=\"/locations/Newton/First-Menanite-Church/6822\">First
-        Menanite Church</a></td>\n                    <td>429 East 1st Street<br>Newton,
-        KS 67114-3855</td>\n                    <td>SATURDAY</td>\n                    <td>8:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/First-Menanite-Church/110094\">First
-        Menanite Church</a></td>\n                    <td><a href=\"/locations/Newton/First-Menanite-Church/6822\">First
-        Menanite Church</a></td>\n                    <td>429 East 1st Street<br>Newton,
-        KS 67114-3855</td>\n                    <td>TUESDAY</td>\n                    <td>7:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/First-Menanite-Church/110095\">First
-        Menanite Church</a></td>\n                    <td><a href=\"/locations/Newton/First-Menanite-Church/6822\">First
-        Menanite Church</a></td>\n                    <td>429 East 1st Street<br>Newton,
-        KS 67114-3855</td>\n                    <td>MONDAY</td>\n                    <td>7:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/aa/newton-group/100283\">newton
-        group</a></td>\n                    <td><a href=\"/locations/Newton/newton-kansas/46435\">newton
-        kansas</a></td>\n                    <td>SW 14th St<br>Newton, KS 67114</td>\n
-        \                   <td>WEDNESDAY</td>\n                    <td>7:30 PM</td>\n
-        \                   <td>Alcoholics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/aa/newton-group/100419\">newton
-        group</a></td>\n                    <td><a href=\"/locations/Newton/newton-kansas/46435\">newton
-        kansas</a></td>\n                    <td>SW 14th St<br>Newton, KS 67114</td>\n
-        \                   <td>MONDAY</td>\n                    <td>7:30 PM</td>\n
-        \                   <td>Alcoholics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/aa/newton-group/100420\">newton
-        group</a></td>\n                    <td><a href=\"/locations/Newton/newton-kansas/46435\">newton
-        kansas</a></td>\n                    <td>SW 14th St<br>Newton, KS 67114</td>\n
-        \                   <td>TUESDAY</td>\n                    <td>7:30 PM</td>\n
-        \                   <td>Alcoholics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/aa/newton-group/100421\">newton
-        group</a></td>\n                    <td><a href=\"/locations/Newton/newton-kansas/46435\">newton
-        kansas</a></td>\n                    <td>SW 14th St<br>Newton, KS 67114</td>\n
-        \                   <td>THURSDAY</td>\n                    <td>7:30 PM</td>\n
-        \                   <td>Alcoholics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/aa/newton-group/100422\">newton
-        group</a></td>\n                    <td><a href=\"/locations/Newton/newton-kansas/46435\">newton
-        kansas</a></td>\n                    <td>SW 14th St<br>Newton, KS 67114</td>\n
-        \                   <td>FRIDAY</td>\n                    <td>7:30 PM</td>\n
-        \                   <td>Alcoholics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/aa/newton-group/100423\">newton
-        group</a></td>\n                    <td><a href=\"/locations/Newton/newton-kansas/46435\">newton
-        kansas</a></td>\n                    <td>SW 14th St<br>Newton, KS 67114</td>\n
-        \                   <td>SATURDAY</td>\n                    <td>7:30 PM</td>\n
-        \                   <td>Alcoholics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/aa/newton-group/100424\">newton
-        group</a></td>\n                    <td><a href=\"/locations/Newton/newton-kansas/46435\">newton
-        kansas</a></td>\n                    <td>SW 14th St<br>Newton, KS 67114</td>\n
-        \                   <td>SUNDAY</td>\n                    <td>7:30 PM</td>\n
-        \                   <td>Alcoholics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/aa/Newton-Group/100581\">Newton
-        Group</a></td>\n                    <td><a href=\"/locations/Newton/SW-14th/46609\">S.W.
-        14th</a></td>\n                    <td>SW 14th St<br>Newton, KS 67114</td>\n
-        \                   <td>SUNDAY</td>\n                    <td>7:30 AM</td>\n
-        \                   <td>Alcoholics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/Just-For-Today/15326\">Just
-        For Today</a></td>\n                    <td><a href=\"/locations/Augusta/Just-For-Today/6814\">Just
-        For Today</a></td>\n                    <td>501 1/2 State Street<br>Augusta,
-        KS 67010</td>\n                    <td>SUNDAY</td>\n                    <td>7:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/Just-For-Today/15327\">Just
-        For Today</a></td>\n                    <td><a href=\"/locations/Augusta/Just-For-Today/6814\">Just
-        For Today</a></td>\n                    <td>501 1/2 State Street<br>Augusta,
-        KS 67010</td>\n                    <td>TUESDAY</td>\n                    <td>8:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/Just-For-Today/15328\">Just
-        For Today</a></td>\n                    <td><a href=\"/locations/Augusta/Just-For-Today/6814\">Just
-        For Today</a></td>\n                    <td>501 1/2 State Street<br>Augusta,
-        KS 67010</td>\n                    <td>THURSDAY</td>\n                    <td>8:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/Just-For-Today/15329\">Just
-        For Today</a></td>\n                    <td><a href=\"/locations/Augusta/Just-For-Today/6814\">Just
-        For Today</a></td>\n                    <td>501 1/2 State Street<br>Augusta,
-        KS 67010</td>\n                    <td>SATURDAY</td>\n                    <td>8:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/Unnamed-Meeting/129081\">Unnamed
-        Meeting</a></td>\n                    <td><a href=\"/locations/Augusta/Unname-Location/58054\">Unname
-        Location</a></td>\n                    <td>501 1/2 State Street<br>Augusta,
-        KS 67010-1132</td>\n                    <td>TUESDAY</td>\n                    <td>12:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/Unnamed-Meeting/129082\">Unnamed
-        Meeting</a></td>\n                    <td><a href=\"/locations/Augusta/Unname-Location/58054\">Unname
-        Location</a></td>\n                    <td>501 1/2 State Street<br>Augusta,
-        KS 67010-1132</td>\n                    <td>SUNDAY</td>\n                    <td>7:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/Unnamed-Meeting/129083\">Unnamed
-        Meeting</a></td>\n                    <td><a href=\"/locations/Augusta/Unname-Location/58054\">Unname
-        Location</a></td>\n                    <td>501 1/2 State Street<br>Augusta,
-        KS 67010-1132</td>\n                    <td>TUESDAY</td>\n                    <td>7:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \           \n</table>\n\n<div class=\"search-paging\"><span class=\"prevNext\">&laquo;
-        Previous</span><span class=\"current\">1</span><a href=\"/meetings/search?search=&latitude=38&longitude=-97&proximity=500&page_city=Potwin&page_state=KS&page=1&results_per_page=25&page=2\">2</a><a
-        href=\"/meetings/search?search=&latitude=38&longitude=-97&proximity=500&page_city=Potwin&page_state=KS&page=1&results_per_page=25&page=3\">3</a><a
-        href=\"/meetings/search?search=&latitude=38&longitude=-97&proximity=500&page_city=Potwin&page_state=KS&page=1&results_per_page=25&page=4\">4</a><a
-        href=\"/meetings/search?search=&latitude=38&longitude=-97&proximity=500&page_city=Potwin&page_state=KS&page=1&results_per_page=25&page=5\">5</a><a
-        href=\"/meetings/search?search=&latitude=38&longitude=-97&proximity=500&page_city=Potwin&page_state=KS&page=1&results_per_page=25&page=6\">6</a><a
-        href=\"/meetings/search?search=&latitude=38&longitude=-97&proximity=500&page_city=Potwin&page_state=KS&page=1&results_per_page=25&page=7\">7</a><span>...</span><a
-        href=\"/meetings/search?search=&latitude=38&longitude=-97&proximity=500&page_city=Potwin&page_state=KS&page=1&results_per_page=25&page=399\">399</a><a
-        href=\"/meetings/search?search=&latitude=38&longitude=-97&proximity=500&page_city=Potwin&page_state=KS&page=1&results_per_page=25&page=400\">400</a><a
-        href=\"/meetings/search?search=&latitude=38&longitude=-97&proximity=500&page_city=Potwin&page_state=KS&page=1&results_per_page=25&page=2\"
+        href=\"/na/Church/119953\">Church</a></td>\n                    <td><a href=\"/locations/Centennial/Church/54005\">Church</a></td>\n
+        \                   <td>3900 East Arapahoe Road<br>Centennial, CO 80122-2078</td>\n
+        \                   <td>FRIDAY</td>\n                    <td>6:30 PM</td>\n
+        \                   <td>Narcotics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/na/Church/119954\">Church</a></td>\n
+        \                   <td><a href=\"/locations/Centennial/Church/54005\">Church</a></td>\n
+        \                   <td>3900 East Arapahoe Road<br>Centennial, CO 80122-2078</td>\n
+        \                   <td>MONDAY</td>\n                    <td>6:30 PM</td>\n
+        \                   <td>Narcotics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/aa/Theres-a-Solution/56109\">Theres
+        a Solution</a></td>\n                    <td><a href=\"/locations/Greenwood-Village/Theres-a-Solution/23895\">Theres
+        a Solution</a></td>\n                    <td>8081 E. Orchard Rd. (Entr 5 S
+        door)<br>Greenwood Village,  </td>\n                    <td>WEDNESDAY</td>\n
+        \                   <td>unknown</td>\n                    <td>Alcoholics Anonymous</td>\n
+        \               </tr>\n                        <tr>\n                    <td><a
+        href=\"/aa/Noon-Workshop/56119\">Noon Workshop</a></td>\n                    <td><a
+        href=\"/locations/Greenwood-Village/Theres-a-Solution/23895\">Theres a Solution</a></td>\n
+        \                   <td>8081 E. Orchard Rd. (Entr 5 S door)<br>Greenwood Village,
+        \ </td>\n                    <td>WEDNESDAY</td>\n                    <td>2:00
+        PM</td>\n                    <td>Alcoholics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/aa/Theres-a-Solution/56146\">Theres
+        a Solution</a></td>\n                    <td><a href=\"/locations/Greenwood-Village/Theres-a-Solution/23895\">Theres
+        a Solution</a></td>\n                    <td>8081 E. Orchard Rd. (Entr 5 S
+        door)<br>Greenwood Village,  </td>\n                    <td>TUESDAY</td>\n
+        \                   <td>unknown</td>\n                    <td>Alcoholics Anonymous</td>\n
+        \               </tr>\n                        <tr>\n                    <td><a
+        href=\"/aa/Noon-Workshop/56158\">Noon Workshop</a></td>\n                    <td><a
+        href=\"/locations/Greenwood-Village/Theres-a-Solution/23895\">Theres a Solution</a></td>\n
+        \                   <td>8081 E. Orchard Rd. (Entr 5 S door)<br>Greenwood Village,
+        \ </td>\n                    <td>TUESDAY</td>\n                    <td>2:00
+        PM</td>\n                    <td>Alcoholics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/aa/Theres-a-Solution/56183\">Theres
+        a Solution</a></td>\n                    <td><a href=\"/locations/Greenwood-Village/Theres-a-Solution/23895\">Theres
+        a Solution</a></td>\n                    <td>8081 E. Orchard Rd. (Entr 5 S
+        door)<br>Greenwood Village,  </td>\n                    <td>THURSDAY</td>\n
+        \                   <td>unknown</td>\n                    <td>Alcoholics Anonymous</td>\n
+        \               </tr>\n                        <tr>\n                    <td><a
+        href=\"/aa/Noon-Workshop/56194\">Noon Workshop</a></td>\n                    <td><a
+        href=\"/locations/Greenwood-Village/Theres-a-Solution/23895\">Theres a Solution</a></td>\n
+        \                   <td>8081 E. Orchard Rd. (Entr 5 S door)<br>Greenwood Village,
+        \ </td>\n                    <td>THURSDAY</td>\n                    <td>2:00
+        PM</td>\n                    <td>Alcoholics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/aa/Theres-a-Solution/56213\">Theres
+        a Solution</a></td>\n                    <td><a href=\"/locations/Greenwood-Village/Theres-a-Solution/23895\">Theres
+        a Solution</a></td>\n                    <td>8081 E. Orchard Rd. (Entr 5 S
+        door)<br>Greenwood Village,  </td>\n                    <td>SUNDAY</td>\n
+        \                   <td>unknown</td>\n                    <td>Alcoholics Anonymous</td>\n
+        \               </tr>\n                        <tr>\n                    <td><a
+        href=\"/aa/Noon-Workshop/56228\">Noon Workshop</a></td>\n                    <td><a
+        href=\"/locations/Greenwood-Village/Theres-a-Solution/23895\">Theres a Solution</a></td>\n
+        \                   <td>8081 E. Orchard Rd. (Entr 5 S door)<br>Greenwood Village,
+        \ </td>\n                    <td>SUNDAY</td>\n                    <td>2:00
+        PM</td>\n                    <td>Alcoholics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/aa/Theres-a-Solution/56246\">Theres
+        a Solution</a></td>\n                    <td><a href=\"/locations/Greenwood-Village/Theres-a-Solution/23895\">Theres
+        a Solution</a></td>\n                    <td>8081 E. Orchard Rd. (Entr 5 S
+        door)<br>Greenwood Village,  </td>\n                    <td>SATURDAY</td>\n
+        \                   <td>unknown</td>\n                    <td>Alcoholics Anonymous</td>\n
+        \               </tr>\n            \n</table>\n\n<div class=\"search-paging\"><span
+        class=\"prevNext\">&laquo; Previous</span><span class=\"current\">1</span><a
+        href=\"/meetings/search?search=&proximity=500&latitude=39.6135&longitude=-104.9034&page_city=Englewood&page_state=CO&page=1&results_per_page=25&page=2\">2</a><a
+        href=\"/meetings/search?search=&proximity=500&latitude=39.6135&longitude=-104.9034&page_city=Englewood&page_state=CO&page=1&results_per_page=25&page=3\">3</a><a
+        href=\"/meetings/search?search=&proximity=500&latitude=39.6135&longitude=-104.9034&page_city=Englewood&page_state=CO&page=1&results_per_page=25&page=4\">4</a><a
+        href=\"/meetings/search?search=&proximity=500&latitude=39.6135&longitude=-104.9034&page_city=Englewood&page_state=CO&page=1&results_per_page=25&page=5\">5</a><a
+        href=\"/meetings/search?search=&proximity=500&latitude=39.6135&longitude=-104.9034&page_city=Englewood&page_state=CO&page=1&results_per_page=25&page=6\">6</a><a
+        href=\"/meetings/search?search=&proximity=500&latitude=39.6135&longitude=-104.9034&page_city=Englewood&page_state=CO&page=1&results_per_page=25&page=7\">7</a><span>...</span><a
+        href=\"/meetings/search?search=&proximity=500&latitude=39.6135&longitude=-104.9034&page_city=Englewood&page_state=CO&page=1&results_per_page=25&page=263\">263</a><a
+        href=\"/meetings/search?search=&proximity=500&latitude=39.6135&longitude=-104.9034&page_city=Englewood&page_state=CO&page=1&results_per_page=25&page=264\">264</a><a
+        href=\"/meetings/search?search=&proximity=500&latitude=39.6135&longitude=-104.9034&page_city=Englewood&page_state=CO&page=1&results_per_page=25&page=2\"
         class=\"prevNext\">Next &raquo;</a></div>\n<div style=\"height:15px\">&nbsp;</div>\n\n<script
         type=\"text/javascript\">\n    function initialize(){};\n</script>\n\n        </div>\n\t\t\n\t\t<div
         id=\"footer\">\n\t\t\t<p>Copyright &copy; !2013 InTheRooms.com. All Rights
@@ -431,11 +435,11 @@ http_interactions:
         \       </select>\n\n        <input type=\"image\" src=\"http://media.intherooms.com/images/meetings/heal-button-green.gif\">\n
         \       <input type=\"hidden\" value=\"1\" name=\"process\">\n        <input
         type=\"hidden\" name=\"word\" value=\"\" id=\"hidden-word\">\n        <input
-        id=\"cccid\" type=\"hidden\" name=\"cccid\" value=\"14832d49dddaf5b7ad85e4b6d3569bfa\">\n
+        id=\"cccid\" type=\"hidden\" name=\"cccid\" value=\"b648dccdab399a6ff17ab7d723a8f753\">\n
         \       <input id=\"tc_partner\" type=\"hidden\" name=\"tc_partner\" value=\"1\">\n\n
         \   </form>\n</div>\n\n<div id=\"hidden-captcha\" style=\"display: none;\">\n
         \   <label>Please enter these letters in the space below</label><br class=\"clear-float\"
-        />\n    <img src=\"http://www.intherooms.com/captcha/show?cccid=14832d49dddaf5b7ad85e4b6d3569bfa\"
+        />\n    <img src=\"http://www.intherooms.com/captcha/show?cccid=b648dccdab399a6ff17ab7d723a8f753\"
         alt=\"captcha\"><br><br>\n    <input type=\"text\" id=\"captcha-word\" name=\"word\"
         value=\"\"><br><br>\n    <input type=\"button\" value=\"Submit\" id=\"captcha-submit-button\">\n</div>\n\n<script
         type=\"text/javascript\">\n    $(document).ready(function() {\n        $(\"#leadbar
@@ -462,5 +466,5 @@ http_interactions:
         : 'http://www') + '.google-analytics.com/ga.js';\n    var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(ga, s);\n  })();\n\n</script>\n\n\n\n\n</html>\n"
     http_version: 
-  recorded_at: Tue, 18 Feb 2014 17:05:35 GMT
+  recorded_at: Tue, 18 Feb 2014 21:00:10 GMT
 recorded_with: VCR 2.8.0

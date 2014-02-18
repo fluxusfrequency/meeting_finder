@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://meetings.intherooms.com/meetings/search?latitude=39.7316982&longitude=-104.9213643&search=
+    uri: http://meetings.intherooms.com/meetings/search?latitude=39.7316982&longitude=-104.9213643&proximity=10&search=
     body:
       encoding: US-ASCII
       string: ''
@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 18 Feb 2014 16:20:57 GMT
+      - Tue, 18 Feb 2014 20:07:48 GMT
       Content-Type:
       - text/html; charset=utf-8
       Transfer-Encoding:
@@ -117,10 +117,10 @@ http_interactions:
         href=\"http://www.intherooms.com\">InTheRooms</a></li>\n                <li
         class=\"clear-float\"></li>\n            </ul>\n            \n            <div
         style=\"height:1px\">&nbsp;</div>\n        \n                <div id=\"linkline\">\n\t<a
-        href=\"http://www.treatmentsolutions.com/drug-addiction-treatment/?cpao=103\"><span>Click
-        Here:</span> American Addiction Centers - Hope Starts Here</a></div>\n        \n\n\t<div
-        id=\"tc-links\">\n\t\t<a href=\"http://www.addictionrehabfinder.com/\" title=\"Drug
-        Rehab Finder\">Find Drug Rehab</a>\n\t\t<a href=\"http://www.treatmentsolutions.com/drug-addiction-treatment/?cpao=103\">Drug
+        href=\"http://directory.intherooms.com/help/lead\"><span>Click Here:</span>
+        Florida Drug Treatment Centers</a></div>\n        \n\n\t<div id=\"tc-links\">\n\t\t<a
+        href=\"http://www.addictionrehabfinder.com/\" title=\"Drug Rehab Finder\">Find
+        Drug Rehab</a>\n\t\t<a href=\"http://www.treatmentsolutions.com/drug-addiction-treatment/?cpao=103\">Drug
         Addiction Treatment</a>\n\t\t<a href=\"http://directory.intherooms.com/category/Special-ProgramsGroups/Adolescents/86\">Adolescent/Teen
         Drug Treatment</a>\n\t\t<a href=\"http://directory.intherooms.com/category/Rehab-Programs-by-Drug/Alcohol-Treatment/115\">Alcohol
         Treatment/Rehab</a>\n\t\t<a href=\"http://directory.intherooms.com/category/Rehab-Programs-by-Drug/Crystal-Meth%20Rehab/114\">Crystal
@@ -187,11 +187,11 @@ http_interactions:
         \               <h1>Enter the word in the image below to complete registration</h1>\n
         \               <div class=\"error-pane\" id=\"captcha-error\" style=\"display:
         none; margin:0 10px 5px 10px;\"></div>\n                <div class=\"captcha\"
-        style=\"margin-top:10px;\">\n                    <img src=\"/captcha/show/large?cccid=418915d06d6066444285c64879ecbbec\"><br>\n
+        style=\"margin-top:10px;\">\n                    <img src=\"/captcha/show/large?cccid=fb1857ca42435e85307c0a79fcb7a790\"><br>\n
         \                   <input id=\"captcha-word\" type=\"text\" class=\"text-sm\"
         name=\"word\" style=\"width:250px; margin-top: 15px;\" onkeypress=\"handleEnterKeyCaptcha(event)\"><br>\n
         \                   <input id=\"captcha-cccid\" type=\"hidden\" name=\"cccid\"
-        value=\"418915d06d6066444285c64879ecbbec\" />\n                    \n                    <a
+        value=\"fb1857ca42435e85307c0a79fcb7a790\" />\n                    \n                    <a
         href=\"javascript:;\" onclick=\"registerSubmit();\">\n                        <img
         style=\"margin:15px 0;\" id=\"itr-register-btn\" src=\"http://media.intherooms.com/images/home/home-register.gif\"
         />\n                    </a>\n                </div>\n            </div>\n
@@ -207,12 +207,12 @@ http_interactions:
         value=\"GA\">Gamblers Anonymous</option><option value=\"OA\">Overeaters Anonymous</option></select>\n
         \   <label>City, State OR Zip Code:</label>\n    <input class=\"md\" type=\"text\"
         name=\"zip\" id=\"search_zip\" value=\"\" />\n    \n    <label>Miles Away:</label>\n
-        \   <select name=\"proximity\" ><option  selected value=\"0\">any</option><option
-        value=\"5\">5</option><option value=\"15\">15</option><option value=\"25\">25</option><option
-        value=\"50\">50</option><option value=\"75\">75</option><option value=\"100\">100</option><option
-        value=\"125\">125</option><option value=\"150\">150</option><option value=\"200\">200</option><option
-        value=\"300\">300</option><option value=\"400\">400</option><option value=\"500\">500</option></select>\n
-        \   <br />\n    <label>Day: </label>\n    <select name=\"day\" ><option value=''>Any</option><option
+        \   <select name=\"proximity\" ><option value=\"0\">any</option><option value=\"5\">5</option><option
+        value=\"15\">15</option><option value=\"25\">25</option><option value=\"50\">50</option><option
+        value=\"75\">75</option><option value=\"100\">100</option><option value=\"125\">125</option><option
+        value=\"150\">150</option><option value=\"200\">200</option><option value=\"300\">300</option><option
+        value=\"400\">400</option><option value=\"500\">500</option></select>\n    <br
+        />\n    <label>Day: </label>\n    <select name=\"day\" ><option value=''>Any</option><option
         value=\"SUNDAY\">Sunday</option><option value=\"MONDAY\">Monday</option><option
         value=\"TUESDAY\">Tuesday</option><option value=\"WEDNESDAY\">Wednesday</option><option
         value=\"THURSDAY\">Thursday</option><option value=\"FRIDAY\">Friday</option><option
@@ -253,155 +253,149 @@ http_interactions:
         name=\"page_city\" id=\"page_city\" value=\"Denver\">\n    <input type=\"hidden\"
         name=\"page_state\" id=\"page_state\" value=\"CO\">\n\n</form><!-- filter-results
         -->\n\n\n<div class=\"search-paging\"><span class=\"prevNext\">&laquo; Previous</span><span
-        class=\"current\">1</span><a href=\"/meetings/search?search=&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=2\">2</a><a
-        href=\"/meetings/search?search=&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=3\">3</a><a
-        href=\"/meetings/search?search=&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=4\">4</a><a
-        href=\"/meetings/search?search=&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=5\">5</a><a
-        href=\"/meetings/search?search=&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=6\">6</a><a
-        href=\"/meetings/search?search=&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=7\">7</a><span>...</span><a
-        href=\"/meetings/search?search=&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=399\">399</a><a
-        href=\"/meetings/search?search=&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=400\">400</a><a
-        href=\"/meetings/search?search=&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=2\"
+        class=\"current\">1</span><a href=\"/meetings/search?search=&proximity=10&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=2\">2</a><a
+        href=\"/meetings/search?search=&proximity=10&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=3\">3</a><a
+        href=\"/meetings/search?search=&proximity=10&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=4\">4</a><a
+        href=\"/meetings/search?search=&proximity=10&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=5\">5</a><a
+        href=\"/meetings/search?search=&proximity=10&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=6\">6</a><a
+        href=\"/meetings/search?search=&proximity=10&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=7\">7</a><span>...</span><a
+        href=\"/meetings/search?search=&proximity=10&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=30\">30</a><a
+        href=\"/meetings/search?search=&proximity=10&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=31\">31</a><a
+        href=\"/meetings/search?search=&proximity=10&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=2\"
         class=\"prevNext\">Next &raquo;</a></div>\n<table class=\"all-meetings\">\n
         \   <tr>\n        <th>Meeting Title</th>\n        <th>Location</th>\n        <th>Address</th>\n
         \       <th>Day</th>\n        <th>Time</th>\n        <th>Fellowship</th>\n
         \   </tr>\n\n\n                            <tr>\n                    <td><a
-        href=\"/na/COHO-Building/1\">COHO Building</a></td>\n                    <td><a
-        href=\"/locations/Craig/COHO-Building/1\">COHO Building</a></td>\n                    <td>Cold
-        Storage Road<br>Craig, AK 99921</td>\n                    <td>SUNDAY</td>\n
-        \                   <td>6:00 PM</td>\n                    <td>Narcotics Anonymous</td>\n
+        href=\"/na/Church/10994\">Church</a></td>\n                    <td><a href=\"/locations/Denver/Church/5281\">Church</a></td>\n
+        \                   <td>1100 Fillmore Street<br>Denver, CO 80206-3334</td>\n
+        \                   <td>TUESDAY</td>\n                    <td>5:45 PM</td>\n
+        \                   <td>Narcotics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/na/Church/11024\">Church</a></td>\n
+        \                   <td><a href=\"/locations/Denver/Church/5281\">Church</a></td>\n
+        \                   <td>1100 Fillmore Street<br>Denver, CO 80206-3334</td>\n
+        \                   <td>FRIDAY</td>\n                    <td>5:45 PM</td>\n
+        \                   <td>Narcotics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/na/Church/11031\">Church</a></td>\n
+        \                   <td><a href=\"/locations/Denver/Church/5281\">Church</a></td>\n
+        \                   <td>1100 Fillmore Street<br>Denver, CO 80206-3334</td>\n
+        \                   <td>SATURDAY</td>\n                    <td>10:30 AM</td>\n
+        \                   <td>Narcotics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/oa/Capitol-Heights-Presbyterian-Church/78228\">Capitol
+        Heights Presbyterian Church</a></td>\n                    <td><a href=\"/locations/Denver/Capitol-Heights-Presbyterian-Church/32726\">Capitol
+        Heights Presbyterian Church</a></td>\n                    <td>1100 Fillmore<br>Denver,
+        CO 80206</td>\n                    <td>MONDAY</td>\n                    <td>5:30
+        PM</td>\n                    <td>Overeaters Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/aa/Renovacion/55973\">Renovacion</a></td>\n
+        \                   <td><a href=\"/locations/Denver/Renovacion/23865\">Renovacion</a></td>\n
+        \                   <td>3458 1st Ave.<br>Denver,  80206</td>\n                    <td>WEDNESDAY</td>\n
+        \                   <td>2:30 PM</td>\n                    <td>Alcoholics Anonymous</td>\n
         \               </tr>\n                        <tr>\n                    <td><a
-        href=\"/na/Ketchikan-General-Hospital/2\">Ketchikan General Hospital</a></td>\n
-        \                   <td><a href=\"/locations/Ketchikan/Ketchikan-General-Hospital/2\">Ketchikan
-        General Hospital</a></td>\n                    <td>3100 Tongrass Avenue<br>Ketchikan,
-        AK 99901</td>\n                    <td>FRIDAY</td>\n                    <td>8:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/Wrangell-Drug-And-Alcohol-Council/3\">Wrangell
-        Drug And Alcohol Council</a></td>\n                    <td><a href=\"/locations/Wrangell/Wrangell-Drug-And-Alcohol-Council/3\">Wrangell
-        Drug And Alcohol Council</a></td>\n                    <td><br>Wrangell, AK
-        99929</td>\n                    <td>SUNDAY</td>\n                    <td>12:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/Wrangell-Drug-And-Alcohol-Council/4\">Wrangell
-        Drug And Alcohol Council</a></td>\n                    <td><a href=\"/locations/Wrangell/Wrangell-Drug-And-Alcohol-Council/3\">Wrangell
-        Drug And Alcohol Council</a></td>\n                    <td><br>Wrangell, AK
-        99929</td>\n                    <td>THURSDAY</td>\n                    <td>12:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/Rainforest-Activity-Center/5\">Rainforest
-        Activity Center</a></td>\n                    <td><a href=\"/locations/Juneau/Rainforest-Activity-Center/4\">Rainforest
-        Activity Center</a></td>\n                    <td>3240 Hospital Drive<br>Juneau,
-        AK 99801-7808</td>\n                    <td>SUNDAY</td>\n                    <td>7:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/GHS-Halfway-House/6\">GHS
-        Halfway House</a></td>\n                    <td><a href=\"/locations/Juneau/GHS-Halfway-House/5\">GHS
-        Halfway House</a></td>\n                    <td>5597 Aisek Street<br>Juneau,
-        AK 99801</td>\n                    <td>MONDAY</td>\n                    <td>8:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/Rainforest-Activity-Center/7\">Rainforest
-        Activity Center</a></td>\n                    <td><a href=\"/locations/Juneau/Rainforest-Activity-Center/4\">Rainforest
-        Activity Center</a></td>\n                    <td>3240 Hospital Drive<br>Juneau,
-        AK 99801-7808</td>\n                    <td>TUESDAY</td>\n                    <td>7:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/Rainforest-Activity-Center/8\">Rainforest
-        Activity Center</a></td>\n                    <td><a href=\"/locations/Juneau/Rainforest-Activity-Center/4\">Rainforest
-        Activity Center</a></td>\n                    <td>3240 Hospital Drive<br>Juneau,
-        AK 99801-7808</td>\n                    <td>THURSDAY</td>\n                    <td>8:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/Rainforest-Activity-Center/9\">Rainforest
-        Activity Center</a></td>\n                    <td><a href=\"/locations/Juneau/Rainforest-Activity-Center/4\">Rainforest
-        Activity Center</a></td>\n                    <td>3240 Hospital Drive<br>Juneau,
-        AK 99801-7808</td>\n                    <td>FRIDAY</td>\n                    <td>5:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/Juneau-Public-Health-Center/10\">Juneau
-        Public Health Center</a></td>\n                    <td><a href=\"/locations/Juneau/Juneau-Public-Health-Center/6\">Juneau
-        Public Health Center</a></td>\n                    <td>3412 Glacier Highway<br>Juneau,
-        AK 99801</td>\n                    <td>FRIDAY</td>\n                    <td>7:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/Juneau-Public-Health-Center/11\">Juneau
-        Public Health Center</a></td>\n                    <td><a href=\"/locations/Juneau/Juneau-Public-Health-Center/6\">Juneau
-        Public Health Center</a></td>\n                    <td>3412 Glacier Highway<br>Juneau,
-        AK 99801</td>\n                    <td>SATURDAY</td>\n                    <td>7:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/KIFWKSBZ-Radio/12\">KIFW/KSBZ
-        Radio</a></td>\n                    <td><a href=\"/locations/Sitka/KIFWKSBZ-Radio/7\">KIFW/KSBZ
-        Radio</a></td>\n                    <td>611 Lake Street<br>Sitka, AK 99835</td>\n
-        \                   <td>SUNDAY</td>\n                    <td>6:30 PM</td>\n
-        \                   <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/KIFWKSBZ-Radio/13\">KIFW/KSBZ
-        Radio</a></td>\n                    <td><a href=\"/locations/Sitka/KIFWKSBZ-Radio/7\">KIFW/KSBZ
-        Radio</a></td>\n                    <td>611 Lake Street<br>Sitka, AK 99835</td>\n
-        \                   <td>TUESDAY</td>\n                    <td>6:30 PM</td>\n
-        \                   <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/KIFWKSBZ-Radio/14\">KIFW/KSBZ
-        Radio</a></td>\n                    <td><a href=\"/locations/Sitka/KIFWKSBZ-Radio/7\">KIFW/KSBZ
-        Radio</a></td>\n                    <td>611 Lake Street<br>Sitka, AK 99835</td>\n
-        \                   <td>FRIDAY</td>\n                    <td>6:30 PM</td>\n
-        \                   <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/Methodist-Church/15\">Methodist
-        Church</a></td>\n                    <td><a href=\"/locations/Nome/Methodist-Church/8\">Methodist
-        Church</a></td>\n                    <td>2nd and C Streets<br>Nome, AK 99762</td>\n
-        \                   <td>FRIDAY</td>\n                    <td>6:00 PM</td>\n
-        \                   <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/Saint-Patricks-Catholic-Church/16\">Saint
-        Patrick's Catholic Church</a></td>\n                    <td><a href=\"/locations/Barrow/Saint-Patricks-Catholic-Church/9\">Saint
-        Patrick's Catholic Church</a></td>\n                    <td>612 Cunningham
-        Street<br>Barrow, AK 99723</td>\n                    <td>MONDAY</td>\n                    <td>7:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/Substance-Abuse-Treatment-Services/17\">Substance
-        Abuse Treatment Services</a></td>\n                    <td><a href=\"/locations/Barrow/Substance-Abuse-Treatment-Services/10\">Substance
-        Abuse Treatment Services</a></td>\n                    <td>5200 Karluk Street<br>Barrow,
-        AK 99723</td>\n                    <td>TUESDAY</td>\n                    <td>8:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/Out-to-Lunch-Bunch/18\">Out
-        to Lunch Bunch</a></td>\n                    <td><a href=\"/locations/Fairbanks/Fairbanks-Lutheran-Church/11\">Fairbanks
-        Lutheran Church</a></td>\n                    <td>1012 Cowles Street<br>Fairbanks,
-        AK 99701-4310</td>\n                    <td>MONDAY</td>\n                    <td>12:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/Farewell-Avenue-Christian-Church/19\">Farewell
-        Avenue Christian Church</a></td>\n                    <td><a href=\"/locations/Fairbanks/Farewell-Avenue-Christian-Church/12\">Farewell
-        Avenue Christian Church</a></td>\n                    <td>100 Farewell Avenue<br>Fairbanks,
-        AK 99701-3624</td>\n                    <td>MONDAY</td>\n                    <td>7:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/Saint-Matthews-Church/21\">Saint
-        Matthew's Church</a></td>\n                    <td><a href=\"/locations/Fairbanks/Saint-Matthews-Church/13\">Saint
-        Matthew's Church</a></td>\n                    <td>1030 2nd Avenue<br>Fairbanks,
-        AK 99701-4355</td>\n                    <td>TUESDAY</td>\n                    <td>7:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/Out-to-Lunch-Bunch/23\">Out
-        to Lunch Bunch</a></td>\n                    <td><a href=\"/locations/Fairbanks/Fairbanks-Lutheran-Church/11\">Fairbanks
-        Lutheran Church</a></td>\n                    <td>1012 Cowles Street<br>Fairbanks,
-        AK 99701-4310</td>\n                    <td>THURSDAY</td>\n                    <td>12:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/University-Community-Presbyterian-Church/25\">University
-        Community Presbyterian Church</a></td>\n                    <td><a href=\"/locations/Fairbanks/University-Community-Presbyterian-Church/14\">University
-        Community Presbyterian Church</a></td>\n                    <td>3510 College
-        Road<br>Fairbanks, AK 99709-3709</td>\n                    <td>FRIDAY</td>\n
-        \                   <td>8:30 PM</td>\n                    <td>Narcotics Anonymous</td>\n
+        href=\"/aa/Renovacion/55982\">Renovacion</a></td>\n                    <td><a
+        href=\"/locations/Denver/Renovacion/23865\">Renovacion</a></td>\n                    <td>3458
+        1st Ave.<br>Denver,  80206</td>\n                    <td>TUESDAY</td>\n                    <td>2:30
+        PM</td>\n                    <td>Alcoholics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/aa/Renovacion/55991\">Renovacion</a></td>\n
+        \                   <td><a href=\"/locations/Denver/Renovacion/23865\">Renovacion</a></td>\n
+        \                   <td>3458 1st Ave.<br>Denver,  80206</td>\n                    <td>THURSDAY</td>\n
+        \                   <td>2:30 PM</td>\n                    <td>Alcoholics Anonymous</td>\n
         \               </tr>\n                        <tr>\n                    <td><a
-        href=\"/na/Saturday-Nite-Live--RPC/26\">Saturday Nite Live @ RPC</a></td>\n
-        \                   <td><a href=\"/locations//Ralph-Perdue-Center/15\">Ralph
-        Perdue Center</a></td>\n                    <td>3100 South Cushman Street<br>,
-        AK </td>\n                    <td>SATURDAY</td>\n                    <td>7:30
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/Saint-Nicholas-Catholic-Church/27\">Saint
-        Nicholas Catholic Church</a></td>\n                    <td><a href=\"/locations/North-Pole/Saint-Nicholas-Catholic-Church/16\">Saint
-        Nicholas Catholic Church</a></td>\n                    <td>707 Frontage Road<br>North
-        Pole, AK </td>\n                    <td>SUNDAY</td>\n                    <td>7:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/8201-Old-Seward-Highway/28\">8201
-        Old Seward Highway</a></td>\n                    <td><a href=\"/locations/Anchorage/8201-Old-Seward-Highway/17\">8201
-        Old Seward Highway</a></td>\n                    <td>8201 Old Seward Highway<br>Anchorage,
-        AK 99518</td>\n                    <td>SUNDAY</td>\n                    <td>9:30
-        AM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
+        href=\"/aa/Renovacion-2/55996\">Renovacion 2</a></td>\n                    <td><a
+        href=\"/locations/Denver/Renovacion/23865\">Renovacion</a></td>\n                    <td>3458
+        1st Ave.<br>Denver,  80206</td>\n                    <td>SUNDAY</td>\n                    <td>2:00
+        PM</td>\n                    <td>Alcoholics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/aa/Renovacion/56005\">Renovacion</a></td>\n
+        \                   <td><a href=\"/locations/Denver/Renovacion/23865\">Renovacion</a></td>\n
+        \                   <td>3458 1st Ave.<br>Denver,  80206</td>\n                    <td>SUNDAY</td>\n
+        \                   <td>2:30 PM</td>\n                    <td>Alcoholics Anonymous</td>\n
+        \               </tr>\n                        <tr>\n                    <td><a
+        href=\"/aa/Renovacion/56017\">Renovacion</a></td>\n                    <td><a
+        href=\"/locations/Denver/Renovacion/23865\">Renovacion</a></td>\n                    <td>3458
+        1st Ave.<br>Denver,  80206</td>\n                    <td>SATURDAY</td>\n                    <td>2:30
+        PM</td>\n                    <td>Alcoholics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/aa/Renovacion/56027\">Renovacion</a></td>\n
+        \                   <td><a href=\"/locations/Denver/Renovacion/23865\">Renovacion</a></td>\n
+        \                   <td>3458 1st Ave.<br>Denver,  80206</td>\n                    <td>MONDAY</td>\n
+        \                   <td>2:30 PM</td>\n                    <td>Alcoholics Anonymous</td>\n
+        \               </tr>\n                        <tr>\n                    <td><a
+        href=\"/aa/Renovacion/56039\">Renovacion</a></td>\n                    <td><a
+        href=\"/locations/Denver/Renovacion/23865\">Renovacion</a></td>\n                    <td>3458
+        1st Ave.<br>Denver,  80206</td>\n                    <td>FRIDAY</td>\n                    <td>2:30
+        PM</td>\n                    <td>Alcoholics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/aa/In-All-Our-Affairs/55926\">In
+        All Our Affairs</a></td>\n                    <td><a href=\"/locations/Denver/In-All-Our-Affairs/23830\">In
+        All Our Affairs</a></td>\n                    <td>1311 York St., 322-3674<br>Denver,
+        \ 80206</td>\n                    <td>TUESDAY</td>\n                    <td>2:00
+        PM</td>\n                    <td>Alcoholics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/aa/Steps-to-Freedom/55931\">Steps
+        to Freedom</a></td>\n                    <td><a href=\"/locations/Denver/In-All-Our-Affairs/23830\">In
+        All Our Affairs</a></td>\n                    <td>1311 York St., 322-3674<br>Denver,
+        \ 80206</td>\n                    <td>WEDNESDAY</td>\n                    <td>unknown</td>\n
+        \                   <td>Alcoholics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/aa/Wed-Step-Meeting/55935\">Wed
+        Step Meeting</a></td>\n                    <td><a href=\"/locations/Denver/In-All-Our-Affairs/23830\">In
+        All Our Affairs</a></td>\n                    <td>1311 York St., 322-3674<br>Denver,
+        \ 80206</td>\n                    <td>WEDNESDAY</td>\n                    <td>2:00
+        PM</td>\n                    <td>Alcoholics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/aa/Unwritten-Chapter/55943\">Unwritten
+        Chapter</a></td>\n                    <td><a href=\"/locations/Denver/In-All-Our-Affairs/23830\">In
+        All Our Affairs</a></td>\n                    <td>1311 York St., 322-3674<br>Denver,
+        \ 80206</td>\n                    <td>FRIDAY</td>\n                    <td>2:00
+        PM</td>\n                    <td>Alcoholics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/aa/Daily-Serenity/56074\">Daily
+        Serenity</a></td>\n                    <td><a href=\"/locations/Denver/In-All-Our-Affairs/23830\">In
+        All Our Affairs</a></td>\n                    <td>1311 York St., 322-3674<br>Denver,
+        \ 80206</td>\n                    <td>SATURDAY</td>\n                    <td>2:30
+        PM</td>\n                    <td>Alcoholics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/aa/Attitude-Adjustment/56110\">Attitude
+        Adjustment</a></td>\n                    <td><a href=\"/locations/Denver/In-All-Our-Affairs/23830\">In
+        All Our Affairs</a></td>\n                    <td>1311 York St., 322-3674<br>Denver,
+        \ 80206</td>\n                    <td>WEDNESDAY</td>\n                    <td>unknown</td>\n
+        \                   <td>Alcoholics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/aa/3-PM-How-It-Works/56124\">3
+        PM How It Works</a></td>\n                    <td><a href=\"/locations/Denver/In-All-Our-Affairs/23830\">In
+        All Our Affairs</a></td>\n                    <td>1311 York St., 322-3674<br>Denver,
+        \ 80206</td>\n                    <td>WEDNESDAY</td>\n                    <td>2:00
+        PM</td>\n                    <td>Alcoholics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/aa/545-Happy-Hour/56129\">5:45
+        Happy Hour</a></td>\n                    <td><a href=\"/locations/Denver/In-All-Our-Affairs/23830\">In
+        All Our Affairs</a></td>\n                    <td>1311 York St., 322-3674<br>Denver,
+        \ 80206</td>\n                    <td>WEDNESDAY</td>\n                    <td>2:45
+        PM</td>\n                    <td>Alcoholics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/aa/Daily-Serenity/56144\">Daily
+        Serenity</a></td>\n                    <td><a href=\"/locations/Denver/In-All-Our-Affairs/23830\">In
+        All Our Affairs</a></td>\n                    <td>1311 York St., 322-3674<br>Denver,
+        \ 80206</td>\n                    <td>WEDNESDAY</td>\n                    <td>2:30
+        PM</td>\n                    <td>Alcoholics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/aa/Attitude-Adjustment/56149\">Attitude
+        Adjustment</a></td>\n                    <td><a href=\"/locations/Denver/In-All-Our-Affairs/23830\">In
+        All Our Affairs</a></td>\n                    <td>1311 York St., 322-3674<br>Denver,
+        \ 80206</td>\n                    <td>TUESDAY</td>\n                    <td>unknown</td>\n
+        \                   <td>Alcoholics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/aa/3-PM-How-It-Works/56162\">3
+        PM How It Works</a></td>\n                    <td><a href=\"/locations/Denver/In-All-Our-Affairs/23830\">In
+        All Our Affairs</a></td>\n                    <td>1311 York St., 322-3674<br>Denver,
+        \ 80206</td>\n                    <td>TUESDAY</td>\n                    <td>2:00
+        PM</td>\n                    <td>Alcoholics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/aa/545-Happy-Hour/56167\">5:45
+        Happy Hour</a></td>\n                    <td><a href=\"/locations/Denver/In-All-Our-Affairs/23830\">In
+        All Our Affairs</a></td>\n                    <td>1311 York St., 322-3674<br>Denver,
+        \ 80206</td>\n                    <td>TUESDAY</td>\n                    <td>2:45
+        PM</td>\n                    <td>Alcoholics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/aa/Daily-Serenity/56180\">Daily
+        Serenity</a></td>\n                    <td><a href=\"/locations/Denver/In-All-Our-Affairs/23830\">In
+        All Our Affairs</a></td>\n                    <td>1311 York St., 322-3674<br>Denver,
+        \ 80206</td>\n                    <td>TUESDAY</td>\n                    <td>2:30
+        PM</td>\n                    <td>Alcoholics Anonymous</td>\n                </tr>\n
         \           \n</table>\n\n<div class=\"search-paging\"><span class=\"prevNext\">&laquo;
-        Previous</span><span class=\"current\">1</span><a href=\"/meetings/search?search=&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=2\">2</a><a
-        href=\"/meetings/search?search=&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=3\">3</a><a
-        href=\"/meetings/search?search=&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=4\">4</a><a
-        href=\"/meetings/search?search=&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=5\">5</a><a
-        href=\"/meetings/search?search=&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=6\">6</a><a
-        href=\"/meetings/search?search=&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=7\">7</a><span>...</span><a
-        href=\"/meetings/search?search=&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=399\">399</a><a
-        href=\"/meetings/search?search=&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=400\">400</a><a
-        href=\"/meetings/search?search=&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=2\"
+        Previous</span><span class=\"current\">1</span><a href=\"/meetings/search?search=&proximity=10&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=2\">2</a><a
+        href=\"/meetings/search?search=&proximity=10&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=3\">3</a><a
+        href=\"/meetings/search?search=&proximity=10&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=4\">4</a><a
+        href=\"/meetings/search?search=&proximity=10&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=5\">5</a><a
+        href=\"/meetings/search?search=&proximity=10&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=6\">6</a><a
+        href=\"/meetings/search?search=&proximity=10&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=7\">7</a><span>...</span><a
+        href=\"/meetings/search?search=&proximity=10&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=30\">30</a><a
+        href=\"/meetings/search?search=&proximity=10&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=31\">31</a><a
+        href=\"/meetings/search?search=&proximity=10&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=2\"
         class=\"prevNext\">Next &raquo;</a></div>\n<div style=\"height:15px\">&nbsp;</div>\n\n<script
         type=\"text/javascript\">\n    function initialize(){};\n</script>\n\n        </div>\n\t\t\n\t\t<div
         id=\"footer\">\n\t\t\t<p>Copyright &copy; !2013 InTheRooms.com. All Rights
@@ -430,11 +424,11 @@ http_interactions:
         \       </select>\n\n        <input type=\"image\" src=\"http://media.intherooms.com/images/meetings/heal-button-green.gif\">\n
         \       <input type=\"hidden\" value=\"1\" name=\"process\">\n        <input
         type=\"hidden\" name=\"word\" value=\"\" id=\"hidden-word\">\n        <input
-        id=\"cccid\" type=\"hidden\" name=\"cccid\" value=\"418915d06d6066444285c64879ecbbec\">\n
-        \       <input id=\"tc_partner\" type=\"hidden\" name=\"tc_partner\" value=\"1\">\n\n
+        id=\"cccid\" type=\"hidden\" name=\"cccid\" value=\"fb1857ca42435e85307c0a79fcb7a790\">\n
+        \       <input id=\"tc_partner\" type=\"hidden\" name=\"tc_partner\" value=\"2\">\n\n
         \   </form>\n</div>\n\n<div id=\"hidden-captcha\" style=\"display: none;\">\n
         \   <label>Please enter these letters in the space below</label><br class=\"clear-float\"
-        />\n    <img src=\"http://www.intherooms.com/captcha/show?cccid=418915d06d6066444285c64879ecbbec\"
+        />\n    <img src=\"http://www.intherooms.com/captcha/show?cccid=fb1857ca42435e85307c0a79fcb7a790\"
         alt=\"captcha\"><br><br>\n    <input type=\"text\" id=\"captcha-word\" name=\"word\"
         value=\"\"><br><br>\n    <input type=\"button\" value=\"Submit\" id=\"captcha-submit-button\">\n</div>\n\n<script
         type=\"text/javascript\">\n    $(document).ready(function() {\n        $(\"#leadbar
@@ -461,5 +455,5 @@ http_interactions:
         : 'http://www') + '.google-analytics.com/ga.js';\n    var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(ga, s);\n  })();\n\n</script>\n\n\n\n\n</html>\n"
     http_version: 
-  recorded_at: Tue, 18 Feb 2014 16:20:57 GMT
+  recorded_at: Tue, 18 Feb 2014 20:07:49 GMT
 recorded_with: VCR 2.8.0

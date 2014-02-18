@@ -1,5 +1,6 @@
 require 'nokogiri'
 require 'open-uri'
+require 'pry'
 
 module MeetingFinder
   class Search
@@ -33,7 +34,7 @@ module MeetingFinder
       end
 
       def search_url
-        'http://meetings.intherooms.com/meetings/search?search='
+        'http://meetings.intherooms.com/meetings/search?search=&proximity=10'
       end
 
     end
