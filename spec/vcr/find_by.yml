@@ -1,0 +1,465 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://meetings.intherooms.com/meetings/search?latitude=39.7316982&longitude=-104.9213643&search=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 18 Feb 2014 00:03:31 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=3
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html
+        xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n\t<head>\n<script>
+        \n _udn = \".intherooms.com\"; \n</script> \n<!-- Google Website Optimizer
+        Control Script -->\n<script>\nfunction utmx_section(){}function utmx(){}\n(function(){var
+        k='1200565445',d=document,l=d.location,c=d.cookie;function f(n){\nif(c){var
+        i=c.indexOf(n+'=');if(i>-1){var j=c.indexOf(';',i);return escape(c.substring(i+n.\nlength+1,j<0?c.length:j))}}}var
+        x=f('__utmx'),xx=f('__utmxx'),h=l.hash;\nd.write('<sc'+'ript src=\"'+\n'http'+(l.protocol=='https:'?'s://ssl':'://www')+'.google-analytics.com'\n+'/siteopt.js?v=1&utmxkey='+k+'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='\n+new
+        Date().valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+\n'\" type=\"text/javascript\"
+        charset=\"utf-8\"></sc'+'ript>')})();\n</script>\n<!-- End of Google Website
+        Optimizer Control Script -->\n<!-- Google Website Optimizer Tracking Script
+        -->\n<script type=\"text/javascript\">\n  var _gaq = _gaq || [];\n  _gaq.push(['gwo._setAccount',
+        'UA-16397668-2']);\n  _gaq.push(['gwo._setDomainName', '.intherooms.com']);
+        \n  _gaq.push(['gwo._trackPageview', '/1200565445/test']);\n  (function()
+        {\n    var ga = document.createElement('script'); ga.type = 'text/javascript';
+        ga.async = true;\n    ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+        : 'http://www') + '.google-analytics.com/ga.js';\n    var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);\n  })();\n</script>\n<!-- End of Google
+        Website Optimizer Tracking Script -->\n\n<script type='text/javascript'>\nvar
+        googletag = googletag || {};\ngoogletag.cmd = googletag.cmd || [];\n(function()
+        {\nvar gads = document.createElement('script');\ngads.async = true;\ngads.type
+        = 'text/javascript';\nvar useSSL = 'https:' == document.location.protocol;\ngads.src
+        = (useSSL ? 'https:' : 'http:') + \n'//www.googletagservices.com/tag/js/gpt.js';\nvar
+        node = document.getElementsByTagName('script')[0];\nnode.parentNode.insertBefore(gads,
+        node);\n})();\n</script>\n\n<script type='text/javascript'>\ngoogletag.cmd.push(function()
+        {\ngoogletag.defineSlot('/1033324/Meeting_728x90', [728, 90], 'div-gpt-ad-1392223336329-0').addService(googletag.pubads());\ngoogletag.pubads().enableSingleRequest();\ngoogletag.enableServices();\n});\n</script>\n\n
+        \       <title>AA NA Meetings in Denver, CO | In The Rooms</title>\t\t\n        <meta
+        http-equiv=\"Keywords\" content=\"AA NA Meetings, Denver, CO, Colorado\" />\n
+        \       <meta http-equiv=\"Description\" content=\"AA Meetings, NA Meetings,
+        Denver, CO and other 12-Step Fellowship Meetings around the world. The most
+        comprehensive list of 12-Step meetings in Colorado\" />\n        <meta name=\"google-site-verification\"
+        content=\"YHw31b5MXSvt-rVlAL-7RqchVDTxZsO2i_p_M1cAJBU\" />\n\t<meta name=\"google-site-verification\"
+        content=\"WZZAgCaWeaMyrpuerognNgYOwOdViQiNvgsdqhW_Rr4\" />\n\t\t\n\t\t<link
+        rel=\"stylesheet\" href=\"/css/960.css\" type=\"text/css\" />\n\t\t<link rel=\"stylesheet\"
+        href=\"/css/style.css\" type=\"text/css\" />\n\t\t<link rel=\"stylesheet\"
+        href=\"/css/jquery.tooltip.css\" type=\"text/css\" />\n\t\t<link rel=\"stylesheet\"
+        href=\"/css/thickbox.css\" type=\"text/css\" />\t\t\n\n\n        <!--link
+        rel=\"stylesheet\" href=\"http://sandbox.iloverecovery.com/meetings/mobile-working.css\"
+        type=\"text/css\" /-->\n\n\t\t\t\t<script type=\"text/javascript\" src=\"/js/jquery-1.4.min.js\"></script>\n\t\t<script
+        type=\"text/javascript\" src=\"/js/jquery.tooltip.min.js\"></script>\n\t\t<script
+        type=\"text/javascript\" src=\"/js/jquery.thickbox.js\"></script>\n\t\t<script
+        type=\"text/javascript\" src=\"/js/jquery.validate.js\"></script>\n\t\t<script
+        type=\"text/javascript\" src=\"/js/meetings.js\"></script>\n\n        <script
+        type=\"text/javascript\" src=\"http://maps.google.com/maps/api/js?v=3&sensor=true\"></script>\n\t\t\n\t\t<link
+        rel=\"shortcut icon\" href=\"http://media.intherooms.com/images/icons/favicon.ico\">\n\t\t\n
+        \       <!--[if IE]>\n        \n            <link rel=\"stylesheet\" href=\"/css/ie.css\"
+        type=\"text/css\" />\n        \n        <![endif]-->\n        \n\t\t<script
+        type=\"text/javascript\">var _sf_startpt=(new Date()).getTime()</script>\n<!--\n\t<script
+        type=\"text/javascript\">\n\t\t\n\t\tif (window.screen.width >= 1152 && window.screen.width
+        < 1200) {\n\t\tvar img = \"http://media.intherooms.com/images/bannerads/backgroundunbranded-1152.png\";\n\t\t}\n\n\t\telse
+        if (window.screen.width >= 1200 && window.screen.width < 1366) {\n\t\tvar
+        img = \"http://media.intherooms.com/images/bannerads/backgroundunbranded-1200.png\";\n\t\t}\n\n\t\telse
+        if (window.screen.width >= 1366 && window.screen.width < 1600) {\n\t\tvar
+        img = \"http://media.intherooms.com/images/bannerads/backgroundunbranded-1366.png\";\n\t\t}\n\n\t\telse
+        if (window.screen.width > 1600) {\n\t\tvar img = \"http://media.intherooms.com/images/bannerads/backgroundunbranded-Normal.png\";\n\t\t}\n\t\telse\n\t\t{\n\t\tvar
+        img = \"http://media.intherooms.com/images/bannerads/blank.png\";\n\t\t}\n\t</script>\n-->\n\t</head>\n\n\t<body
+        onload=\"initialize()\">\n<!--\t\n\t<div id=\"unbranded-ad\">\n\t<img src=\"http://media.intherooms.com/images/bannerads/blank.png\"
+        id=\"image\" name=\"image\"/>\n\t<script>document.getElementById('image').src
+        = img;</script>\n\t</div>\n-->\n        <div id=\"page\" class=\"container_5\">\n
+        \           \n            <div id=\"header\">\n                <div id=\"header-login-div\">\n
+        \                                           <a href=\"/public/login\">Login</a>\n
+        \                                   </div>\n                <h1>\n                    <a
+        href=\"/\" title=\"In The Rooms 12 Step Meeting List\"></a>\n                    Alcoholics
+        Anonymous Meetings, Narcotics Anonymous Meetings, AA Meetings, NA Meetings
+        \n                                            Denver, CO                                    </h1>\n
+        \               \n                <div id='div-gpt-ad-1392223336329-0' style=\"float:right;
+        height:90px; width:728px; border-left: solid 1px #bbb; margin-bottom:1px\">\n
+        \               <!-- Meeting_728x90 -->\n                    <script type='text/javascript'>\n
+        \                   googletag.cmd.push(function() { googletag.display('div-gpt-ad-1392223336329-0');
+        });\n                    </script>\n                </div>\n                                \n
+        \                    \n                <br class=\"clear-float\" />\n            </div><!--
+        header -->\n                        \n            <ul id=\"nav\">\n                <li
+        class=\"first\"><a href=\"/\">Meetings Home</a></li>\t\t\t\n                <li
+        class=\"aa\"><a href=\"/meetings/search?fellowship=AA\" title=\"Alcoholics
+        Anonymous Meetings\">AA Meetings</a></li>\n                <li class=\"na\"><a
+        href=\"/meetings/search?fellowship=NA\" title=\"Narcotics Anonymous Meetings\">NA
+        Meetings</a></li>\n                <li class=\"oa\"><a href=\"/meetings/search?fellowship=OA\"
+        title=\"Overeaters Anonymous Meetings\">OA Meetings</a></li>\n                <li
+        class=\"ga\"><a href=\"/meetings/search?fellowship=GA\" title=\"Gamblers Anonymous
+        Meetings\">GA Meetings</a></li>\n                <li class=\"last\"><a href=\"/meetings/search\"
+        title=\"12 Step Meetings\">Other Meetings</a></li>\n                <li class=\"\"
+        style=\"\"><a href=\"http://directory.intherooms.com/help/lead\">Looking for
+        Addiction Treatment?</a></li>\n                <li class=\"last\" style=\"\"><a
+        href=\"http://www.intherooms.com\">InTheRooms</a></li>\n                <li
+        class=\"clear-float\"></li>\n            </ul>\n            \n            <div
+        style=\"height:1px\">&nbsp;</div>\n        \n                <div id=\"linkline\">\n\t<a
+        href=\"http://directory.intherooms.com/help/lead\"><span>Click Here:</span>
+        Florida Drug Treatment Centers</a></div>\n        \n\n\t<div id=\"tc-links\">\n\t\t<a
+        href=\"http://www.addictionrehabfinder.com/\" title=\"Drug Rehab Finder\">Find
+        Drug Rehab</a>\n\t\t<a href=\"http://www.treatmentsolutions.com/drug-addiction-treatment/?cpao=103\">Drug
+        Addiction Treatment</a>\n\t\t<a href=\"http://directory.intherooms.com/category/Special-ProgramsGroups/Adolescents/86\">Adolescent/Teen
+        Drug Treatment</a>\n\t\t<a href=\"http://directory.intherooms.com/category/Rehab-Programs-by-Drug/Alcohol-Treatment/115\">Alcohol
+        Treatment/Rehab</a>\n\t\t<a href=\"http://directory.intherooms.com/category/Rehab-Programs-by-Drug/Crystal-Meth%20Rehab/114\">Crystal
+        Meth Addiction Treatment</a>\n\t\t<a href=\"http://directory.intherooms.com/category/Rehab-Programs-by-Drug/Cocaine-Treatment/113\">Cocaine
+        Addiction Treatment</a>\n\t\t<a href=\"http://directory.intherooms.com/category/Special-ProgramsGroups/Dual-Diagnosis/87\">Dual
+        Diagnosis</a>\n\t\t<a href=\"http://directory.intherooms.com/category/Special-ProgramsGroups/Treatment-vs-Jail/97\">Drug
+        and Alcohol Treatment vs. Jail</a>\n\t\t<a href=\"http://directory.intherooms.com/category/Special-ProgramsGroups/Eating-Disorders/101\">Eating
+        Disorders</a>\n\t\t<a href=\"http://directory.intherooms.com/category/Treatment-Centers/Extended-Care/209\">Extended
+        Care</a>\n\t\t<a href=\"http://directory.intherooms.com/category/Special-ProgramsGroups/Faith-Based-Treatment/96\">Faith
+        Based Treatment</a>\n\t\t<a href=\"http://directory.intherooms.com/category/Rehab-Programs-by-Drug/Heroin-Oxycontin-Treatment/116\">Heroin
+        Treatment</a>\n\t\t<a href=\"http://directory.intherooms.com/category/Special-ProgramsGroups/Holistic-Treatment/99\">Holistic</a>\n\t\t<a
+        href=\"http://directory.intherooms.com/category/Special-ProgramsGroups/Men/85\">Men
+        Only</a>\n\t\t<a href=\"http://directory.intherooms.com/category/Special-ProgramsGroups/Women/84\">Women
+        Only</a>\n\t\t<a href=\"http://directory.intherooms.com/category/Treatment-Centers/Methadone-Detoxification/82\">Methadone
+        Detox Centers</a>\n\t\t<a href=\"http://directory.intherooms.com/category/Special-ProgramsGroups/Non-12-Step-Programs/98\">Non
+        12 Step</a>\n\t\t<a href=\"http://directory.intherooms.com/category/Treatment-Centers/Outpatient-Treatment/78\">Outpatient
+        Treatment</a>\n\t\t<a href=\"http://directory.intherooms.com/category/Rehab-Programs-by-Drug/Prescription-Drugs-Rehab/118\">Prescription
+        Drug Addiction</a>\n\t\t<a href=\"http://directory.intherooms.com/category/Special-ProgramsGroups/Relapse-Prevention/100\">Relapse
+        Prevention</a>\n\t\t<a href=\"http://directory.intherooms.com/category/Housing-In-Recovery/Sober-Living-Homes/163\">Sober
+        Living Homes</a>\n\t\t<a href=\"http://directory.intherooms.com/category/Transitional-Living/7\">Transitional
+        Living</a>\n\t\t<a href=\"http://directory.intherooms.com/category/Special-ProgramsGroups/Young-adults/208\">Young
+        Adults</a>\n\t\t<a href=\"http://directory.intherooms.com/category/Treatment-Centers/Detoxification/80\">Detox</a>\n\t\t<a
+        href=\"http://directory.intherooms.com/category/Treatment-Centers/Executive-Treatment/210\">Executive
+        Treatment</a>\n\t\t<a href=\"http://directory.intherooms.com/category/Treatment-Centers/Luxury-Treatment/211\">Luxury
+        Treatment</a>\n\t\t<a href=\"http://directory.intherooms.com/category/Treatment-Centers/Inpatient-Treatment/77\">Primary
+        Inpatient</a>\n\t\t<a href=\"http://directory.intherooms.com/category/Forms-of-Payment/Private-Health-Insurance/122\">Treatment
+        Centers accept insurance/financing</a>\n\t\t<a href=\"http://directory.intherooms.com/category/Online-Recovery/18\">Online
+        Recovery</a>\n\t</div>\n        \n\n\n<div class=\"breadcrumbs\">\n    <li><a
+        href=\"/\">Home</a></li>\n    <li>&raquo;</li>\n    <li>AA NA Meetings in
+        Denver, CO</li>\n</div><!-- breadcrumbs -->\n\n\n\n\t<script type=\"text/javascript\">\n\t\t//
+        if(typeof(_gat)!='object')document.write('<sc'+'ript src=\"http'+ (document.location.protocol=='https:'?'s://ssl':'://www')+
+        '.google-analytics.com/ga.js\"></sc'+'ript>')\n\t</script>\n\n    <div id=\"js-errors\"
+        class=\"error-pane\" style=\"display: none;\"></div>\n    \n    <div id=\"meetings-signup-b\">\n
+        \   \t\n\t\t<div id=\"signup-left\">\n\t    \t<script>utmx_section(\"Title\")</script>\n\t
+        \   \t\t<h2>Searching for a meeting?<br />Get REAL recovery online now!</h2>\n\t
+        \   \t</noscript>\n\t    \t\n\t    \t<script>utmx_section(\"Description\")</script>\n\t\t
+        \   \t<p>Whether you're in recovery, seeking help from any addiction, family
+        or friend, register for <img src=\"http://media.intherooms.com/images/home/home-logo-p.gif\"
+        alt=\"InTheRooms\" width=\"150\" height=\"18\"/> now.  You'll get exclusive
+        free access to Daily Meditations, Speaker Tapes and Daily Online Video AA
+        / NA meetings.  There are over 240,000 members who are willing to share their
+        experience, strength and hope with YOU.</p>\n\t\t    \t<p><a href=\"http://intherooms.com/?id=meetings_form_b\">Learn
+        More About InTheRooms.com</a></p>\n\t    \t</noscript>\n\t    \t\n\t    </div><!--
+        signup-left -->\n    \n        <form method=\"post\" action=\"/public/register\"
+        name=\"itr-register\" id=\"itr-register\">\n             \n\t\t\t<script>utmx_section(\"SignupTitle\")</script>\n\t\t\t\t<h3>Sign
+        Up Free!</h3>\n\t\t\t\t<h4>and join our Global Recovery Community</h4>\n\t\t\t</noscript>\n
+        \                               \n                                                                                                \n
+        \           <label>User Name</label>\n            <input type=\"text\" class=\"txt\"
+        name=\"username\" value=\"\" onkeypress=\"handleEnterKey(event)\" />\n            <br
+        class=\"clear-float\" />\n                                        \n            <label>Email
+        Address</label>\n            <input type=\"text\" class=\"txt\" name=\"email\"
+        value=\"\" onkeypress=\"handleEnterKey(event)\" />\n            <br class=\"clear-float\"
+        />\n                                        \n            <label>Password</label>\n
+        \           <input type=\"password\" class=\"txt\" name=\"password\" onkeypress=\"handleEnterKey(event)\"
+        />\n            <br class=\"clear-float\" />\n                                                                                                                                                        \n
+        \           <div id=\"register-button\">\n                <span class=\"sub\"
+        style=\"font-size: 11px;\">By clicking register, I agree with the <a href=\"#\"
+        onclick=\"openTos();\">Terms of Use</a></span><br />\n                <a class=\"sub\"
+        style=\"margin: 0pt;\" href=\"javascript:;\" onclick=\"showCaptcha();\"><img
+        src=\"http://media.intherooms.com/images/home/home-register.gif\"></a>\n            </div>\n
+        \                                               \n            <input type=\"hidden\"
+        name=\"advert_id\" id=\"advert_id\" value=\"meetings_form_b\" />\n                                                        \n
+        \           <div id=\"home-captcha\" style=\"display:none;\" class=\"cf\">\n
+        \               <h1>Enter the word in the image below to complete registration</h1>\n
+        \               <div class=\"error-pane\" id=\"captcha-error\" style=\"display:
+        none; margin:0 10px 5px 10px;\"></div>\n                <div class=\"captcha\"
+        style=\"margin-top:10px;\">\n                    <img src=\"/captcha/show/large?cccid=02c7f5f18ec2e21f088f251754d19913\"><br>\n
+        \                   <input id=\"captcha-word\" type=\"text\" class=\"text-sm\"
+        name=\"word\" style=\"width:250px; margin-top: 15px;\" onkeypress=\"handleEnterKeyCaptcha(event)\"><br>\n
+        \                   <input id=\"captcha-cccid\" type=\"hidden\" name=\"cccid\"
+        value=\"02c7f5f18ec2e21f088f251754d19913\" />\n                    \n                    <a
+        href=\"javascript:;\" onclick=\"registerSubmit();\">\n                        <img
+        style=\"margin:15px 0;\" id=\"itr-register-btn\" src=\"http://media.intherooms.com/images/home/home-register.gif\"
+        />\n                    </a>\n                </div>\n            </div>\n
+        \   \n            <input type=\"hidden\" name=\"process\" value=\"true\">\n
+        \           \n        </form>\n        \n    <br class=\"clear-float\" />\n\n
+        \   </div><!-- meetings-signup -->\n    \n\n    <!-- *************** form
+        b end *************************** -->\n        \n\n<h2 class=\"search-title\">Search
+        for Meetings:</h2>\n\n<form id=\"filter-results\" method=\"get\" action=\"/meetings/search\">\n
+        \   <label>Search by name or keyword:</label>\n    <input class=\"md\" type=\"text\"
+        name=\"search\" id=\"search_txt\" value=\"\" /><br>\n\n    <label>Fellowship:</label>\n
+        \   <select name=\"fellowship\" ><option value=''>All</option><option value=\"AA\">Alcoholics
+        Anonymous</option><option value=\"NA\">Narcotics Anonymous</option><option
+        value=\"GA\">Gamblers Anonymous</option><option value=\"OA\">Overeaters Anonymous</option></select>\n
+        \   <label>City, State OR Zip Code:</label>\n    <input class=\"md\" type=\"text\"
+        name=\"zip\" id=\"search_zip\" value=\"\" />\n    \n    <label>Miles Away:</label>\n
+        \   <select name=\"proximity\" ><option  selected value=\"0\">any</option><option
+        value=\"5\">5</option><option value=\"15\">15</option><option value=\"25\">25</option><option
+        value=\"50\">50</option><option value=\"75\">75</option><option value=\"100\">100</option><option
+        value=\"125\">125</option><option value=\"150\">150</option><option value=\"200\">200</option><option
+        value=\"300\">300</option><option value=\"400\">400</option><option value=\"500\">500</option></select>\n
+        \   <br />\n    <label>Day: </label>\n    <select name=\"day\" ><option value=''>Any</option><option
+        value=\"SUNDAY\">Sunday</option><option value=\"MONDAY\">Monday</option><option
+        value=\"TUESDAY\">Tuesday</option><option value=\"WEDNESDAY\">Wednesday</option><option
+        value=\"THURSDAY\">Thursday</option><option value=\"FRIDAY\">Friday</option><option
+        value=\"SATURDAY\">Saturday</option></select>\n    <label>From: </label>\n
+        \   <select name=\"start_hour\">\n                    <option value=\"1\"
+        \ >1</option>\n                    <option value=\"2\"  >2</option>\n                    <option
+        value=\"3\"  >3</option>\n                    <option value=\"4\"  >4</option>\n
+        \                   <option value=\"5\"  >5</option>\n                    <option
+        value=\"6\"  >6</option>\n                    <option value=\"7\"  >7</option>\n
+        \                   <option value=\"8\"  >8</option>\n                    <option
+        value=\"9\"  >9</option>\n                    <option value=\"10\"  >10</option>\n
+        \                   <option value=\"11\"  >11</option>\n                    <option
+        value=\"12\"  >12</option>\n            </select> :\n    <select name=\"start_min\">\n
+        \                               <option value=\"00\"  >00</option>\n                                <option
+        value=\"15\"  >15</option>\n                                <option value=\"30\"
+        \ >30</option>\n                                <option value=\"45\"  >45</option>\n
+        \           </select> \n    <select name=\"start_am_pm\">\n        <option
+        value=\"AM\"  >AM</option>\n        <option value=\"PM\"  >PM</option>\n    </select>\n
+        \   \n    <label>To: </label>\n    <select name=\"end_hour\">\n                    <option
+        value=\"1\"  >1</option>\n                    <option value=\"2\"  >2</option>\n
+        \                   <option value=\"3\"  >3</option>\n                    <option
+        value=\"4\"  >4</option>\n                    <option value=\"5\"  >5</option>\n
+        \                   <option value=\"6\"  >6</option>\n                    <option
+        value=\"7\"  >7</option>\n                    <option value=\"8\"  >8</option>\n
+        \                   <option value=\"9\"  >9</option>\n                    <option
+        value=\"10\"  >10</option>\n                    <option value=\"11\"  >11</option>\n
+        \                   <option value=\"12\"  >12</option>\n            </select>
+        :\n    <select name=\"end_min\">\n                                <option
+        value=\"00\"  >00</option>\n                                <option value=\"15\"
+        \ >15</option>\n                                <option value=\"30\"  >30</option>\n
+        \                               <option value=\"45\"  >45</option>\n            </select>
+        \n    <select name=\"end_am_pm\">\n        <option value=\"AM\"  >AM</option>\n
+        \       <option value=\"PM\"  >PM</option>\n    </select>\n    \n    <label></label><input
+        type=\"image\" src=\"http://media.intherooms.com/images/general/btn-search.png\"
+        />\n    \n    <input type=\"hidden\" name=\"latitude\" id=\"latitude\" value=\"false\">\n
+        \   <input type=\"hidden\" name=\"longitude\" id=\"longitude\" value=\"false\">\n
+        \   <input type=\"hidden\" name=\"process\" value=\"1\">\n    <input type=\"hidden\"
+        name=\"page_city\" id=\"page_city\" value=\"Denver\">\n    <input type=\"hidden\"
+        name=\"page_state\" id=\"page_state\" value=\"CO\">\n\n</form><!-- filter-results
+        -->\n\n\n<div class=\"search-paging\"><span class=\"prevNext\">&laquo; Previous</span><span
+        class=\"current\">1</span><a href=\"/meetings/search?search=&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=2\">2</a><a
+        href=\"/meetings/search?search=&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=3\">3</a><a
+        href=\"/meetings/search?search=&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=4\">4</a><a
+        href=\"/meetings/search?search=&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=5\">5</a><a
+        href=\"/meetings/search?search=&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=6\">6</a><a
+        href=\"/meetings/search?search=&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=7\">7</a><span>...</span><a
+        href=\"/meetings/search?search=&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=399\">399</a><a
+        href=\"/meetings/search?search=&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=400\">400</a><a
+        href=\"/meetings/search?search=&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=2\"
+        class=\"prevNext\">Next &raquo;</a></div>\n<table class=\"all-meetings\">\n
+        \   <tr>\n        <th>Meeting Title</th>\n        <th>Location</th>\n        <th>Address</th>\n
+        \       <th>Day</th>\n        <th>Time</th>\n        <th>Fellowship</th>\n
+        \   </tr>\n\n\n                            <tr>\n                    <td><a
+        href=\"/na/COHO-Building/1\">COHO Building</a></td>\n                    <td><a
+        href=\"/locations/Craig/COHO-Building/1\">COHO Building</a></td>\n                    <td>Cold
+        Storage Road<br>Craig, AK 99921</td>\n                    <td>SUNDAY</td>\n
+        \                   <td>6:00 PM</td>\n                    <td>Narcotics Anonymous</td>\n
+        \               </tr>\n                        <tr>\n                    <td><a
+        href=\"/na/Ketchikan-General-Hospital/2\">Ketchikan General Hospital</a></td>\n
+        \                   <td><a href=\"/locations/Ketchikan/Ketchikan-General-Hospital/2\">Ketchikan
+        General Hospital</a></td>\n                    <td>3100 Tongrass Avenue<br>Ketchikan,
+        AK 99901</td>\n                    <td>FRIDAY</td>\n                    <td>8:00
+        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/na/Wrangell-Drug-And-Alcohol-Council/3\">Wrangell
+        Drug And Alcohol Council</a></td>\n                    <td><a href=\"/locations/Wrangell/Wrangell-Drug-And-Alcohol-Council/3\">Wrangell
+        Drug And Alcohol Council</a></td>\n                    <td><br>Wrangell, AK
+        99929</td>\n                    <td>SUNDAY</td>\n                    <td>12:00
+        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/na/Wrangell-Drug-And-Alcohol-Council/4\">Wrangell
+        Drug And Alcohol Council</a></td>\n                    <td><a href=\"/locations/Wrangell/Wrangell-Drug-And-Alcohol-Council/3\">Wrangell
+        Drug And Alcohol Council</a></td>\n                    <td><br>Wrangell, AK
+        99929</td>\n                    <td>THURSDAY</td>\n                    <td>12:00
+        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/na/Rainforest-Activity-Center/5\">Rainforest
+        Activity Center</a></td>\n                    <td><a href=\"/locations/Juneau/Rainforest-Activity-Center/4\">Rainforest
+        Activity Center</a></td>\n                    <td>3240 Hospital Drive<br>Juneau,
+        AK 99801-7808</td>\n                    <td>SUNDAY</td>\n                    <td>7:00
+        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/na/GHS-Halfway-House/6\">GHS
+        Halfway House</a></td>\n                    <td><a href=\"/locations/Juneau/GHS-Halfway-House/5\">GHS
+        Halfway House</a></td>\n                    <td>5597 Aisek Street<br>Juneau,
+        AK 99801</td>\n                    <td>MONDAY</td>\n                    <td>8:00
+        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/na/Rainforest-Activity-Center/7\">Rainforest
+        Activity Center</a></td>\n                    <td><a href=\"/locations/Juneau/Rainforest-Activity-Center/4\">Rainforest
+        Activity Center</a></td>\n                    <td>3240 Hospital Drive<br>Juneau,
+        AK 99801-7808</td>\n                    <td>TUESDAY</td>\n                    <td>7:00
+        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/na/Rainforest-Activity-Center/8\">Rainforest
+        Activity Center</a></td>\n                    <td><a href=\"/locations/Juneau/Rainforest-Activity-Center/4\">Rainforest
+        Activity Center</a></td>\n                    <td>3240 Hospital Drive<br>Juneau,
+        AK 99801-7808</td>\n                    <td>THURSDAY</td>\n                    <td>8:00
+        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/na/Rainforest-Activity-Center/9\">Rainforest
+        Activity Center</a></td>\n                    <td><a href=\"/locations/Juneau/Rainforest-Activity-Center/4\">Rainforest
+        Activity Center</a></td>\n                    <td>3240 Hospital Drive<br>Juneau,
+        AK 99801-7808</td>\n                    <td>FRIDAY</td>\n                    <td>5:00
+        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/na/Juneau-Public-Health-Center/10\">Juneau
+        Public Health Center</a></td>\n                    <td><a href=\"/locations/Juneau/Juneau-Public-Health-Center/6\">Juneau
+        Public Health Center</a></td>\n                    <td>3412 Glacier Highway<br>Juneau,
+        AK 99801</td>\n                    <td>FRIDAY</td>\n                    <td>7:00
+        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/na/Juneau-Public-Health-Center/11\">Juneau
+        Public Health Center</a></td>\n                    <td><a href=\"/locations/Juneau/Juneau-Public-Health-Center/6\">Juneau
+        Public Health Center</a></td>\n                    <td>3412 Glacier Highway<br>Juneau,
+        AK 99801</td>\n                    <td>SATURDAY</td>\n                    <td>7:00
+        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/na/KIFWKSBZ-Radio/12\">KIFW/KSBZ
+        Radio</a></td>\n                    <td><a href=\"/locations/Sitka/KIFWKSBZ-Radio/7\">KIFW/KSBZ
+        Radio</a></td>\n                    <td>611 Lake Street<br>Sitka, AK 99835</td>\n
+        \                   <td>SUNDAY</td>\n                    <td>6:30 PM</td>\n
+        \                   <td>Narcotics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/na/KIFWKSBZ-Radio/13\">KIFW/KSBZ
+        Radio</a></td>\n                    <td><a href=\"/locations/Sitka/KIFWKSBZ-Radio/7\">KIFW/KSBZ
+        Radio</a></td>\n                    <td>611 Lake Street<br>Sitka, AK 99835</td>\n
+        \                   <td>TUESDAY</td>\n                    <td>6:30 PM</td>\n
+        \                   <td>Narcotics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/na/KIFWKSBZ-Radio/14\">KIFW/KSBZ
+        Radio</a></td>\n                    <td><a href=\"/locations/Sitka/KIFWKSBZ-Radio/7\">KIFW/KSBZ
+        Radio</a></td>\n                    <td>611 Lake Street<br>Sitka, AK 99835</td>\n
+        \                   <td>FRIDAY</td>\n                    <td>6:30 PM</td>\n
+        \                   <td>Narcotics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/na/Methodist-Church/15\">Methodist
+        Church</a></td>\n                    <td><a href=\"/locations/Nome/Methodist-Church/8\">Methodist
+        Church</a></td>\n                    <td>2nd and C Streets<br>Nome, AK 99762</td>\n
+        \                   <td>FRIDAY</td>\n                    <td>6:00 PM</td>\n
+        \                   <td>Narcotics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/na/Saint-Patricks-Catholic-Church/16\">Saint
+        Patrick's Catholic Church</a></td>\n                    <td><a href=\"/locations/Barrow/Saint-Patricks-Catholic-Church/9\">Saint
+        Patrick's Catholic Church</a></td>\n                    <td>612 Cunningham
+        Street<br>Barrow, AK 99723</td>\n                    <td>MONDAY</td>\n                    <td>7:00
+        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/na/Substance-Abuse-Treatment-Services/17\">Substance
+        Abuse Treatment Services</a></td>\n                    <td><a href=\"/locations/Barrow/Substance-Abuse-Treatment-Services/10\">Substance
+        Abuse Treatment Services</a></td>\n                    <td>5200 Karluk Street<br>Barrow,
+        AK 99723</td>\n                    <td>TUESDAY</td>\n                    <td>8:00
+        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/na/Out-to-Lunch-Bunch/18\">Out
+        to Lunch Bunch</a></td>\n                    <td><a href=\"/locations/Fairbanks/Fairbanks-Lutheran-Church/11\">Fairbanks
+        Lutheran Church</a></td>\n                    <td>1012 Cowles Street<br>Fairbanks,
+        AK 99701-4310</td>\n                    <td>MONDAY</td>\n                    <td>12:00
+        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/na/Farewell-Avenue-Christian-Church/19\">Farewell
+        Avenue Christian Church</a></td>\n                    <td><a href=\"/locations/Fairbanks/Farewell-Avenue-Christian-Church/12\">Farewell
+        Avenue Christian Church</a></td>\n                    <td>100 Farewell Avenue<br>Fairbanks,
+        AK 99701-3624</td>\n                    <td>MONDAY</td>\n                    <td>7:00
+        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/na/Saint-Matthews-Church/21\">Saint
+        Matthew's Church</a></td>\n                    <td><a href=\"/locations/Fairbanks/Saint-Matthews-Church/13\">Saint
+        Matthew's Church</a></td>\n                    <td>1030 2nd Avenue<br>Fairbanks,
+        AK 99701-4355</td>\n                    <td>TUESDAY</td>\n                    <td>7:00
+        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/na/Out-to-Lunch-Bunch/23\">Out
+        to Lunch Bunch</a></td>\n                    <td><a href=\"/locations/Fairbanks/Fairbanks-Lutheran-Church/11\">Fairbanks
+        Lutheran Church</a></td>\n                    <td>1012 Cowles Street<br>Fairbanks,
+        AK 99701-4310</td>\n                    <td>THURSDAY</td>\n                    <td>12:00
+        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/na/University-Community-Presbyterian-Church/25\">University
+        Community Presbyterian Church</a></td>\n                    <td><a href=\"/locations/Fairbanks/University-Community-Presbyterian-Church/14\">University
+        Community Presbyterian Church</a></td>\n                    <td>3510 College
+        Road<br>Fairbanks, AK 99709-3709</td>\n                    <td>FRIDAY</td>\n
+        \                   <td>8:30 PM</td>\n                    <td>Narcotics Anonymous</td>\n
+        \               </tr>\n                        <tr>\n                    <td><a
+        href=\"/na/Saturday-Nite-Live--RPC/26\">Saturday Nite Live @ RPC</a></td>\n
+        \                   <td><a href=\"/locations//Ralph-Perdue-Center/15\">Ralph
+        Perdue Center</a></td>\n                    <td>3100 South Cushman Street<br>,
+        AK </td>\n                    <td>SATURDAY</td>\n                    <td>7:30
+        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/na/Saint-Nicholas-Catholic-Church/27\">Saint
+        Nicholas Catholic Church</a></td>\n                    <td><a href=\"/locations/North-Pole/Saint-Nicholas-Catholic-Church/16\">Saint
+        Nicholas Catholic Church</a></td>\n                    <td>707 Frontage Road<br>North
+        Pole, AK </td>\n                    <td>SUNDAY</td>\n                    <td>7:00
+        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/na/8201-Old-Seward-Highway/28\">8201
+        Old Seward Highway</a></td>\n                    <td><a href=\"/locations/Anchorage/8201-Old-Seward-Highway/17\">8201
+        Old Seward Highway</a></td>\n                    <td>8201 Old Seward Highway<br>Anchorage,
+        AK 99518</td>\n                    <td>SUNDAY</td>\n                    <td>9:30
+        AM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
+        \           \n</table>\n\n<div class=\"search-paging\"><span class=\"prevNext\">&laquo;
+        Previous</span><span class=\"current\">1</span><a href=\"/meetings/search?search=&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=2\">2</a><a
+        href=\"/meetings/search?search=&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=3\">3</a><a
+        href=\"/meetings/search?search=&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=4\">4</a><a
+        href=\"/meetings/search?search=&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=5\">5</a><a
+        href=\"/meetings/search?search=&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=6\">6</a><a
+        href=\"/meetings/search?search=&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=7\">7</a><span>...</span><a
+        href=\"/meetings/search?search=&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=399\">399</a><a
+        href=\"/meetings/search?search=&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=400\">400</a><a
+        href=\"/meetings/search?search=&latitude=39.7316982&longitude=-104.9213643&page_city=Denver&page_state=CO&page=1&results_per_page=25&page=2\"
+        class=\"prevNext\">Next &raquo;</a></div>\n<div style=\"height:15px\">&nbsp;</div>\n\n<script
+        type=\"text/javascript\">\n    function initialize(){};\n</script>\n\n        </div>\n\t\t\n\t\t<div
+        id=\"footer\">\n\t\t\t<p>Copyright &copy; !2013 InTheRooms.com. All Rights
+        Reserved. <a href=\"http://www.intherooms.com/site/tos\">Terms Of Use</a>
+        | <a href=\"http://www.intherooms.com/help/main\">Help</a> | <a href=\"http://www.intherooms.com/help/privacy\">Privacy
+        Policy</a> | <a href=\"http://meetings.intherooms.com\" target=\"_BLANK\">Meetings</a>\n\n\t\t\t</p>\n\t\t</div><!--
+        footer -->\n\n<script type=\"text/javascript\">\nvar _sf_async_config={uid:27182,domain:\"meetings.intherooms.com\"};\n(function(){\n
+        \ function loadChartbeat() {\n    window._sf_endpt=(new Date()).getTime();\n
+        \   var e = document.createElement('script');\n    e.setAttribute('language',
+        'javascript');\n    e.setAttribute('type', 'text/javascript');\n    e.setAttribute('src',\n
+        \      ((\"https:\" == document.location.protocol) ? \"https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/\"
+        : \"http://static.chartbeat.com/\") +\n       \"js/chartbeat.js\");\n    document.body.appendChild(e);\n
+        \ }\n  var oldonload = window.onload;\n  window.onload = (typeof window.onload
+        != 'function') ?\n     loadChartbeat : function() { oldonload(); loadChartbeat();
+        };\n})();\n\n</script>\n\n<div id=\"leadbar\">\n\n    <div style=\"height:
+        1px; border-top: 2px solid rgb(63, 117, 164);\"></div>\n\n    <form id=\"bottom-lead-form\"
+        method=\"post\" action=\"http://directory.intherooms.com/help/lead\">\n\n
+        \       <span>Get Help Now! </span>\n\n        <input type=\"text\" placeholder=\"Full
+        Name\" class=\"md required\" name=\"fullname\">\n\n        <input type=\"text\"
+        placeholder=\"Email\" class=\"md required email\" name=\"email\">\n\n        <input
+        type=\"text\" placeholder=\"Phone\" class=\"md required phone\" name=\"phone\">\n\n
+        \       <select class=\"md required\" name=\"payment\">\n            <option>Form
+        of Payment...</option>\n            <option>HMO</option>\n            <option>PPO</option>\n
+        \           <option>Medicare</option>\n            <option>Medicaid</option>\n
+        \           <option>Self Pay</option>\n            <option>Other</option>\n
+        \       </select>\n\n        <input type=\"image\" src=\"http://media.intherooms.com/images/meetings/heal-button-green.gif\">\n
+        \       <input type=\"hidden\" value=\"1\" name=\"process\">\n        <input
+        type=\"hidden\" name=\"word\" value=\"\" id=\"hidden-word\">\n        <input
+        id=\"cccid\" type=\"hidden\" name=\"cccid\" value=\"02c7f5f18ec2e21f088f251754d19913\">\n
+        \       <input id=\"tc_partner\" type=\"hidden\" name=\"tc_partner\" value=\"1\">\n\n
+        \   </form>\n</div>\n\n<div id=\"hidden-captcha\" style=\"display: none;\">\n
+        \   <label>Please enter these letters in the space below</label><br class=\"clear-float\"
+        />\n    <img src=\"http://www.intherooms.com/captcha/show?cccid=02c7f5f18ec2e21f088f251754d19913\"
+        alt=\"captcha\"><br><br>\n    <input type=\"text\" id=\"captcha-word\" name=\"word\"
+        value=\"\"><br><br>\n    <input type=\"button\" value=\"Submit\" id=\"captcha-submit-button\">\n</div>\n\n<script
+        type=\"text/javascript\">\n    $(document).ready(function() {\n        $(\"#leadbar
+        input\").each(function(){\n            if($(this).val()==\"\" && $(this).attr(\"placeholder\")!=\"\"){\n
+        \               $(this).val($(this).attr(\"placeholder\"));\n                $(this).focus(function(){\n
+        \                   if($(this).val()==$(this).attr(\"placeholder\")) $(this).val(\"\");\n
+        \               });\n                $(this).blur(function(){\n                    if($(this).val()==\"\")
+        $(this).val($(this).attr(\"placeholder\"));\n                });\n            }\n
+        \       });\n\n\n        $(\"#bottom-lead-form\").bind('submit', function(e)
+        {\n            tb_show(\"\",\"#TB_inline?height=200&width=200&modal=true&inlineId=hidden-captcha\");\n
+        \           \n            $('#captcha-word').focus();\n            \n            if
+        ($('#hidden-word').val()) {\n                return true;\n            } \n
+        \   \n            return false;        \n        });\n\n\n        $('#captcha-submit-button').bind('click',
+        function(e) {\n            var captchaWord = $('#captcha-word').val();\n     \n
+        \           if (captchaWord) {\n                $('#hidden-word').val(captchaWord);\n
+        \               $('#bottom-lead-form').submit();\n            }\n        });\n\n\n
+        \   });\n</script>\nAM I HERE?\n\t</body>\n\n\n\n<script type=\"text/javascript\">\n\n
+        \ var _gaq = _gaq || [];\n  _gaq.push(['_setAccount', 'UA-4493458-17']);\n
+        \ _gaq.push(['_trackPageview']);\n  \n  _gaq.push(['b._setAccount', 'UA-16397668-5']);\n
+        \ _gaq.push(['b._setDomainName', 'intherooms.com']);\n  _gaq.push(['b._setAllowLinker',
+        true]);\n  _gaq.push(['b._trackPageview']);\n\n  (function() {\n    var ga
+        = document.createElement('script'); ga.type = 'text/javascript'; ga.async
+        = true;\n    ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+        : 'http://www') + '.google-analytics.com/ga.js';\n    var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);\n  })();\n\n</script>\n\n\n\n\n</html>\n"
+    http_version: 
+  recorded_at: Tue, 18 Feb 2014 00:03:39 GMT
+recorded_with: VCR 2.8.0
