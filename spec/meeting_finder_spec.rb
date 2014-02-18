@@ -5,9 +5,10 @@ describe MeetingFinder::Search do
   it "should find by with valid params" do
     VCR.use_cassette('find_by') do
       result = MeetingFinder::Search.find_by({"latitude" => 39.7316982, "longitude" => -104.9213643})
-      puts result.count
       first_meeting = result.first
       expect(first_meeting.name).to eq('Church')
+      expect(first_meeting.lat).to eq(39.7338507)
+      expect(first_meeting.lng).to eq(-104.9524757)
     end
   end
 
@@ -16,6 +17,13 @@ describe MeetingFinder::Search do
       result = MeetingFinder::Search.by_zip(80203)
       first_meeting = result.first
       expect(first_meeting.name).to eq('Recovery Spoken Here AFG')
+    end
+  end
+
+  it 'should be able to find lat and long' do 
+    VCR.use_cassette('find_lat_long') do 
+      result = MeetingFinder::Search.find_lat_long_from("1100 Fillmore StreetDenver, CO 80206-3334")
+      expect(result).to eq([39.7338507, -104.9524757])
     end
   end
  

@@ -1,6 +1,6 @@
 require 'nokogiri'
 require 'open-uri'
-require 'pry'
+require 'geocoder'
 
 module MeetingFinder
   class Search
@@ -19,10 +19,18 @@ module MeetingFinder
           attributes['day'] = meeting.children[6].text
           attributes['time'] = meeting.children[8].text
           attributes['fellowship'] = meeting.children[10].text
+          attributes['lat'], attributes['lng'] = find_lat_long_from(attributes['address'])
           meetings << MeetingFinder::Meeting.new(attributes)
         end
         meetings.shift
         meetings
+      end
+
+      def find_lat_long_from(address)
+        result = Geocoder.search(address)
+        location = result.first.data["geometry"]["location"]
+        lat, lng = location["lat"], location["lng"]
+        [lat, lng]
       end
 
       def by_lat_lng(lat, lng)
