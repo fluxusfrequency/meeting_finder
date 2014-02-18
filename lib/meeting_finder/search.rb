@@ -25,7 +25,11 @@ module MeetingFinder
       end
 
       def by_lat_lng(lat, lng)
-        find_by({"latitude" => lat, "longitude" => lng})
+        find_by({ "latitude" => lat, "longitude" => lng })
+      end
+
+      def by_zip(zip)
+        find_by({ "zip" => zip })
       end
 
       def search_url
