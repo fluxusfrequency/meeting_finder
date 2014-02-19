@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 18 Feb 2014 21:12:48 GMT
+      - Wed, 19 Feb 2014 21:15:29 GMT
       Content-Type:
       - text/html; charset=utf-8
       Transfer-Encoding:
@@ -187,11 +187,11 @@ http_interactions:
         \               <h1>Enter the word in the image below to complete registration</h1>\n
         \               <div class=\"error-pane\" id=\"captcha-error\" style=\"display:
         none; margin:0 10px 5px 10px;\"></div>\n                <div class=\"captcha\"
-        style=\"margin-top:10px;\">\n                    <img src=\"/captcha/show/large?cccid=7041b978073b8bd4852a1f322f7d1715\"><br>\n
+        style=\"margin-top:10px;\">\n                    <img src=\"/captcha/show/large?cccid=c997e2e1a5579aae6ffad95e3416ae9f\"><br>\n
         \                   <input id=\"captcha-word\" type=\"text\" class=\"text-sm\"
         name=\"word\" style=\"width:250px; margin-top: 15px;\" onkeypress=\"handleEnterKeyCaptcha(event)\"><br>\n
         \                   <input id=\"captcha-cccid\" type=\"hidden\" name=\"cccid\"
-        value=\"7041b978073b8bd4852a1f322f7d1715\" />\n                    \n                    <a
+        value=\"c997e2e1a5579aae6ffad95e3416ae9f\" />\n                    \n                    <a
         href=\"javascript:;\" onclick=\"registerSubmit();\">\n                        <img
         style=\"margin:15px 0;\" id=\"itr-register-btn\" src=\"http://media.intherooms.com/images/home/home-register.gif\"
         />\n                    </a>\n                </div>\n            </div>\n
@@ -424,11 +424,11 @@ http_interactions:
         \       </select>\n\n        <input type=\"image\" src=\"http://media.intherooms.com/images/meetings/heal-button-green.gif\">\n
         \       <input type=\"hidden\" value=\"1\" name=\"process\">\n        <input
         type=\"hidden\" name=\"word\" value=\"\" id=\"hidden-word\">\n        <input
-        id=\"cccid\" type=\"hidden\" name=\"cccid\" value=\"7041b978073b8bd4852a1f322f7d1715\">\n
+        id=\"cccid\" type=\"hidden\" name=\"cccid\" value=\"c997e2e1a5579aae6ffad95e3416ae9f\">\n
         \       <input id=\"tc_partner\" type=\"hidden\" name=\"tc_partner\" value=\"2\">\n\n
         \   </form>\n</div>\n\n<div id=\"hidden-captcha\" style=\"display: none;\">\n
         \   <label>Please enter these letters in the space below</label><br class=\"clear-float\"
-        />\n    <img src=\"http://www.intherooms.com/captcha/show?cccid=7041b978073b8bd4852a1f322f7d1715\"
+        />\n    <img src=\"http://www.intherooms.com/captcha/show?cccid=c997e2e1a5579aae6ffad95e3416ae9f\"
         alt=\"captcha\"><br><br>\n    <input type=\"text\" id=\"captcha-word\" name=\"word\"
         value=\"\"><br><br>\n    <input type=\"button\" value=\"Submit\" id=\"captcha-submit-button\">\n</div>\n\n<script
         type=\"text/javascript\">\n    $(document).ready(function() {\n        $(\"#leadbar
@@ -455,20 +455,20 @@ http_interactions:
         : 'http://www') + '.google-analytics.com/ga.js';\n    var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(ga, s);\n  })();\n\n</script>\n\n\n\n\n</html>\n"
     http_version: 
-  recorded_at: Tue, 18 Feb 2014 21:12:48 GMT
+  recorded_at: Wed, 19 Feb 2014 21:15:29 GMT
 - request:
     method: get
-    uri: http://maps.googleapis.com/maps/api/geocode/json?address=Address&language=en&sensor=false
+    uri: https://maps.googleapis.com/maps/api/geocode/json?address=Address&sensor=false
     body:
       encoding: US-ASCII
       string: ''
     headers:
+      User-Agent:
+      - Faraday v0.9.0
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
       - '*/*'
-      User-Agent:
-      - Ruby
   response:
     status:
       code: 200
@@ -477,11 +477,13 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Tue, 18 Feb 2014 21:12:48 GMT
+      - Wed, 19 Feb 2014 21:15:30 GMT
       Expires:
-      - Wed, 19 Feb 2014 21:12:48 GMT
+      - Thu, 20 Feb 2014 21:15:30 GMT
       Cache-Control:
       - public, max-age=86400
+      Vary:
+      - Accept-Language
       Access-Control-Allow-Origin:
       - '*'
       Server:
@@ -491,7 +493,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Alternate-Protocol:
-      - 80:quic
+      - 443:quic
       Transfer-Encoding:
       - chunked
     body:
@@ -779,20 +781,20 @@ http_interactions:
         dHlwZXMiIDogWyAicHJlbWlzZSIgXQogICAgICB9CiAgIF0sCiAgICJzdGF0
         dXMiIDogIk9LIgp9Cg==
     http_version: 
-  recorded_at: Tue, 18 Feb 2014 21:12:48 GMT
+  recorded_at: Wed, 19 Feb 2014 21:15:30 GMT
 - request:
     method: get
-    uri: http://maps.googleapis.com/maps/api/geocode/json?address=1100%20Fillmore%20StreetDenver,%20CO%2080206-3334&language=en&sensor=false
+    uri: https://maps.googleapis.com/maps/api/geocode/json?address=1100%20Fillmore%20StreetDenver,%20CO%2080206-3334&sensor=false
     body:
       encoding: US-ASCII
       string: ''
     headers:
+      User-Agent:
+      - Faraday v0.9.0
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
       - '*/*'
-      User-Agent:
-      - Ruby
   response:
     status:
       code: 200
@@ -801,11 +803,13 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Tue, 18 Feb 2014 21:12:49 GMT
+      - Wed, 19 Feb 2014 21:15:30 GMT
       Expires:
-      - Wed, 19 Feb 2014 21:12:49 GMT
+      - Thu, 20 Feb 2014 21:15:30 GMT
       Cache-Control:
       - public, max-age=86400
+      Vary:
+      - Accept-Language
       Access-Control-Allow-Origin:
       - '*'
       Server:
@@ -815,7 +819,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Alternate-Protocol:
-      - 80:quic
+      - 443:quic
       Transfer-Encoding:
       - chunked
     body:
@@ -891,20 +895,20 @@ http_interactions:
            "status" : "OK"
         }
     http_version: 
-  recorded_at: Tue, 18 Feb 2014 21:12:49 GMT
+  recorded_at: Wed, 19 Feb 2014 21:15:30 GMT
 - request:
     method: get
-    uri: http://maps.googleapis.com/maps/api/geocode/json?address=1100%20Fillmore%20StreetDenver,%20CO%2080206-3334&language=en&sensor=false
+    uri: https://maps.googleapis.com/maps/api/geocode/json?address=1100%20Fillmore%20StreetDenver,%20CO%2080206-3334&sensor=false
     body:
       encoding: US-ASCII
       string: ''
     headers:
+      User-Agent:
+      - Faraday v0.9.0
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
       - '*/*'
-      User-Agent:
-      - Ruby
   response:
     status:
       code: 200
@@ -913,11 +917,13 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Tue, 18 Feb 2014 21:12:49 GMT
+      - Wed, 19 Feb 2014 21:15:30 GMT
       Expires:
-      - Wed, 19 Feb 2014 21:12:49 GMT
+      - Thu, 20 Feb 2014 21:15:30 GMT
       Cache-Control:
       - public, max-age=86400
+      Vary:
+      - Accept-Language
       Access-Control-Allow-Origin:
       - '*'
       Server:
@@ -927,7 +933,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Alternate-Protocol:
-      - 80:quic
+      - 443:quic
       Transfer-Encoding:
       - chunked
     body:
@@ -1003,20 +1009,20 @@ http_interactions:
            "status" : "OK"
         }
     http_version: 
-  recorded_at: Tue, 18 Feb 2014 21:12:49 GMT
+  recorded_at: Wed, 19 Feb 2014 21:15:30 GMT
 - request:
     method: get
-    uri: http://maps.googleapis.com/maps/api/geocode/json?address=1100%20Fillmore%20StreetDenver,%20CO%2080206-3334&language=en&sensor=false
+    uri: https://maps.googleapis.com/maps/api/geocode/json?address=1100%20Fillmore%20StreetDenver,%20CO%2080206-3334&sensor=false
     body:
       encoding: US-ASCII
       string: ''
     headers:
+      User-Agent:
+      - Faraday v0.9.0
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
       - '*/*'
-      User-Agent:
-      - Ruby
   response:
     status:
       code: 200
@@ -1025,11 +1031,13 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Tue, 18 Feb 2014 21:12:49 GMT
+      - Wed, 19 Feb 2014 21:15:31 GMT
       Expires:
-      - Wed, 19 Feb 2014 21:12:49 GMT
+      - Thu, 20 Feb 2014 21:15:31 GMT
       Cache-Control:
       - public, max-age=86400
+      Vary:
+      - Accept-Language
       Access-Control-Allow-Origin:
       - '*'
       Server:
@@ -1039,7 +1047,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Alternate-Protocol:
-      - 80:quic
+      - 443:quic
       Transfer-Encoding:
       - chunked
     body:
@@ -1115,20 +1123,20 @@ http_interactions:
            "status" : "OK"
         }
     http_version: 
-  recorded_at: Tue, 18 Feb 2014 21:12:49 GMT
+  recorded_at: Wed, 19 Feb 2014 21:15:31 GMT
 - request:
     method: get
-    uri: http://maps.googleapis.com/maps/api/geocode/json?address=1100%20FillmoreDenver,%20CO%2080206&language=en&sensor=false
+    uri: https://maps.googleapis.com/maps/api/geocode/json?address=1100%20FillmoreDenver,%20CO%2080206&sensor=false
     body:
       encoding: US-ASCII
       string: ''
     headers:
+      User-Agent:
+      - Faraday v0.9.0
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
       - '*/*'
-      User-Agent:
-      - Ruby
   response:
     status:
       code: 200
@@ -1137,11 +1145,13 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Tue, 18 Feb 2014 21:12:49 GMT
+      - Wed, 19 Feb 2014 21:15:31 GMT
       Expires:
-      - Wed, 19 Feb 2014 21:12:49 GMT
+      - Thu, 20 Feb 2014 21:15:31 GMT
       Cache-Control:
       - public, max-age=86400
+      Vary:
+      - Accept-Language
       Access-Control-Allow-Origin:
       - '*'
       Server:
@@ -1151,7 +1161,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Alternate-Protocol:
-      - 80:quic
+      - 443:quic
       Transfer-Encoding:
       - chunked
     body:
@@ -1227,20 +1237,20 @@ http_interactions:
            "status" : "OK"
         }
     http_version: 
-  recorded_at: Tue, 18 Feb 2014 21:12:49 GMT
+  recorded_at: Wed, 19 Feb 2014 21:15:31 GMT
 - request:
     method: get
-    uri: http://maps.googleapis.com/maps/api/geocode/json?address=3458%201st%20Ave.Denver,%20%2080206&language=en&sensor=false
+    uri: https://maps.googleapis.com/maps/api/geocode/json?address=3458%201st%20Ave.Denver,%20%2080206&sensor=false
     body:
       encoding: US-ASCII
       string: ''
     headers:
+      User-Agent:
+      - Faraday v0.9.0
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
       - '*/*'
-      User-Agent:
-      - Ruby
   response:
     status:
       code: 200
@@ -1249,11 +1259,13 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Tue, 18 Feb 2014 21:12:50 GMT
+      - Wed, 19 Feb 2014 21:15:32 GMT
       Expires:
-      - Wed, 19 Feb 2014 21:12:50 GMT
+      - Thu, 20 Feb 2014 21:15:32 GMT
       Cache-Control:
       - public, max-age=86400
+      Vary:
+      - Accept-Language
       Access-Control-Allow-Origin:
       - '*'
       Server:
@@ -1263,7 +1275,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Alternate-Protocol:
-      - 80:quic
+      - 443:quic
       Transfer-Encoding:
       - chunked
     body:
@@ -1349,20 +1361,20 @@ http_interactions:
            "status" : "OK"
         }
     http_version: 
-  recorded_at: Tue, 18 Feb 2014 21:12:50 GMT
+  recorded_at: Wed, 19 Feb 2014 21:15:32 GMT
 - request:
     method: get
-    uri: http://maps.googleapis.com/maps/api/geocode/json?address=3458%201st%20Ave.Denver,%20%2080206&language=en&sensor=false
+    uri: https://maps.googleapis.com/maps/api/geocode/json?address=3458%201st%20Ave.Denver,%20%2080206&sensor=false
     body:
       encoding: US-ASCII
       string: ''
     headers:
+      User-Agent:
+      - Faraday v0.9.0
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
       - '*/*'
-      User-Agent:
-      - Ruby
   response:
     status:
       code: 200
@@ -1371,11 +1383,13 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Tue, 18 Feb 2014 21:12:50 GMT
+      - Wed, 19 Feb 2014 21:15:32 GMT
       Expires:
-      - Wed, 19 Feb 2014 21:12:50 GMT
+      - Thu, 20 Feb 2014 21:15:32 GMT
       Cache-Control:
       - public, max-age=86400
+      Vary:
+      - Accept-Language
       Access-Control-Allow-Origin:
       - '*'
       Server:
@@ -1385,7 +1399,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Alternate-Protocol:
-      - 80:quic
+      - 443:quic
       Transfer-Encoding:
       - chunked
     body:
@@ -1471,20 +1485,20 @@ http_interactions:
            "status" : "OK"
         }
     http_version: 
-  recorded_at: Tue, 18 Feb 2014 21:12:50 GMT
+  recorded_at: Wed, 19 Feb 2014 21:15:32 GMT
 - request:
     method: get
-    uri: http://maps.googleapis.com/maps/api/geocode/json?address=3458%201st%20Ave.Denver,%20%2080206&language=en&sensor=false
+    uri: https://maps.googleapis.com/maps/api/geocode/json?address=3458%201st%20Ave.Denver,%20%2080206&sensor=false
     body:
       encoding: US-ASCII
       string: ''
     headers:
+      User-Agent:
+      - Faraday v0.9.0
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
       - '*/*'
-      User-Agent:
-      - Ruby
   response:
     status:
       code: 200
@@ -1493,11 +1507,13 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Tue, 18 Feb 2014 21:12:50 GMT
+      - Wed, 19 Feb 2014 21:15:33 GMT
       Expires:
-      - Wed, 19 Feb 2014 21:12:50 GMT
+      - Thu, 20 Feb 2014 21:15:33 GMT
       Cache-Control:
       - public, max-age=86400
+      Vary:
+      - Accept-Language
       Access-Control-Allow-Origin:
       - '*'
       Server:
@@ -1507,7 +1523,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Alternate-Protocol:
-      - 80:quic
+      - 443:quic
       Transfer-Encoding:
       - chunked
     body:
@@ -1593,20 +1609,20 @@ http_interactions:
            "status" : "OK"
         }
     http_version: 
-  recorded_at: Tue, 18 Feb 2014 21:12:50 GMT
+  recorded_at: Wed, 19 Feb 2014 21:15:33 GMT
 - request:
     method: get
-    uri: http://maps.googleapis.com/maps/api/geocode/json?address=3458%201st%20Ave.Denver,%20%2080206&language=en&sensor=false
+    uri: https://maps.googleapis.com/maps/api/geocode/json?address=3458%201st%20Ave.Denver,%20%2080206&sensor=false
     body:
       encoding: US-ASCII
       string: ''
     headers:
+      User-Agent:
+      - Faraday v0.9.0
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
       - '*/*'
-      User-Agent:
-      - Ruby
   response:
     status:
       code: 200
@@ -1615,11 +1631,13 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Tue, 18 Feb 2014 21:12:51 GMT
+      - Wed, 19 Feb 2014 21:15:33 GMT
       Expires:
-      - Wed, 19 Feb 2014 21:12:51 GMT
+      - Thu, 20 Feb 2014 21:15:33 GMT
       Cache-Control:
       - public, max-age=86400
+      Vary:
+      - Accept-Language
       Access-Control-Allow-Origin:
       - '*'
       Server:
@@ -1629,7 +1647,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Alternate-Protocol:
-      - 80:quic
+      - 443:quic
       Transfer-Encoding:
       - chunked
     body:
@@ -1715,20 +1733,20 @@ http_interactions:
            "status" : "OK"
         }
     http_version: 
-  recorded_at: Tue, 18 Feb 2014 21:12:51 GMT
+  recorded_at: Wed, 19 Feb 2014 21:15:33 GMT
 - request:
     method: get
-    uri: http://maps.googleapis.com/maps/api/geocode/json?address=3458%201st%20Ave.Denver,%20%2080206&language=en&sensor=false
+    uri: https://maps.googleapis.com/maps/api/geocode/json?address=3458%201st%20Ave.Denver,%20%2080206&sensor=false
     body:
       encoding: US-ASCII
       string: ''
     headers:
+      User-Agent:
+      - Faraday v0.9.0
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
       - '*/*'
-      User-Agent:
-      - Ruby
   response:
     status:
       code: 200
@@ -1737,11 +1755,13 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Tue, 18 Feb 2014 21:12:51 GMT
+      - Wed, 19 Feb 2014 21:15:34 GMT
       Expires:
-      - Wed, 19 Feb 2014 21:12:51 GMT
+      - Thu, 20 Feb 2014 21:15:34 GMT
       Cache-Control:
       - public, max-age=86400
+      Vary:
+      - Accept-Language
       Access-Control-Allow-Origin:
       - '*'
       Server:
@@ -1751,7 +1771,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Alternate-Protocol:
-      - 80:quic
+      - 443:quic
       Transfer-Encoding:
       - chunked
     body:
@@ -1837,20 +1857,20 @@ http_interactions:
            "status" : "OK"
         }
     http_version: 
-  recorded_at: Tue, 18 Feb 2014 21:12:51 GMT
+  recorded_at: Wed, 19 Feb 2014 21:15:34 GMT
 - request:
     method: get
-    uri: http://maps.googleapis.com/maps/api/geocode/json?address=3458%201st%20Ave.Denver,%20%2080206&language=en&sensor=false
+    uri: https://maps.googleapis.com/maps/api/geocode/json?address=3458%201st%20Ave.Denver,%20%2080206&sensor=false
     body:
       encoding: US-ASCII
       string: ''
     headers:
+      User-Agent:
+      - Faraday v0.9.0
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
       - '*/*'
-      User-Agent:
-      - Ruby
   response:
     status:
       code: 200
@@ -1859,11 +1879,13 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Tue, 18 Feb 2014 21:12:51 GMT
+      - Wed, 19 Feb 2014 21:15:34 GMT
       Expires:
-      - Wed, 19 Feb 2014 21:12:51 GMT
+      - Thu, 20 Feb 2014 21:15:34 GMT
       Cache-Control:
       - public, max-age=86400
+      Vary:
+      - Accept-Language
       Access-Control-Allow-Origin:
       - '*'
       Server:
@@ -1873,7 +1895,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Alternate-Protocol:
-      - 80:quic
+      - 443:quic
       Transfer-Encoding:
       - chunked
     body:
@@ -1959,20 +1981,20 @@ http_interactions:
            "status" : "OK"
         }
     http_version: 
-  recorded_at: Tue, 18 Feb 2014 21:12:51 GMT
+  recorded_at: Wed, 19 Feb 2014 21:15:34 GMT
 - request:
     method: get
-    uri: http://maps.googleapis.com/maps/api/geocode/json?address=3458%201st%20Ave.Denver,%20%2080206&language=en&sensor=false
+    uri: https://maps.googleapis.com/maps/api/geocode/json?address=3458%201st%20Ave.Denver,%20%2080206&sensor=false
     body:
       encoding: US-ASCII
       string: ''
     headers:
+      User-Agent:
+      - Faraday v0.9.0
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
       - '*/*'
-      User-Agent:
-      - Ruby
   response:
     status:
       code: 200
@@ -1981,11 +2003,13 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Tue, 18 Feb 2014 21:12:51 GMT
+      - Wed, 19 Feb 2014 21:15:34 GMT
       Expires:
-      - Wed, 19 Feb 2014 21:12:51 GMT
+      - Thu, 20 Feb 2014 21:15:34 GMT
       Cache-Control:
       - public, max-age=86400
+      Vary:
+      - Accept-Language
       Access-Control-Allow-Origin:
       - '*'
       Server:
@@ -1995,7 +2019,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Alternate-Protocol:
-      - 80:quic
+      - 443:quic
       Transfer-Encoding:
       - chunked
     body:
@@ -2081,20 +2105,20 @@ http_interactions:
            "status" : "OK"
         }
     http_version: 
-  recorded_at: Tue, 18 Feb 2014 21:12:51 GMT
+  recorded_at: Wed, 19 Feb 2014 21:15:35 GMT
 - request:
     method: get
-    uri: http://maps.googleapis.com/maps/api/geocode/json?address=3458%201st%20Ave.Denver,%20%2080206&language=en&sensor=false
+    uri: https://maps.googleapis.com/maps/api/geocode/json?address=3458%201st%20Ave.Denver,%20%2080206&sensor=false
     body:
       encoding: US-ASCII
       string: ''
     headers:
+      User-Agent:
+      - Faraday v0.9.0
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
       - '*/*'
-      User-Agent:
-      - Ruby
   response:
     status:
       code: 200
@@ -2103,11 +2127,13 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Tue, 18 Feb 2014 21:12:51 GMT
+      - Wed, 19 Feb 2014 21:15:35 GMT
       Expires:
-      - Wed, 19 Feb 2014 21:12:51 GMT
+      - Thu, 20 Feb 2014 21:15:35 GMT
       Cache-Control:
       - public, max-age=86400
+      Vary:
+      - Accept-Language
       Access-Control-Allow-Origin:
       - '*'
       Server:
@@ -2117,7 +2143,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Alternate-Protocol:
-      - 80:quic
+      - 443:quic
       Transfer-Encoding:
       - chunked
     body:
@@ -2203,20 +2229,20 @@ http_interactions:
            "status" : "OK"
         }
     http_version: 
-  recorded_at: Tue, 18 Feb 2014 21:12:51 GMT
+  recorded_at: Wed, 19 Feb 2014 21:15:35 GMT
 - request:
     method: get
-    uri: http://maps.googleapis.com/maps/api/geocode/json?address=1311%20York%20St.,%20322-3674Denver,%20%2080206&language=en&sensor=false
+    uri: https://maps.googleapis.com/maps/api/geocode/json?address=1311%20York%20St.,%20322-3674Denver,%20%2080206&sensor=false
     body:
       encoding: US-ASCII
       string: ''
     headers:
+      User-Agent:
+      - Faraday v0.9.0
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
       - '*/*'
-      User-Agent:
-      - Ruby
   response:
     status:
       code: 200
@@ -2225,11 +2251,13 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Tue, 18 Feb 2014 21:12:51 GMT
+      - Wed, 19 Feb 2014 21:15:35 GMT
       Expires:
-      - Wed, 19 Feb 2014 21:12:51 GMT
+      - Thu, 20 Feb 2014 21:15:35 GMT
       Cache-Control:
       - public, max-age=86400
+      Vary:
+      - Accept-Language
       Access-Control-Allow-Origin:
       - '*'
       Server:
@@ -2239,7 +2267,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Alternate-Protocol:
-      - 80:quic
+      - 443:quic
       Transfer-Encoding:
       - chunked
     body:
@@ -2315,20 +2343,20 @@ http_interactions:
            "status" : "OK"
         }
     http_version: 
-  recorded_at: Tue, 18 Feb 2014 21:12:51 GMT
+  recorded_at: Wed, 19 Feb 2014 21:15:35 GMT
 - request:
     method: get
-    uri: http://maps.googleapis.com/maps/api/geocode/json?address=1311%20York%20St.,%20322-3674Denver,%20%2080206&language=en&sensor=false
+    uri: https://maps.googleapis.com/maps/api/geocode/json?address=1311%20York%20St.,%20322-3674Denver,%20%2080206&sensor=false
     body:
       encoding: US-ASCII
       string: ''
     headers:
+      User-Agent:
+      - Faraday v0.9.0
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
       - '*/*'
-      User-Agent:
-      - Ruby
   response:
     status:
       code: 200
@@ -2337,11 +2365,13 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Tue, 18 Feb 2014 21:12:52 GMT
+      - Wed, 19 Feb 2014 21:15:36 GMT
       Expires:
-      - Wed, 19 Feb 2014 21:12:52 GMT
+      - Thu, 20 Feb 2014 21:15:36 GMT
       Cache-Control:
       - public, max-age=86400
+      Vary:
+      - Accept-Language
       Access-Control-Allow-Origin:
       - '*'
       Server:
@@ -2351,7 +2381,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Alternate-Protocol:
-      - 80:quic
+      - 443:quic
       Transfer-Encoding:
       - chunked
     body:
@@ -2427,20 +2457,20 @@ http_interactions:
            "status" : "OK"
         }
     http_version: 
-  recorded_at: Tue, 18 Feb 2014 21:12:52 GMT
+  recorded_at: Wed, 19 Feb 2014 21:15:36 GMT
 - request:
     method: get
-    uri: http://maps.googleapis.com/maps/api/geocode/json?address=1311%20York%20St.,%20322-3674Denver,%20%2080206&language=en&sensor=false
+    uri: https://maps.googleapis.com/maps/api/geocode/json?address=1311%20York%20St.,%20322-3674Denver,%20%2080206&sensor=false
     body:
       encoding: US-ASCII
       string: ''
     headers:
+      User-Agent:
+      - Faraday v0.9.0
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
       - '*/*'
-      User-Agent:
-      - Ruby
   response:
     status:
       code: 200
@@ -2449,11 +2479,13 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Tue, 18 Feb 2014 21:12:52 GMT
+      - Wed, 19 Feb 2014 21:15:36 GMT
       Expires:
-      - Wed, 19 Feb 2014 21:12:52 GMT
+      - Thu, 20 Feb 2014 21:15:36 GMT
       Cache-Control:
       - public, max-age=86400
+      Vary:
+      - Accept-Language
       Access-Control-Allow-Origin:
       - '*'
       Server:
@@ -2463,7 +2495,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Alternate-Protocol:
-      - 80:quic
+      - 443:quic
       Transfer-Encoding:
       - chunked
     body:
@@ -2539,20 +2571,20 @@ http_interactions:
            "status" : "OK"
         }
     http_version: 
-  recorded_at: Tue, 18 Feb 2014 21:12:52 GMT
+  recorded_at: Wed, 19 Feb 2014 21:15:36 GMT
 - request:
     method: get
-    uri: http://maps.googleapis.com/maps/api/geocode/json?address=1311%20York%20St.,%20322-3674Denver,%20%2080206&language=en&sensor=false
+    uri: https://maps.googleapis.com/maps/api/geocode/json?address=1311%20York%20St.,%20322-3674Denver,%20%2080206&sensor=false
     body:
       encoding: US-ASCII
       string: ''
     headers:
+      User-Agent:
+      - Faraday v0.9.0
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
       - '*/*'
-      User-Agent:
-      - Ruby
   response:
     status:
       code: 200
@@ -2561,11 +2593,13 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Tue, 18 Feb 2014 21:12:52 GMT
+      - Wed, 19 Feb 2014 21:15:36 GMT
       Expires:
-      - Wed, 19 Feb 2014 21:12:52 GMT
+      - Thu, 20 Feb 2014 21:15:36 GMT
       Cache-Control:
       - public, max-age=86400
+      Vary:
+      - Accept-Language
       Access-Control-Allow-Origin:
       - '*'
       Server:
@@ -2575,7 +2609,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Alternate-Protocol:
-      - 80:quic
+      - 443:quic
       Transfer-Encoding:
       - chunked
     body:
@@ -2651,20 +2685,20 @@ http_interactions:
            "status" : "OK"
         }
     http_version: 
-  recorded_at: Tue, 18 Feb 2014 21:12:52 GMT
+  recorded_at: Wed, 19 Feb 2014 21:15:36 GMT
 - request:
     method: get
-    uri: http://maps.googleapis.com/maps/api/geocode/json?address=1311%20York%20St.,%20322-3674Denver,%20%2080206&language=en&sensor=false
+    uri: https://maps.googleapis.com/maps/api/geocode/json?address=1311%20York%20St.,%20322-3674Denver,%20%2080206&sensor=false
     body:
       encoding: US-ASCII
       string: ''
     headers:
+      User-Agent:
+      - Faraday v0.9.0
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
       - '*/*'
-      User-Agent:
-      - Ruby
   response:
     status:
       code: 200
@@ -2673,11 +2707,13 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Tue, 18 Feb 2014 21:12:52 GMT
+      - Wed, 19 Feb 2014 21:15:36 GMT
       Expires:
-      - Wed, 19 Feb 2014 21:12:52 GMT
+      - Thu, 20 Feb 2014 21:15:36 GMT
       Cache-Control:
       - public, max-age=86400
+      Vary:
+      - Accept-Language
       Access-Control-Allow-Origin:
       - '*'
       Server:
@@ -2687,7 +2723,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Alternate-Protocol:
-      - 80:quic
+      - 443:quic
       Transfer-Encoding:
       - chunked
     body:
@@ -2763,20 +2799,20 @@ http_interactions:
            "status" : "OK"
         }
     http_version: 
-  recorded_at: Tue, 18 Feb 2014 21:12:52 GMT
+  recorded_at: Wed, 19 Feb 2014 21:15:36 GMT
 - request:
     method: get
-    uri: http://maps.googleapis.com/maps/api/geocode/json?address=1311%20York%20St.,%20322-3674Denver,%20%2080206&language=en&sensor=false
+    uri: https://maps.googleapis.com/maps/api/geocode/json?address=1311%20York%20St.,%20322-3674Denver,%20%2080206&sensor=false
     body:
       encoding: US-ASCII
       string: ''
     headers:
+      User-Agent:
+      - Faraday v0.9.0
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
       - '*/*'
-      User-Agent:
-      - Ruby
   response:
     status:
       code: 200
@@ -2785,11 +2821,13 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Tue, 18 Feb 2014 21:12:52 GMT
+      - Wed, 19 Feb 2014 21:15:37 GMT
       Expires:
-      - Wed, 19 Feb 2014 21:12:52 GMT
+      - Thu, 20 Feb 2014 21:15:37 GMT
       Cache-Control:
       - public, max-age=86400
+      Vary:
+      - Accept-Language
       Access-Control-Allow-Origin:
       - '*'
       Server:
@@ -2799,7 +2837,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Alternate-Protocol:
-      - 80:quic
+      - 443:quic
       Transfer-Encoding:
       - chunked
     body:
@@ -2875,20 +2913,20 @@ http_interactions:
            "status" : "OK"
         }
     http_version: 
-  recorded_at: Tue, 18 Feb 2014 21:12:52 GMT
+  recorded_at: Wed, 19 Feb 2014 21:15:37 GMT
 - request:
     method: get
-    uri: http://maps.googleapis.com/maps/api/geocode/json?address=1311%20York%20St.,%20322-3674Denver,%20%2080206&language=en&sensor=false
+    uri: https://maps.googleapis.com/maps/api/geocode/json?address=1311%20York%20St.,%20322-3674Denver,%20%2080206&sensor=false
     body:
       encoding: US-ASCII
       string: ''
     headers:
+      User-Agent:
+      - Faraday v0.9.0
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
       - '*/*'
-      User-Agent:
-      - Ruby
   response:
     status:
       code: 200
@@ -2897,11 +2935,13 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Tue, 18 Feb 2014 21:12:53 GMT
+      - Wed, 19 Feb 2014 21:15:37 GMT
       Expires:
-      - Wed, 19 Feb 2014 21:12:53 GMT
+      - Thu, 20 Feb 2014 21:15:37 GMT
       Cache-Control:
       - public, max-age=86400
+      Vary:
+      - Accept-Language
       Access-Control-Allow-Origin:
       - '*'
       Server:
@@ -2911,7 +2951,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Alternate-Protocol:
-      - 80:quic
+      - 443:quic
       Transfer-Encoding:
       - chunked
     body:
@@ -2987,20 +3027,20 @@ http_interactions:
            "status" : "OK"
         }
     http_version: 
-  recorded_at: Tue, 18 Feb 2014 21:12:53 GMT
+  recorded_at: Wed, 19 Feb 2014 21:15:37 GMT
 - request:
     method: get
-    uri: http://maps.googleapis.com/maps/api/geocode/json?address=1311%20York%20St.,%20322-3674Denver,%20%2080206&language=en&sensor=false
+    uri: https://maps.googleapis.com/maps/api/geocode/json?address=1311%20York%20St.,%20322-3674Denver,%20%2080206&sensor=false
     body:
       encoding: US-ASCII
       string: ''
     headers:
+      User-Agent:
+      - Faraday v0.9.0
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
       - '*/*'
-      User-Agent:
-      - Ruby
   response:
     status:
       code: 200
@@ -3009,11 +3049,13 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Tue, 18 Feb 2014 21:12:53 GMT
+      - Wed, 19 Feb 2014 21:15:37 GMT
       Expires:
-      - Wed, 19 Feb 2014 21:12:53 GMT
+      - Thu, 20 Feb 2014 21:15:37 GMT
       Cache-Control:
       - public, max-age=86400
+      Vary:
+      - Accept-Language
       Access-Control-Allow-Origin:
       - '*'
       Server:
@@ -3023,7 +3065,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Alternate-Protocol:
-      - 80:quic
+      - 443:quic
       Transfer-Encoding:
       - chunked
     body:
@@ -3099,20 +3141,20 @@ http_interactions:
            "status" : "OK"
         }
     http_version: 
-  recorded_at: Tue, 18 Feb 2014 21:12:53 GMT
+  recorded_at: Wed, 19 Feb 2014 21:15:37 GMT
 - request:
     method: get
-    uri: http://maps.googleapis.com/maps/api/geocode/json?address=1311%20York%20St.,%20322-3674Denver,%20%2080206&language=en&sensor=false
+    uri: https://maps.googleapis.com/maps/api/geocode/json?address=1311%20York%20St.,%20322-3674Denver,%20%2080206&sensor=false
     body:
       encoding: US-ASCII
       string: ''
     headers:
+      User-Agent:
+      - Faraday v0.9.0
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
       - '*/*'
-      User-Agent:
-      - Ruby
   response:
     status:
       code: 200
@@ -3121,11 +3163,13 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Tue, 18 Feb 2014 21:12:53 GMT
+      - Wed, 19 Feb 2014 21:15:38 GMT
       Expires:
-      - Wed, 19 Feb 2014 21:12:53 GMT
+      - Thu, 20 Feb 2014 21:15:38 GMT
       Cache-Control:
       - public, max-age=86400
+      Vary:
+      - Accept-Language
       Access-Control-Allow-Origin:
       - '*'
       Server:
@@ -3135,7 +3179,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Alternate-Protocol:
-      - 80:quic
+      - 443:quic
       Transfer-Encoding:
       - chunked
     body:
@@ -3211,20 +3255,20 @@ http_interactions:
            "status" : "OK"
         }
     http_version: 
-  recorded_at: Tue, 18 Feb 2014 21:12:53 GMT
+  recorded_at: Wed, 19 Feb 2014 21:15:38 GMT
 - request:
     method: get
-    uri: http://maps.googleapis.com/maps/api/geocode/json?address=1311%20York%20St.,%20322-3674Denver,%20%2080206&language=en&sensor=false
+    uri: https://maps.googleapis.com/maps/api/geocode/json?address=1311%20York%20St.,%20322-3674Denver,%20%2080206&sensor=false
     body:
       encoding: US-ASCII
       string: ''
     headers:
+      User-Agent:
+      - Faraday v0.9.0
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
       - '*/*'
-      User-Agent:
-      - Ruby
   response:
     status:
       code: 200
@@ -3233,11 +3277,13 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Tue, 18 Feb 2014 21:12:53 GMT
+      - Wed, 19 Feb 2014 21:15:38 GMT
       Expires:
-      - Wed, 19 Feb 2014 21:12:53 GMT
+      - Thu, 20 Feb 2014 21:15:38 GMT
       Cache-Control:
       - public, max-age=86400
+      Vary:
+      - Accept-Language
       Access-Control-Allow-Origin:
       - '*'
       Server:
@@ -3247,7 +3293,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Alternate-Protocol:
-      - 80:quic
+      - 443:quic
       Transfer-Encoding:
       - chunked
     body:
@@ -3323,20 +3369,20 @@ http_interactions:
            "status" : "OK"
         }
     http_version: 
-  recorded_at: Tue, 18 Feb 2014 21:12:53 GMT
+  recorded_at: Wed, 19 Feb 2014 21:15:38 GMT
 - request:
     method: get
-    uri: http://maps.googleapis.com/maps/api/geocode/json?address=1311%20York%20St.,%20322-3674Denver,%20%2080206&language=en&sensor=false
+    uri: https://maps.googleapis.com/maps/api/geocode/json?address=1311%20York%20St.,%20322-3674Denver,%20%2080206&sensor=false
     body:
       encoding: US-ASCII
       string: ''
     headers:
+      User-Agent:
+      - Faraday v0.9.0
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
       - '*/*'
-      User-Agent:
-      - Ruby
   response:
     status:
       code: 200
@@ -3345,11 +3391,13 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Tue, 18 Feb 2014 21:12:53 GMT
+      - Wed, 19 Feb 2014 21:15:39 GMT
       Expires:
-      - Wed, 19 Feb 2014 21:12:53 GMT
+      - Thu, 20 Feb 2014 21:15:39 GMT
       Cache-Control:
       - public, max-age=86400
+      Vary:
+      - Accept-Language
       Access-Control-Allow-Origin:
       - '*'
       Server:
@@ -3359,7 +3407,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Alternate-Protocol:
-      - 80:quic
+      - 443:quic
       Transfer-Encoding:
       - chunked
     body:
@@ -3435,20 +3483,20 @@ http_interactions:
            "status" : "OK"
         }
     http_version: 
-  recorded_at: Tue, 18 Feb 2014 21:12:53 GMT
+  recorded_at: Wed, 19 Feb 2014 21:15:39 GMT
 - request:
     method: get
-    uri: http://maps.googleapis.com/maps/api/geocode/json?address=1311%20York%20St.,%20322-3674Denver,%20%2080206&language=en&sensor=false
+    uri: https://maps.googleapis.com/maps/api/geocode/json?address=1311%20York%20St.,%20322-3674Denver,%20%2080206&sensor=false
     body:
       encoding: US-ASCII
       string: ''
     headers:
+      User-Agent:
+      - Faraday v0.9.0
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
       - '*/*'
-      User-Agent:
-      - Ruby
   response:
     status:
       code: 200
@@ -3457,11 +3505,13 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Tue, 18 Feb 2014 21:12:54 GMT
+      - Wed, 19 Feb 2014 21:15:39 GMT
       Expires:
-      - Wed, 19 Feb 2014 21:12:54 GMT
+      - Thu, 20 Feb 2014 21:15:39 GMT
       Cache-Control:
       - public, max-age=86400
+      Vary:
+      - Accept-Language
       Access-Control-Allow-Origin:
       - '*'
       Server:
@@ -3471,7 +3521,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Alternate-Protocol:
-      - 80:quic
+      - 443:quic
       Transfer-Encoding:
       - chunked
     body:
@@ -3547,20 +3597,20 @@ http_interactions:
            "status" : "OK"
         }
     http_version: 
-  recorded_at: Tue, 18 Feb 2014 21:12:54 GMT
+  recorded_at: Wed, 19 Feb 2014 21:15:39 GMT
 - request:
     method: get
-    uri: http://maps.googleapis.com/maps/api/geocode/json?address=1311%20York%20St.,%20322-3674Denver,%20%2080206&language=en&sensor=false
+    uri: https://maps.googleapis.com/maps/api/geocode/json?address=1311%20York%20St.,%20322-3674Denver,%20%2080206&sensor=false
     body:
       encoding: US-ASCII
       string: ''
     headers:
+      User-Agent:
+      - Faraday v0.9.0
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
       - '*/*'
-      User-Agent:
-      - Ruby
   response:
     status:
       code: 200
@@ -3569,11 +3619,13 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Tue, 18 Feb 2014 21:12:54 GMT
+      - Wed, 19 Feb 2014 21:15:39 GMT
       Expires:
-      - Wed, 19 Feb 2014 21:12:54 GMT
+      - Thu, 20 Feb 2014 21:15:39 GMT
       Cache-Control:
       - public, max-age=86400
+      Vary:
+      - Accept-Language
       Access-Control-Allow-Origin:
       - '*'
       Server:
@@ -3583,7 +3635,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Alternate-Protocol:
-      - 80:quic
+      - 443:quic
       Transfer-Encoding:
       - chunked
     body:
@@ -3659,5 +3711,5 @@ http_interactions:
            "status" : "OK"
         }
     http_version: 
-  recorded_at: Tue, 18 Feb 2014 21:12:54 GMT
+  recorded_at: Wed, 19 Feb 2014 21:15:39 GMT
 recorded_with: VCR 2.8.0

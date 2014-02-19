@@ -12,20 +12,20 @@ describe MeetingFinder::Search do
     end
   end
 
-  it "should find by zip" do 
-    VCR.use_cassette('find_by_zip') do 
-      result = MeetingFinder::Search.by_zip(80203)
+  it "should find by zip" do
+    VCR.use_cassette('find_by_zip') do
+      result = MeetingFinder::Search.by_zip(92109)
       first_meeting = result.first
-      expect(first_meeting.name).to eq('Recovery Spoken Here AFG')
+      expect(first_meeting.name).to eq("1675 Garnet Avenue")
     end
   end
 
-  it 'should be able to find lat and long' do 
-    VCR.use_cassette('find_lat_long') do 
+  it 'should be able to find lat and long' do
+    VCR.use_cassette('find_lat_long') do
       result = MeetingFinder::Search.find_lat_long_from("1100 Fillmore StreetDenver, CO 80206-3334")
       expect(result).to eq([39.7338507, -104.9524757])
     end
   end
- 
+
 
 end

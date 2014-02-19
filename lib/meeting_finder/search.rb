@@ -27,9 +27,10 @@ module MeetingFinder
       end
 
       def find_lat_long_from(address)
-        result = Geocoder.search(address)
-        location = result.first.data["geometry"]["location"]
-        lat, lng = location["lat"], location["lng"]
+        result = Faraday.get("https://maps.googleapis.com/maps/api/geocode/json?address=#{address}&sensor=false")
+        coords = JSON.parse(result.body)
+        lat = coords["results"].first["geometry"]["location"]["lat"]
+        lng = coords["results"].first["geometry"]["location"]["lng"]
         [lat, lng]
       end
 
@@ -38,7 +39,8 @@ module MeetingFinder
       end
 
       def by_zip(zip)
-        find_by({ "zip" => zip })
+        lat, lng = find_lat_long_from(zip)
+        find_by({ "zip" => zip, "latitude" => lat, "longitude" => lng })
       end
 
       def search_url
