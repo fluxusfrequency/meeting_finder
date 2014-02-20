@@ -33,11 +33,11 @@ module MeetingFinder
       def find_lat_long_from(address)
         result = Faraday.get("https://maps.googleapis.com/maps/api/geocode/json?address=#{address}&sensor=false")
         coords = JSON.parse(result.body)
-        if result
+        if coords && !coords['results'].empty?
           lat = coords["results"].first["geometry"]["location"]["lat"]
           lng = coords["results"].first["geometry"]["location"]["lng"]
         else
-          lat, lng = "39.7316982", "-104.9213643"
+          lat, lng = 39.7316982, -104.9213643
         end
         [lat, lng]
       end
