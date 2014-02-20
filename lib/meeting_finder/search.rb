@@ -1,6 +1,7 @@
 require 'nokogiri'
 require 'open-uri'
 require 'faraday'
+require 'json'
 
 module MeetingFinder
   class Search
@@ -13,15 +14,17 @@ module MeetingFinder
 
         response = Nokogiri::HTML(open(search_url + search_string))
         meetings = []
-        response.css('.all-meetings tr').each_with_object({}) do |meeting, attributes|
-          attributes['name'] = meeting.children[0].text
-          attributes['location'] = meeting.children[2].text
-          attributes['address'] = meeting.children[4].text
-          attributes['day'] = meeting.children[6].text
-          attributes['time'] = meeting.children[8].text
-          attributes['fellowship'] = meeting.children[10].text
-          attributes['lat'], attributes['lng'] = find_lat_long_from(meeting.children[4].text)
-          meetings << MeetingFinder::Meeting.new(attributes)
+        response.css('.all-meetings tr').each_with_object({}).with_index do |(meeting, attributes), i|
+          unless i == 0
+            attributes['name'] = meeting.children[0].text
+            attributes['location'] = meeting.children[2].text
+            attributes['address'] = meeting.children[4].text
+            attributes['day'] = meeting.children[6].text
+            attributes['time'] = meeting.children[8].text
+            attributes['fellowship'] = meeting.children[10].text
+            attributes['lat'], attributes['lng'] = find_lat_long_from(attributes['address'])
+            meetings << MeetingFinder::Meeting.new(attributes)
+          end
         end
         meetings.shift
         meetings
