@@ -1,6 +1,7 @@
 require 'nokogiri'
 require 'open-uri'
 require 'geocoder'
+require 'faraday'
 
 module MeetingFinder
   class Search
@@ -10,6 +11,7 @@ module MeetingFinder
         search_string = values.map do |parameter, value|
           "&#{parameter}=#{value}"
         end.join
+
         response = Nokogiri::HTML(open(search_url + search_string))
         meetings = []
         response.css('.all-meetings tr').each_with_object({}) do |meeting, attributes|
@@ -19,7 +21,7 @@ module MeetingFinder
           attributes['day'] = meeting.children[6].text
           attributes['time'] = meeting.children[8].text
           attributes['fellowship'] = meeting.children[10].text
-          attributes['lat'], attributes['lng'] = find_lat_long_from(attributes['address']) || ["39.7316982", "-104.9213643"]
+          attributes['lat'], attributes['lng'] = values['latitude'], values['longitude'] || find_lat_long_from(attributes['address'])
           meetings << MeetingFinder::Meeting.new(attributes)
         end
         meetings.shift
@@ -29,8 +31,12 @@ module MeetingFinder
       def find_lat_long_from(address)
         result = Faraday.get("https://maps.googleapis.com/maps/api/geocode/json?address=#{address}&sensor=false")
         coords = JSON.parse(result.body)
-        lat = coords["results"].first["geometry"]["location"]["lat"]
-        lng = coords["results"].first["geometry"]["location"]["lng"]
+        if result
+          lat = coords["results"].first["geometry"]["location"]["lat"]
+          lng = coords["results"].first["geometry"]["location"]["lng"]
+        else
+          lat, lng = "39.7316982", "-104.9213643"
+        end
         [lat, lng]
       end
 
