@@ -52,7 +52,7 @@ module MeetingFinder
       end
 
       def search_url
-        'http://meetings.intherooms.com/meetings/search?search=&proximity=10'
+        'http://meetings.intherooms.com/meetings/search?search=&fellowship=AA&proximity=5'
       end
 
     end

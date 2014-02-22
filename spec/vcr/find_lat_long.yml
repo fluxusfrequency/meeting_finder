@@ -21,9 +21,9 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Wed, 19 Feb 2014 21:15:50 GMT
+      - Sat, 22 Feb 2014 21:48:12 GMT
       Expires:
-      - Thu, 20 Feb 2014 21:15:50 GMT
+      - Sun, 23 Feb 2014 21:48:12 GMT
       Cache-Control:
       - public, max-age=86400
       Vary:
@@ -68,8 +68,8 @@ http_interactions:
                        "types" : [ "locality", "political" ]
                     },
                     {
-                       "long_name" : "Denver",
-                       "short_name" : "Denver",
+                       "long_name" : "Denver County",
+                       "short_name" : "Denver County",
                        "types" : [ "administrative_area_level_2", "political" ]
                     },
                     {
@@ -113,5 +113,5 @@ http_interactions:
            "status" : "OK"
         }
     http_version: 
-  recorded_at: Wed, 19 Feb 2014 21:15:50 GMT
+  recorded_at: Sat, 22 Feb 2014 21:48:14 GMT
 recorded_with: VCR 2.8.0

@@ -6,9 +6,9 @@ describe MeetingFinder::Search do
     VCR.use_cassette('find_by') do
       result = MeetingFinder::Search.find_by({"latitude" => 39.7316982, "longitude" => -104.9213643})
       first_meeting = result.first
-      expect(first_meeting.name).to eq('Church')
-      expect(first_meeting.lat).to eq(39.7338507)
-      expect(first_meeting.lng).to eq(-104.9524757)
+      expect(first_meeting.name).to eq('Renovacion')
+      expect(first_meeting.lat).to eq(39.7177958)
+      expect(first_meeting.lng).to eq(-104.946666)
     end
   end
 
@@ -16,7 +16,7 @@ describe MeetingFinder::Search do
     VCR.use_cassette('find_by_zip') do
       result = MeetingFinder::Search.by_zip(92109)
       first_meeting = result.first
-      expect(first_meeting.name).to eq("1675 Garnet Avenue")
+      expect(first_meeting.name).to eq("Noontime on the Patio")
     end
   end
 

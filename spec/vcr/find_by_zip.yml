@@ -21,9 +21,9 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Wed, 19 Feb 2014 21:15:40 GMT
+      - Sat, 22 Feb 2014 21:48:10 GMT
       Expires:
-      - Thu, 20 Feb 2014 21:15:40 GMT
+      - Sun, 23 Feb 2014 21:48:10 GMT
       Cache-Control:
       - public, max-age=86400
       Vary:
@@ -78,10 +78,10 @@ http_interactions:
                     "bounds" : {
                        "northeast" : {
                           "lat" : 32.838746,
-                          "lng" : -117.204632
+                          "lng" : -117.2046321
                        },
                        "southwest" : {
-                          "lat" : 32.753049,
+                          "lat" : 32.7530489,
                           "lng" : -117.266222
                        }
                     },
@@ -93,10 +93,10 @@ http_interactions:
                     "viewport" : {
                        "northeast" : {
                           "lat" : 32.838746,
-                          "lng" : -117.204632
+                          "lng" : -117.2046321
                        },
                        "southwest" : {
-                          "lat" : 32.753049,
+                          "lat" : 32.7530489,
                           "lng" : -117.266222
                        }
                     }
@@ -107,10 +107,10 @@ http_interactions:
            "status" : "OK"
         }
     http_version: 
-  recorded_at: Wed, 19 Feb 2014 21:15:40 GMT
+  recorded_at: Sat, 22 Feb 2014 21:48:12 GMT
 - request:
     method: get
-    uri: http://meetings.intherooms.com/meetings/search?latitude=32.7920948&longitude=-117.2323367&proximity=10&search=&zip=92109
+    uri: http://meetings.intherooms.com/meetings/search?fellowship=AA&latitude=32.7920948&longitude=-117.2323367&proximity=5&search=&zip=92109
     body:
       encoding: US-ASCII
       string: ''
@@ -129,7 +129,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Wed, 19 Feb 2014 21:15:40 GMT
+      - Sat, 22 Feb 2014 21:48:10 GMT
       Content-Type:
       - text/html; charset=utf-8
       Transfer-Encoding:
@@ -165,9 +165,9 @@ http_interactions:
         node = document.getElementsByTagName('script')[0];\nnode.parentNode.insertBefore(gads,
         node);\n})();\n</script>\n\n<script type='text/javascript'>\ngoogletag.cmd.push(function()
         {\ngoogletag.defineSlot('/1033324/Meeting_728x90', [728, 90], 'div-gpt-ad-1392223336329-0').addService(googletag.pubads());\ngoogletag.pubads().enableSingleRequest();\ngoogletag.enableServices();\n});\n</script>\n\n
-        \       <title>AA NA Meetings in San Diego, CA | In The Rooms</title>\t\t\n
-        \       <meta http-equiv=\"Keywords\" content=\"AA NA Meetings, San Diego,
-        CA, California\" />\n        <meta http-equiv=\"Description\" content=\"AA
+        \       <title>AA | Alcoholics Anonymous Meetings in San Diego, CA | In The
+        Rooms</title>\t\t\n        <meta http-equiv=\"Keywords\" content=\"AA Meetings,
+        San Diego, CA, California\" />\n        <meta http-equiv=\"Description\" content=\"AA
         Meetings, NA Meetings, San Diego, CA and other 12-Step Fellowship Meetings
         around the world. The most comprehensive list of 12-Step meetings in California\"
         />\n        <meta name=\"google-site-verification\" content=\"YHw31b5MXSvt-rVlAL-7RqchVDTxZsO2i_p_M1cAJBU\"
@@ -257,20 +257,21 @@ http_interactions:
         Inpatient</a>\n\t\t<a href=\"http://directory.intherooms.com/category/Forms-of-Payment/Private-Health-Insurance/122\">Treatment
         Centers accept insurance/financing</a>\n\t\t<a href=\"http://directory.intherooms.com/category/Online-Recovery/18\">Online
         Recovery</a>\n\t</div>\n        \n\n\n<div class=\"breadcrumbs\">\n    <li><a
-        href=\"/\">Home</a></li>\n    <li>&raquo;</li>\n    <li>AA NA Meetings in
-        San Diego, CA</li>\n</div><!-- breadcrumbs -->\n\n\n\n\t<script type=\"text/javascript\">\n\t\t//
-        if(typeof(_gat)!='object')document.write('<sc'+'ript src=\"http'+ (document.location.protocol=='https:'?'s://ssl':'://www')+
-        '.google-analytics.com/ga.js\"></sc'+'ript>')\n\t</script>\n\n    <div id=\"js-errors\"
-        class=\"error-pane\" style=\"display: none;\"></div>\n    \n    <div id=\"meetings-signup-b\">\n
-        \   \t\n\t\t<div id=\"signup-left\">\n\t    \t<script>utmx_section(\"Title\")</script>\n\t
-        \   \t\t<h2>Searching for a meeting?<br />Get REAL recovery online now!</h2>\n\t
-        \   \t</noscript>\n\t    \t\n\t    \t<script>utmx_section(\"Description\")</script>\n\t\t
-        \   \t<p>Whether you're in recovery, seeking help from any addiction, family
-        or friend, register for <img src=\"http://media.intherooms.com/images/home/home-logo-p.gif\"
-        alt=\"InTheRooms\" width=\"150\" height=\"18\"/> now.  You'll get exclusive
-        free access to Daily Meditations, Speaker Tapes and Daily Online Video AA
-        / NA meetings.  There are over 240,000 members who are willing to share their
-        experience, strength and hope with YOU.</p>\n\t\t    \t<p><a href=\"http://intherooms.com/?id=meetings_form_b\">Learn
+        href=\"/\">Home</a></li>\n    <li>&raquo;</li>\n    <li>AA | Alcoholics Anonymous
+        Meetings in San Diego, CA</li>\n</div><!-- breadcrumbs -->\n\n\n\n\t<script
+        type=\"text/javascript\">\n\t\t// if(typeof(_gat)!='object')document.write('<sc'+'ript
+        src=\"http'+ (document.location.protocol=='https:'?'s://ssl':'://www')+ '.google-analytics.com/ga.js\"></sc'+'ript>')\n\t</script>\n\n
+        \   <div id=\"js-errors\" class=\"error-pane\" style=\"display: none;\"></div>\n
+        \   \n    <div id=\"meetings-signup-b\">\n    \t\n\t\t<div id=\"signup-left\">\n\t
+        \   \t<script>utmx_section(\"Title\")</script>\n\t    \t\t<h2>Searching for
+        a meeting?<br />Get REAL recovery online now!</h2>\n\t    \t</noscript>\n\t
+        \   \t\n\t    \t<script>utmx_section(\"Description\")</script>\n\t\t    \t<p>Whether
+        you're in recovery, seeking help from any addiction, family or friend, register
+        for <img src=\"http://media.intherooms.com/images/home/home-logo-p.gif\" alt=\"InTheRooms\"
+        width=\"150\" height=\"18\"/> now.  You'll get exclusive free access to Daily
+        Meditations, Speaker Tapes and Daily Online Video AA / NA meetings.  There
+        are over 240,000 members who are willing to share their experience, strength
+        and hope with YOU.</p>\n\t\t    \t<p><a href=\"http://intherooms.com/?id=meetings_form_b\">Learn
         More About InTheRooms.com</a></p>\n\t    \t</noscript>\n\t    \t\n\t    </div><!--
         signup-left -->\n    \n        <form method=\"post\" action=\"/public/register\"
         name=\"itr-register\" id=\"itr-register\">\n             \n\t\t\t<script>utmx_section(\"SignupTitle\")</script>\n\t\t\t\t<h3>Sign
@@ -295,11 +296,11 @@ http_interactions:
         \               <h1>Enter the word in the image below to complete registration</h1>\n
         \               <div class=\"error-pane\" id=\"captcha-error\" style=\"display:
         none; margin:0 10px 5px 10px;\"></div>\n                <div class=\"captcha\"
-        style=\"margin-top:10px;\">\n                    <img src=\"/captcha/show/large?cccid=a291bf8ea5e730376f83daa5db922438\"><br>\n
+        style=\"margin-top:10px;\">\n                    <img src=\"/captcha/show/large?cccid=8fc00bfb43985ceda0a96d54eeb885cb\"><br>\n
         \                   <input id=\"captcha-word\" type=\"text\" class=\"text-sm\"
         name=\"word\" style=\"width:250px; margin-top: 15px;\" onkeypress=\"handleEnterKeyCaptcha(event)\"><br>\n
         \                   <input id=\"captcha-cccid\" type=\"hidden\" name=\"cccid\"
-        value=\"a291bf8ea5e730376f83daa5db922438\" />\n                    \n                    <a
+        value=\"8fc00bfb43985ceda0a96d54eeb885cb\" />\n                    \n                    <a
         href=\"javascript:;\" onclick=\"registerSubmit();\">\n                        <img
         style=\"margin:15px 0;\" id=\"itr-register-btn\" src=\"http://media.intherooms.com/images/home/home-register.gif\"
         />\n                    </a>\n                </div>\n            </div>\n
@@ -310,13 +311,13 @@ http_interactions:
         for Meetings:</h2>\n\n<form id=\"filter-results\" method=\"get\" action=\"/meetings/search\">\n
         \   <label>Search by name or keyword:</label>\n    <input class=\"md\" type=\"text\"
         name=\"search\" id=\"search_txt\" value=\"\" /><br>\n\n    <label>Fellowship:</label>\n
-        \   <select name=\"fellowship\" ><option value=''>All</option><option value=\"AA\">Alcoholics
-        Anonymous</option><option value=\"NA\">Narcotics Anonymous</option><option
+        \   <select name=\"fellowship\" ><option value=''>All</option><option  selected
+        value=\"AA\">Alcoholics Anonymous</option><option value=\"NA\">Narcotics Anonymous</option><option
         value=\"GA\">Gamblers Anonymous</option><option value=\"OA\">Overeaters Anonymous</option></select>\n
         \   <label>City, State OR Zip Code:</label>\n    <input class=\"md\" type=\"text\"
         name=\"zip\" id=\"search_zip\" value=\"92109\" />\n    \n    <label>Miles
         Away:</label>\n    <select name=\"proximity\" ><option value=\"0\">any</option><option
-        value=\"5\">5</option><option value=\"15\">15</option><option value=\"25\">25</option><option
+        \ selected value=\"5\">5</option><option value=\"15\">15</option><option value=\"25\">25</option><option
         value=\"50\">50</option><option value=\"75\">75</option><option value=\"100\">100</option><option
         value=\"125\">125</option><option value=\"150\">150</option><option value=\"200\">200</option><option
         value=\"300\">300</option><option value=\"400\">400</option><option value=\"500\">500</option></select>\n
@@ -361,154 +362,39 @@ http_interactions:
         name=\"page_city\" id=\"page_city\" value=\"San Diego\">\n    <input type=\"hidden\"
         name=\"page_state\" id=\"page_state\" value=\"CA\">\n\n</form><!-- filter-results
         -->\n\n\n<div class=\"search-paging\"><span class=\"prevNext\">&laquo; Previous</span><span
-        class=\"current\">1</span><a href=\"/meetings/search?search=&proximity=10&zip=92109&latitude=32.7920948&longitude=-117.2323367&page_city=San+Diego&page_state=CA&page=1&results_per_page=25&page=2\">2</a><a
-        href=\"/meetings/search?search=&proximity=10&zip=92109&latitude=32.7920948&longitude=-117.2323367&page_city=San+Diego&page_state=CA&page=1&results_per_page=25&page=3\">3</a><a
-        href=\"/meetings/search?search=&proximity=10&zip=92109&latitude=32.7920948&longitude=-117.2323367&page_city=San+Diego&page_state=CA&page=1&results_per_page=25&page=4\">4</a><a
-        href=\"/meetings/search?search=&proximity=10&zip=92109&latitude=32.7920948&longitude=-117.2323367&page_city=San+Diego&page_state=CA&page=1&results_per_page=25&page=5\">5</a><a
-        href=\"/meetings/search?search=&proximity=10&zip=92109&latitude=32.7920948&longitude=-117.2323367&page_city=San+Diego&page_state=CA&page=1&results_per_page=25&page=6\">6</a><a
-        href=\"/meetings/search?search=&proximity=10&zip=92109&latitude=32.7920948&longitude=-117.2323367&page_city=San+Diego&page_state=CA&page=1&results_per_page=25&page=7\">7</a><span>...</span><a
-        href=\"/meetings/search?search=&proximity=10&zip=92109&latitude=32.7920948&longitude=-117.2323367&page_city=San+Diego&page_state=CA&page=1&results_per_page=25&page=12\">12</a><a
-        href=\"/meetings/search?search=&proximity=10&zip=92109&latitude=32.7920948&longitude=-117.2323367&page_city=San+Diego&page_state=CA&page=1&results_per_page=25&page=13\">13</a><a
-        href=\"/meetings/search?search=&proximity=10&zip=92109&latitude=32.7920948&longitude=-117.2323367&page_city=San+Diego&page_state=CA&page=1&results_per_page=25&page=2\"
-        class=\"prevNext\">Next &raquo;</a></div>\n<table class=\"all-meetings\">\n
-        \   <tr>\n        <th>Meeting Title</th>\n        <th>Location</th>\n        <th>Address</th>\n
-        \       <th>Day</th>\n        <th>Time</th>\n        <th>Fellowship</th>\n
+        class=\"current\">1</span><span class=\"prevNext\">Next &raquo;</span></div>\n<table
+        class=\"all-meetings\">\n    <tr>\n        <th>Meeting Title</th>\n        <th>Location</th>\n
+        \       <th>Address</th>\n        <th>Day</th>\n        <th>Time</th>\n        <th>Fellowship</th>\n
         \   </tr>\n\n\n                            <tr>\n                    <td><a
-        href=\"/na/1675-Garnet-Avenue/7082\">1675 Garnet Avenue</a></td>\n                    <td><a
-        href=\"/locations/San-Diego/1675-Garnet-Avenue/3354\">1675 Garnet Avenue</a></td>\n
-        \                   <td>1675 Garnet Avenue<br>San Diego, CA 92109</td>\n                    <td>FRIDAY</td>\n
-        \                   <td>8:00 PM</td>\n                    <td>Narcotics Anonymous</td>\n
-        \               </tr>\n                        <tr>\n                    <td><a
-        href=\"/na/Pacific-Beach-Preschool-Church/131385\">Pacific Beach Preschool
-        Church</a></td>\n                    <td><a href=\"/locations/San-Diego/Pacific-Beach-Preschool-Church/59118\">Pacific
-        Beach Preschool Church</a></td>\n                    <td>1050 Thomas Avenue<br>San
-        Diego, CA 92109-4161</td>\n                    <td>THURSDAY</td>\n                    <td>12:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/Pacific-Beach-Preschool-Church/131386\">Pacific
-        Beach Preschool Church</a></td>\n                    <td><a href=\"/locations/San-Diego/Pacific-Beach-Preschool-Church/59118\">Pacific
-        Beach Preschool Church</a></td>\n                    <td>1050 Thomas Avenue<br>San
-        Diego, CA 92109-4161</td>\n                    <td>MONDAY</td>\n                    <td>12:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/Pacific-Beach-Preschool-Church/131387\">Pacific
-        Beach Preschool Church</a></td>\n                    <td><a href=\"/locations/San-Diego/Pacific-Beach-Preschool-Church/59118\">Pacific
-        Beach Preschool Church</a></td>\n                    <td>1050 Thomas Avenue<br>San
-        Diego, CA 92109-4161</td>\n                    <td>SUNDAY</td>\n                    <td>6:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/Pacific-Beach-Preschool-Church/131388\">Pacific
-        Beach Preschool Church</a></td>\n                    <td><a href=\"/locations/San-Diego/Pacific-Beach-Preschool-Church/59118\">Pacific
-        Beach Preschool Church</a></td>\n                    <td>1050 Thomas Avenue<br>San
-        Diego, CA 92109-4161</td>\n                    <td>SATURDAY</td>\n                    <td>12:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/Pacific-Beach-Preschool-Church/131389\">Pacific
-        Beach Preschool Church</a></td>\n                    <td><a href=\"/locations/San-Diego/Pacific-Beach-Preschool-Church/59118\">Pacific
-        Beach Preschool Church</a></td>\n                    <td>1050 Thomas Avenue<br>San
-        Diego, CA 92109-4161</td>\n                    <td>SUNDAY</td>\n                    <td>7:30
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/Pacific-Beach-Preschool-Church/131390\">Pacific
-        Beach Preschool Church</a></td>\n                    <td><a href=\"/locations/San-Diego/Pacific-Beach-Preschool-Church/59118\">Pacific
-        Beach Preschool Church</a></td>\n                    <td>1050 Thomas Avenue<br>San
-        Diego, CA 92109-4161</td>\n                    <td>WEDNESDAY</td>\n                    <td>12:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/Pacific-Beach-Preschool-Church/131391\">Pacific
-        Beach Preschool Church</a></td>\n                    <td><a href=\"/locations/San-Diego/Pacific-Beach-Preschool-Church/59118\">Pacific
-        Beach Preschool Church</a></td>\n                    <td>1050 Thomas Avenue<br>San
-        Diego, CA 92109-4161</td>\n                    <td>SUNDAY</td>\n                    <td>12:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/Pacific-Beach-Preschool-Church/131392\">Pacific
-        Beach Preschool Church</a></td>\n                    <td><a href=\"/locations/San-Diego/Pacific-Beach-Preschool-Church/59118\">Pacific
-        Beach Preschool Church</a></td>\n                    <td>1050 Thomas Avenue<br>San
-        Diego, CA 92109-4161</td>\n                    <td>TUESDAY</td>\n                    <td>12:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/Pacific-Beach-Preschool-Church/131393\">Pacific
-        Beach Preschool Church</a></td>\n                    <td><a href=\"/locations/San-Diego/Pacific-Beach-Preschool-Church/59118\">Pacific
-        Beach Preschool Church</a></td>\n                    <td>1050 Thomas Avenue<br>San
-        Diego, CA 92109-4161</td>\n                    <td>FRIDAY</td>\n                    <td>12:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/Church-2/6929\">Church
-        2</a></td>\n                    <td><a href=\"/locations/San-Diego/Church/3290\">Church</a></td>\n
-        \                   <td>1050 Thomas Street<br>San Diego, CA 92109</td>\n                    <td>SUNDAY</td>\n
-        \                   <td>12:00 PM</td>\n                    <td>Narcotics Anonymous</td>\n
-        \               </tr>\n                        <tr>\n                    <td><a
-        href=\"/na/Church-3/6937\">Church 3</a></td>\n                    <td><a href=\"/locations/San-Diego/Church/3290\">Church</a></td>\n
-        \                   <td>1050 Thomas Street<br>San Diego, CA 92109</td>\n                    <td>SUNDAY</td>\n
-        \                   <td>6:00 PM</td>\n                    <td>Narcotics Anonymous</td>\n
-        \               </tr>\n                        <tr>\n                    <td><a
-        href=\"/na/Church-4/6944\">Church 4</a></td>\n                    <td><a href=\"/locations/San-Diego/Church/3290\">Church</a></td>\n
-        \                   <td>1050 Thomas Street<br>San Diego, CA 92109</td>\n                    <td>SUNDAY</td>\n
-        \                   <td>8:00 PM</td>\n                    <td>Narcotics Anonymous</td>\n
-        \               </tr>\n                        <tr>\n                    <td><a
-        href=\"/na/Church/7104\">Church</a></td>\n                    <td><a href=\"/locations/San-Diego/Church/3290\">Church</a></td>\n
-        \                   <td>1050 Thomas Street<br>San Diego, CA 92109</td>\n                    <td>SATURDAY</td>\n
-        \                   <td>7:30 PM</td>\n                    <td>Narcotics Anonymous</td>\n
-        \               </tr>\n                        <tr>\n                    <td><a
         href=\"/aa/Noon-at-the-beach/84410\">Noon at the beach</a></td>\n                    <td><a
         href=\"/locations/san_diego/Church-in-alley/37483\">Church in alley</a></td>\n
         \                   <td>1050 Thomas st.<br>san_diego, CA 92109</td>\n                    <td>MONDAY</td>\n
         \                   <td>12:00 PM</td>\n                    <td>Alcoholics
         Anonymous</td>\n                </tr>\n                        <tr>\n                    <td><a
-        href=\"/na/Community-Congregational-Church-of-Pacific-Beach/7052\">Community
-        Congregational Church of Pacific Beach</a></td>\n                    <td><a
-        href=\"/locations/San-Diego/Community-Congregational-Church-of-Pacific-Beach/3345\">Community
-        Congregational Church of Pacific Beach</a></td>\n                    <td>2088
-        Beryl Street<br>San Diego, CA 92109</td>\n                    <td>THURSDAY</td>\n
-        \                   <td>8:00 PM</td>\n                    <td>Narcotics Anonymous</td>\n
-        \               </tr>\n                        <tr>\n                    <td><a
-        href=\"/na/Recreation-Center/127393\">Recreation Center</a></td>\n                    <td><a
-        href=\"/locations/Mission-Beach/Recreation-Center/57413\">Recreation Center</a></td>\n
-        \                   <td>Santa Clara Place<br>Mission Beach, CA 95055</td>\n
-        \                   <td>MONDAY</td>\n                    <td>6:30 PM</td>\n
-        \                   <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/Recreation-Center/127394\">Recreation
-        Center</a></td>\n                    <td><a href=\"/locations/Mission-Beach/Recreation-Center/57413\">Recreation
-        Center</a></td>\n                    <td>Santa Clara Place<br>Mission Beach,
-        CA 95055</td>\n                    <td>WEDNESDAY</td>\n                    <td>6:45
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/Garage/6967\">Garage</a></td>\n
-        \                   <td><a href=\"/locations/San-Diego/Garage/3314\">Garage</a></td>\n
-        \                   <td>1004 Chalcadony<br>San Diego, CA 92109</td>\n                    <td>MONDAY</td>\n
-        \                   <td>7:30 PM</td>\n                    <td>Narcotics Anonymous</td>\n
-        \               </tr>\n                        <tr>\n                    <td><a
-        href=\"/na/Gods-Garage/110037\">God's Garage</a></td>\n                    <td><a
-        href=\"/locations/San-Diego/Gods-Garage/49939\">God's Garage</a></td>\n                    <td>1004
-        Chalcedony Street<br>San Diego, CA 92109-2625</td>\n                    <td>SUNDAY</td>\n
-        \                   <td>7:30 PM</td>\n                    <td>Narcotics Anonymous</td>\n
-        \               </tr>\n                        <tr>\n                    <td><a
-        href=\"/na/Kate-O-Sessions-Memorial-Park/121079\">Kate O Sessions Memorial
-        Park</a></td>\n                    <td><a href=\"/locations/San-Diego/Kate-O-Sessions-Memorial-Park/54514\">Kate
-        O Sessions Memorial Park</a></td>\n                    <td>5115 Soledad Road<br>San
-        Diego, CA 92109</td>\n                    <td>SUNDAY</td>\n                    <td>12:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/Club/7087\">Club</a></td>\n
-        \                   <td><a href=\"/locations/San-Diego/Club/3357\">Club</a></td>\n
-        \                   <td>4861 Cass Street<br>San Diego, CA 92109</td>\n                    <td>SATURDAY</td>\n
-        \                   <td>8:30 AM</td>\n                    <td>Narcotics Anonymous</td>\n
-        \               </tr>\n                        <tr>\n                    <td><a
-        href=\"/na/House/7044\">House</a></td>\n                    <td><a href=\"/locations/San-Diego/House/3341\">House</a></td>\n
-        \                   <td>1074 Loring Street<br>San Diego, CA 92109</td>\n                    <td>THURSDAY</td>\n
-        \                   <td>6:30 PM</td>\n                    <td>Narcotics Anonymous</td>\n
-        \               </tr>\n                        <tr>\n                    <td><a
-        href=\"/na/Holy-Cross-Lutheran-Church/6985\">Holy Cross Lutheran Church</a></td>\n
-        \                   <td><a href=\"/locations/San-Diego/Holy-Cross-Lutheran-Church/3322\">Holy
-        Cross Lutheran Church</a></td>\n                    <td>3450 Clairemont Drive<br>San
-        Diego, CA 92117-5937</td>\n                    <td>TUESDAY</td>\n                    <td>6:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
-        \                       <tr>\n                    <td><a href=\"/na/Holy-Cross-Lutheran-Church/122275\">Holy
-        Cross Lutheran Church</a></td>\n                    <td><a href=\"/locations/San-Diego/Holy-Cross-Lutheran-Church/3322\">Holy
-        Cross Lutheran Church</a></td>\n                    <td>3450 Clairemont Drive<br>San
-        Diego, CA 92117-5937</td>\n                    <td>WEDNESDAY</td>\n                    <td>12:00
-        PM</td>\n                    <td>Narcotics Anonymous</td>\n                </tr>\n
+        href=\"/aa/Noontime-on-the-Patio/100286\">Noontime on the Patio</a></td>\n
+        \                   <td><a href=\"/locations/san-diego/Ocean-Beach/46438\">Ocean
+        Beach</a></td>\n                    <td>2229 Bacon Street<br>san diego, CA
+        92107</td>\n                    <td>SUNDAY</td>\n                    <td>12:00
+        PM</td>\n                    <td>Alcoholics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/aa/Noontime-on-the-Patio/100296\">Noontime
+        on the Patio</a></td>\n                    <td><a href=\"/locations/san-diego/Ocean-Beach/46438\">Ocean
+        Beach</a></td>\n                    <td>2229 Bacon Street<br>san diego, CA
+        92107</td>\n                    <td>SATURDAY</td>\n                    <td>12:00
+        PM</td>\n                    <td>Alcoholics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/aa/Women-in-Harmony/105576\">Women
+        in Harmony</a></td>\n                    <td><a href=\"/locations/san-diego/Episcopal-Church/48326\">Episcopal
+        Church</a></td>\n                    <td>2380 Sunset Cliffs Blvd.<br>san diego,
+        CA 92107</td>\n                    <td>TUESDAY</td>\n                    <td>6:45
+        AM</td>\n                    <td>Alcoholics Anonymous</td>\n                </tr>\n
+        \                       <tr>\n                    <td><a href=\"/aa/Sobriety-Together/43139\">Sobriety
+        Together</a></td>\n                    <td><a href=\"/locations/Mission-Hills/Sobriety-Together/19999\">Sobriety
+        Together</a></td>\n                    <td>14941 Devonshire (Church)<br>Mission
+        Hills,  </td>\n                    <td>MONDAY</td>\n                    <td>7:00
+        PM</td>\n                    <td>Alcoholics Anonymous</td>\n                </tr>\n
         \           \n</table>\n\n<div class=\"search-paging\"><span class=\"prevNext\">&laquo;
-        Previous</span><span class=\"current\">1</span><a href=\"/meetings/search?search=&proximity=10&zip=92109&latitude=32.7920948&longitude=-117.2323367&page_city=San+Diego&page_state=CA&page=1&results_per_page=25&page=2\">2</a><a
-        href=\"/meetings/search?search=&proximity=10&zip=92109&latitude=32.7920948&longitude=-117.2323367&page_city=San+Diego&page_state=CA&page=1&results_per_page=25&page=3\">3</a><a
-        href=\"/meetings/search?search=&proximity=10&zip=92109&latitude=32.7920948&longitude=-117.2323367&page_city=San+Diego&page_state=CA&page=1&results_per_page=25&page=4\">4</a><a
-        href=\"/meetings/search?search=&proximity=10&zip=92109&latitude=32.7920948&longitude=-117.2323367&page_city=San+Diego&page_state=CA&page=1&results_per_page=25&page=5\">5</a><a
-        href=\"/meetings/search?search=&proximity=10&zip=92109&latitude=32.7920948&longitude=-117.2323367&page_city=San+Diego&page_state=CA&page=1&results_per_page=25&page=6\">6</a><a
-        href=\"/meetings/search?search=&proximity=10&zip=92109&latitude=32.7920948&longitude=-117.2323367&page_city=San+Diego&page_state=CA&page=1&results_per_page=25&page=7\">7</a><span>...</span><a
-        href=\"/meetings/search?search=&proximity=10&zip=92109&latitude=32.7920948&longitude=-117.2323367&page_city=San+Diego&page_state=CA&page=1&results_per_page=25&page=12\">12</a><a
-        href=\"/meetings/search?search=&proximity=10&zip=92109&latitude=32.7920948&longitude=-117.2323367&page_city=San+Diego&page_state=CA&page=1&results_per_page=25&page=13\">13</a><a
-        href=\"/meetings/search?search=&proximity=10&zip=92109&latitude=32.7920948&longitude=-117.2323367&page_city=San+Diego&page_state=CA&page=1&results_per_page=25&page=2\"
-        class=\"prevNext\">Next &raquo;</a></div>\n<div style=\"height:15px\">&nbsp;</div>\n\n<script
-        type=\"text/javascript\">\n    function initialize(){};\n</script>\n\n        </div>\n\t\t\n\t\t<div
+        Previous</span><span class=\"current\">1</span><span class=\"prevNext\">Next
+        &raquo;</span></div>\n<div style=\"height:15px\">&nbsp;</div>\n\n<script type=\"text/javascript\">\n
+        \   function initialize(){};\n</script>\n\n        </div>\n\t\t\n\t\t<div
         id=\"footer\">\n\t\t\t<p>Copyright &copy; !2013 InTheRooms.com. All Rights
         Reserved. <a href=\"http://www.intherooms.com/site/tos\">Terms Of Use</a>
         | <a href=\"http://www.intherooms.com/help/main\">Help</a> | <a href=\"http://www.intherooms.com/help/privacy\">Privacy
@@ -535,11 +421,11 @@ http_interactions:
         \       </select>\n\n        <input type=\"image\" src=\"http://media.intherooms.com/images/meetings/heal-button-green.gif\">\n
         \       <input type=\"hidden\" value=\"1\" name=\"process\">\n        <input
         type=\"hidden\" name=\"word\" value=\"\" id=\"hidden-word\">\n        <input
-        id=\"cccid\" type=\"hidden\" name=\"cccid\" value=\"a291bf8ea5e730376f83daa5db922438\">\n
-        \       <input id=\"tc_partner\" type=\"hidden\" name=\"tc_partner\" value=\"1\">\n\n
+        id=\"cccid\" type=\"hidden\" name=\"cccid\" value=\"8fc00bfb43985ceda0a96d54eeb885cb\">\n
+        \       <input id=\"tc_partner\" type=\"hidden\" name=\"tc_partner\" value=\"2\">\n\n
         \   </form>\n</div>\n\n<div id=\"hidden-captcha\" style=\"display: none;\">\n
         \   <label>Please enter these letters in the space below</label><br class=\"clear-float\"
-        />\n    <img src=\"http://www.intherooms.com/captcha/show?cccid=a291bf8ea5e730376f83daa5db922438\"
+        />\n    <img src=\"http://www.intherooms.com/captcha/show?cccid=8fc00bfb43985ceda0a96d54eeb885cb\"
         alt=\"captcha\"><br><br>\n    <input type=\"text\" id=\"captcha-word\" name=\"word\"
         value=\"\"><br><br>\n    <input type=\"button\" value=\"Submit\" id=\"captcha-submit-button\">\n</div>\n\n<script
         type=\"text/javascript\">\n    $(document).ready(function() {\n        $(\"#leadbar
@@ -566,1928 +452,7 @@ http_interactions:
         : 'http://www') + '.google-analytics.com/ga.js';\n    var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(ga, s);\n  })();\n\n</script>\n\n\n\n\n</html>\n"
     http_version: 
-  recorded_at: Wed, 19 Feb 2014 21:15:40 GMT
-- request:
-    method: get
-    uri: https://maps.googleapis.com/maps/api/geocode/json?address=Address&sensor=false
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - '*/*'
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=UTF-8
-      Date:
-      - Wed, 19 Feb 2014 21:15:40 GMT
-      Expires:
-      - Thu, 20 Feb 2014 21:15:40 GMT
-      Cache-Control:
-      - public, max-age=86400
-      Vary:
-      - Accept-Language
-      Access-Control-Allow-Origin:
-      - '*'
-      Server:
-      - mafe
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - SAMEORIGIN
-      Alternate-Protocol:
-      - 443:quic
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        ewogICAicmVzdWx0cyIgOiBbCiAgICAgIHsKICAgICAgICAgImFkZHJlc3Nf
-        Y29tcG9uZW50cyIgOiBbCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAg
-        ImxvbmdfbmFtZSIgOiAiQWRkcmVzcyIsCiAgICAgICAgICAgICAgICJzaG9y
-        dF9uYW1lIiA6ICJBZGRyZXNzIiwKICAgICAgICAgICAgICAgInR5cGVzIiA6
-        IFsgInBvaW50X29mX2ludGVyZXN0IiwgImVzdGFibGlzaG1lbnQiIF0KICAg
-        ICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICAibG9u
-        Z19uYW1lIiA6ICJNYWRyaWQiLAogICAgICAgICAgICAgICAic2hvcnRfbmFt
-        ZSIgOiAiTWFkcmlkIiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgImxv
-        Y2FsaXR5IiwgInBvbGl0aWNhbCIgXQogICAgICAgICAgICB9LAogICAgICAg
-        ICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIk1hZHJpZCIs
-        CiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICJNIiwKICAgICAgICAg
-        ICAgICAgInR5cGVzIiA6IFsgImFkbWluaXN0cmF0aXZlX2FyZWFfbGV2ZWxf
-        MiIsICJwb2xpdGljYWwiIF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAg
-        ewogICAgICAgICAgICAgICAibG9uZ19uYW1lIiA6ICJDb21tdW5pdHkgb2Yg
-        TWFkcmlkIiwKICAgICAgICAgICAgICAgInNob3J0X25hbWUiIDogIkNvbW11
-        bml0eSBvZiBNYWRyaWQiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAi
-        YWRtaW5pc3RyYXRpdmVfYXJlYV9sZXZlbF8xIiwgInBvbGl0aWNhbCIgXQog
-        ICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJs
-        b25nX25hbWUiIDogIlNwYWluIiwKICAgICAgICAgICAgICAgInNob3J0X25h
-        bWUiIDogIkVTIiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgImNvdW50
-        cnkiLCAicG9saXRpY2FsIiBdCiAgICAgICAgICAgIH0sCiAgICAgICAgICAg
-        IHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAiMjgwMzkiLAogICAg
-        ICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiMjgwMzkiLAogICAgICAgICAg
-        ICAgICAidHlwZXMiIDogWyAicG9zdGFsX2NvZGUiIF0KICAgICAgICAgICAg
-        fQogICAgICAgICBdLAogICAgICAgICAiZm9ybWF0dGVkX2FkZHJlc3MiIDog
-        IkFkZHJlc3MsIDI4MDM5IE1hZHJpZCwgU3BhaW4iLAogICAgICAgICAiZ2Vv
-        bWV0cnkiIDogewogICAgICAgICAgICAibG9jYXRpb24iIDogewogICAgICAg
-        ICAgICAgICAibGF0IiA6IDQwLjQ0NzMzNywKICAgICAgICAgICAgICAgImxu
-        ZyIgOiAtMy43MDcwMTc5CiAgICAgICAgICAgIH0sCiAgICAgICAgICAgICJs
-        b2NhdGlvbl90eXBlIiA6ICJBUFBST1hJTUFURSIsCiAgICAgICAgICAgICJ2
-        aWV3cG9ydCIgOiB7CiAgICAgICAgICAgICAgICJub3J0aGVhc3QiIDogewog
-        ICAgICAgICAgICAgICAgICAibGF0IiA6IDQwLjQ0ODY4NTk4MDI5MTUxLAog
-        ICAgICAgICAgICAgICAgICAibG5nIiA6IC0zLjcwNTY2ODkxOTcwODQ5OAog
-        ICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAic291dGh3ZXN0IiA6
-        IHsKICAgICAgICAgICAgICAgICAgImxhdCIgOiA0MC40NDU5ODgwMTk3MDg1
-        MSwKICAgICAgICAgICAgICAgICAgImxuZyIgOiAtMy43MDgzNjY4ODAyOTE1
-        MDIKICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgIH0s
-        CiAgICAgICAgICJ0eXBlcyIgOiBbICJob3NwaXRhbCIsICJwb2ludF9vZl9p
-        bnRlcmVzdCIsICJlc3RhYmxpc2htZW50IiBdCiAgICAgIH0sCiAgICAgIHsK
-        ICAgICAgICAgImFkZHJlc3NfY29tcG9uZW50cyIgOiBbCiAgICAgICAgICAg
-        IHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAiQWRkcmVzczoiLAog
-        ICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiQWRkcmVzczoiLAogICAg
-        ICAgICAgICAgICAidHlwZXMiIDogWyAicG9pbnRfb2ZfaW50ZXJlc3QiLCAi
-        ZXN0YWJsaXNobWVudCIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7
-        CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIlBpbmV2aWxsZSIsCiAg
-        ICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICJQaW5ldmlsbGUiLAogICAg
-        ICAgICAgICAgICAidHlwZXMiIDogWyAibG9jYWxpdHkiLCAicG9saXRpY2Fs
-        IiBdCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsKICAgICAgICAgICAg
-        ICAgImxvbmdfbmFtZSIgOiAiMSwgQ2hhcmxvdHRlIiwKICAgICAgICAgICAg
-        ICAgInNob3J0X25hbWUiIDogIjEsIENoYXJsb3R0ZSIsCiAgICAgICAgICAg
-        ICAgICJ0eXBlcyIgOiBbICJhZG1pbmlzdHJhdGl2ZV9hcmVhX2xldmVsXzMi
-        LCAicG9saXRpY2FsIiBdCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsK
-        ICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAiTWVja2xlbmJ1cmciLAog
-        ICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiTWVja2xlbmJ1cmciLAog
-        ICAgICAgICAgICAgICAidHlwZXMiIDogWyAiYWRtaW5pc3RyYXRpdmVfYXJl
-        YV9sZXZlbF8yIiwgInBvbGl0aWNhbCIgXQogICAgICAgICAgICB9LAogICAg
-        ICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIk5vcnRo
-        IENhcm9saW5hIiwKICAgICAgICAgICAgICAgInNob3J0X25hbWUiIDogIk5D
-        IiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgImFkbWluaXN0cmF0aXZl
-        X2FyZWFfbGV2ZWxfMSIsICJwb2xpdGljYWwiIF0KICAgICAgICAgICAgfSwK
-        ICAgICAgICAgICAgewogICAgICAgICAgICAgICAibG9uZ19uYW1lIiA6ICJV
-        bml0ZWQgU3RhdGVzIiwKICAgICAgICAgICAgICAgInNob3J0X25hbWUiIDog
-        IlVTIiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgImNvdW50cnkiLCAi
-        cG9saXRpY2FsIiBdCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsKICAg
-        ICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAiMjgxMzQiLAogICAgICAgICAg
-        ICAgICAic2hvcnRfbmFtZSIgOiAiMjgxMzQiLAogICAgICAgICAgICAgICAi
-        dHlwZXMiIDogWyAicG9zdGFsX2NvZGUiIF0KICAgICAgICAgICAgfQogICAg
-        ICAgICBdLAogICAgICAgICAiZm9ybWF0dGVkX2FkZHJlc3MiIDogIkFkZHJl
-        c3M6LCBQaW5ldmlsbGUsIE5DIDI4MTM0LCBVU0EiLAogICAgICAgICAiZ2Vv
-        bWV0cnkiIDogewogICAgICAgICAgICAibG9jYXRpb24iIDogewogICAgICAg
-        ICAgICAgICAibGF0IiA6IDM1LjA0MjAzMTAwMDAwMDAxLAogICAgICAgICAg
-        ICAgICAibG5nIiA6IC04MC44NjMwNjYKICAgICAgICAgICAgfSwKICAgICAg
-        ICAgICAgImxvY2F0aW9uX3R5cGUiIDogIkFQUFJPWElNQVRFIiwKICAgICAg
-        ICAgICAgInZpZXdwb3J0IiA6IHsKICAgICAgICAgICAgICAgIm5vcnRoZWFz
-        dCIgOiB7CiAgICAgICAgICAgICAgICAgICJsYXQiIDogMzUuMDQzMzc5OTgw
-        MjkxNTEsCiAgICAgICAgICAgICAgICAgICJsbmciIDogLTgwLjg2MTcxNzAx
-        OTcwODUxCiAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICJzb3V0
-        aHdlc3QiIDogewogICAgICAgICAgICAgICAgICAibGF0IiA6IDM1LjA0MDY4
-        MjAxOTcwODUxLAogICAgICAgICAgICAgICAgICAibG5nIiA6IC04MC44NjQ0
-        MTQ5ODAyOTE1MQogICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAg
-        ICAgICAgfSwKICAgICAgICAgInR5cGVzIiA6IFsgInBvaW50X29mX2ludGVy
-        ZXN0IiwgImVzdGFibGlzaG1lbnQiIF0KICAgICAgfSwKICAgICAgewogICAg
-        ICAgICAiYWRkcmVzc19jb21wb25lbnRzIiA6IFsKICAgICAgICAgICAgewog
-        ICAgICAgICAgICAgICAibG9uZ19uYW1lIiA6ICJBZGRyZXNzIiwKICAgICAg
-        ICAgICAgICAgInNob3J0X25hbWUiIDogIkFkZHJlc3MiLAogICAgICAgICAg
-        ICAgICAidHlwZXMiIDogWyAicG9pbnRfb2ZfaW50ZXJlc3QiLCAiZXN0YWJs
-        aXNobWVudCIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAg
-        ICAgICAgICAgICJsb25nX25hbWUiIDogIlNlY3Rvci1JIiwKICAgICAgICAg
-        ICAgICAgInNob3J0X25hbWUiIDogIlNlY3Rvci1JIiwKICAgICAgICAgICAg
-        ICAgInR5cGVzIiA6IFsgIm5laWdoYm9yaG9vZCIsICJwb2xpdGljYWwiIF0K
-        ICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICAi
-        bG9uZ19uYW1lIiA6ICJTZWN0b3IgTCIsCiAgICAgICAgICAgICAgICJzaG9y
-        dF9uYW1lIiA6ICJTZWN0b3IgTCIsCiAgICAgICAgICAgICAgICJ0eXBlcyIg
-        OiBbICJzdWJsb2NhbGl0eSIsICJwb2xpdGljYWwiIF0KICAgICAgICAgICAg
-        fSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICAibG9uZ19uYW1lIiA6
-        ICJBc2hpYW5hIiwKICAgICAgICAgICAgICAgInNob3J0X25hbWUiIDogIkFz
-        aGlhbmEiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAic3VibG9jYWxp
-        dHkiLCAicG9saXRpY2FsIiBdCiAgICAgICAgICAgIH0sCiAgICAgICAgICAg
-        IHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAiTHVja25vdyIsCiAg
-        ICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICJMdWNrbm93IiwKICAgICAg
-        ICAgICAgICAgInR5cGVzIiA6IFsgImxvY2FsaXR5IiwgInBvbGl0aWNhbCIg
-        XQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAg
-        ICJsb25nX25hbWUiIDogIkx1Y2tub3ciLAogICAgICAgICAgICAgICAic2hv
-        cnRfbmFtZSIgOiAiTHVja25vdyIsCiAgICAgICAgICAgICAgICJ0eXBlcyIg
-        OiBbICJhZG1pbmlzdHJhdGl2ZV9hcmVhX2xldmVsXzIiLCAicG9saXRpY2Fs
-        IiBdCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsKICAgICAgICAgICAg
-        ICAgImxvbmdfbmFtZSIgOiAiVXR0YXIgUHJhZGVzaCIsCiAgICAgICAgICAg
-        ICAgICJzaG9ydF9uYW1lIiA6ICJVdHRhciBQcmFkZXNoIiwKICAgICAgICAg
-        ICAgICAgInR5cGVzIiA6IFsgImFkbWluaXN0cmF0aXZlX2FyZWFfbGV2ZWxf
-        MSIsICJwb2xpdGljYWwiIF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAg
-        ewogICAgICAgICAgICAgICAibG9uZ19uYW1lIiA6ICJJbmRpYSIsCiAgICAg
-        ICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICJJTiIsCiAgICAgICAgICAgICAg
-        ICJ0eXBlcyIgOiBbICJjb3VudHJ5IiwgInBvbGl0aWNhbCIgXQogICAgICAg
-        ICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25h
-        bWUiIDogIjIyNjAxMiIsCiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6
-        ICIyMjYwMTIiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAicG9zdGFs
-        X2NvZGUiIF0KICAgICAgICAgICAgfQogICAgICAgICBdLAogICAgICAgICAi
-        Zm9ybWF0dGVkX2FkZHJlc3MiIDogIkFkZHJlc3MsIFNlY3Rvci1JLCBTZWN0
-        b3IgTCwgQXNoaWFuYSwgTHVja25vdywgVXR0YXIgUHJhZGVzaCAyMjYwMTIs
-        IEluZGlhIiwKICAgICAgICAgImdlb21ldHJ5IiA6IHsKICAgICAgICAgICAg
-        ImxvY2F0aW9uIiA6IHsKICAgICAgICAgICAgICAgImxhdCIgOiAyNi43OTcx
-        MzQsCiAgICAgICAgICAgICAgICJsbmciIDogODAuOTE4MzA4CiAgICAgICAg
-        ICAgIH0sCiAgICAgICAgICAgICJsb2NhdGlvbl90eXBlIiA6ICJBUFBST1hJ
-        TUFURSIsCiAgICAgICAgICAgICJ2aWV3cG9ydCIgOiB7CiAgICAgICAgICAg
-        ICAgICJub3J0aGVhc3QiIDogewogICAgICAgICAgICAgICAgICAibGF0IiA6
-        IDI2Ljc5ODQ4Mjk4MDI5MTUsCiAgICAgICAgICAgICAgICAgICJsbmciIDog
-        ODAuOTE5NjU2OTgwMjkxNDkKICAgICAgICAgICAgICAgfSwKICAgICAgICAg
-        ICAgICAgInNvdXRod2VzdCIgOiB7CiAgICAgICAgICAgICAgICAgICJsYXQi
-        IDogMjYuNzk1Nzg1MDE5NzA4NSwKICAgICAgICAgICAgICAgICAgImxuZyIg
-        OiA4MC45MTY5NTkwMTk3MDg0OQogICAgICAgICAgICAgICB9CiAgICAgICAg
-        ICAgIH0KICAgICAgICAgfSwKICAgICAgICAgInR5cGVzIiA6IFsgInBvaW50
-        X29mX2ludGVyZXN0IiwgImVzdGFibGlzaG1lbnQiIF0KICAgICAgfSwKICAg
-        ICAgewogICAgICAgICAiYWRkcmVzc19jb21wb25lbnRzIiA6IFsKICAgICAg
-        ICAgICAgewogICAgICAgICAgICAgICAibG9uZ19uYW1lIiA6ICJBZGRyZXNz
-        IiwKICAgICAgICAgICAgICAgInNob3J0X25hbWUiIDogIkFkZHJlc3MiLAog
-        ICAgICAgICAgICAgICAidHlwZXMiIDogWyAicHJlbWlzZSIgXQogICAgICAg
-        ICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25h
-        bWUiIDogIjMiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiMyIs
-        CiAgICAgICAgICAgICAgICJ0eXBlcyIgOiBbICJzdHJlZXRfbnVtYmVyIiBd
-        CiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAg
-        ImxvbmdfbmFtZSIgOiAiU3dlZXQgRmVybiBMYW5lIiwKICAgICAgICAgICAg
-        ICAgInNob3J0X25hbWUiIDogIlN3ZWV0IEZlcm4gTG4iLAogICAgICAgICAg
-        ICAgICAidHlwZXMiIDogWyAicm91dGUiIF0KICAgICAgICAgICAgfSwKICAg
-        ICAgICAgICAgewogICAgICAgICAgICAgICAibG9uZ19uYW1lIiA6ICJDb3Zl
-        bnRyeSIsCiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICJDb3ZlbnRy
-        eSIsCiAgICAgICAgICAgICAgICJ0eXBlcyIgOiBbICJsb2NhbGl0eSIsICJw
-        b2xpdGljYWwiIF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAg
-        ICAgICAgICAgICAibG9uZ19uYW1lIiA6ICJLZW50IiwKICAgICAgICAgICAg
-        ICAgInNob3J0X25hbWUiIDogIktlbnQiLAogICAgICAgICAgICAgICAidHlw
-        ZXMiIDogWyAiYWRtaW5pc3RyYXRpdmVfYXJlYV9sZXZlbF8yIiwgInBvbGl0
-        aWNhbCIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAg
-        ICAgICAgICJsb25nX25hbWUiIDogIlJob2RlIElzbGFuZCIsCiAgICAgICAg
-        ICAgICAgICJzaG9ydF9uYW1lIiA6ICJSSSIsCiAgICAgICAgICAgICAgICJ0
-        eXBlcyIgOiBbICJhZG1pbmlzdHJhdGl2ZV9hcmVhX2xldmVsXzEiLCAicG9s
-        aXRpY2FsIiBdCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsKICAgICAg
-        ICAgICAgICAgImxvbmdfbmFtZSIgOiAiVW5pdGVkIFN0YXRlcyIsCiAgICAg
-        ICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICJVUyIsCiAgICAgICAgICAgICAg
-        ICJ0eXBlcyIgOiBbICJjb3VudHJ5IiwgInBvbGl0aWNhbCIgXQogICAgICAg
-        ICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25h
-        bWUiIDogIjAyODE2IiwKICAgICAgICAgICAgICAgInNob3J0X25hbWUiIDog
-        IjAyODE2IiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgInBvc3RhbF9j
-        b2RlIiBdCiAgICAgICAgICAgIH0KICAgICAgICAgXSwKICAgICAgICAgImZv
-        cm1hdHRlZF9hZGRyZXNzIiA6ICJBZGRyZXNzLCAzIFN3ZWV0IEZlcm4gTGFu
-        ZSwgQ292ZW50cnksIFJJIDAyODE2LCBVU0EiLAogICAgICAgICAiZ2VvbWV0
-        cnkiIDogewogICAgICAgICAgICAibG9jYXRpb24iIDogewogICAgICAgICAg
-        ICAgICAibGF0IiA6IDQxLjY3NjM1NzcsCiAgICAgICAgICAgICAgICJsbmci
-        IDogLTcxLjUzNzIxODA5OTk5OTk5CiAgICAgICAgICAgIH0sCiAgICAgICAg
-        ICAgICJsb2NhdGlvbl90eXBlIiA6ICJBUFBST1hJTUFURSIsCiAgICAgICAg
-        ICAgICJ2aWV3cG9ydCIgOiB7CiAgICAgICAgICAgICAgICJub3J0aGVhc3Qi
-        IDogewogICAgICAgICAgICAgICAgICAibGF0IiA6IDQxLjY3NzcwNjY4MDI5
-        MTUsCiAgICAgICAgICAgICAgICAgICJsbmciIDogLTcxLjUzNTg2OTExOTcw
-        ODQ5CiAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICJzb3V0aHdl
-        c3QiIDogewogICAgICAgICAgICAgICAgICAibGF0IiA6IDQxLjY3NTAwODcx
-        OTcwODUsCiAgICAgICAgICAgICAgICAgICJsbmciIDogLTcxLjUzODU2NzA4
-        MDI5MTUKICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAg
-        IH0sCiAgICAgICAgICJ0eXBlcyIgOiBbICJwcmVtaXNlIiBdCiAgICAgIH0s
-        CiAgICAgIHsKICAgICAgICAgImFkZHJlc3NfY29tcG9uZW50cyIgOiBbCiAg
-        ICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAi772B
-        772E772E772S772F772T772TIiwKICAgICAgICAgICAgICAgInNob3J0X25h
-        bWUiIDogIu+9ge+9hO+9hO+9ku+9he+9k++9kyIsCiAgICAgICAgICAgICAg
-        ICJ0eXBlcyIgOiBbICJwcmVtaXNlIiBdCiAgICAgICAgICAgIH0sCiAgICAg
-        ICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAiNyIsCiAg
-        ICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICI3IiwKICAgICAgICAgICAg
-        ICAgInR5cGVzIiA6IFsgInN1YmxvY2FsaXR5X2xldmVsXzMiLCAic3VibG9j
-        YWxpdHkiLCAicG9saXRpY2FsIiBdCiAgICAgICAgICAgIH0sCiAgICAgICAg
-        ICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAiU2hvZG9rb3Jv
-        Y2hvIiwKICAgICAgICAgICAgICAgInNob3J0X25hbWUiIDogIlNob2Rva29y
-        b2NobyIsCiAgICAgICAgICAgICAgICJ0eXBlcyIgOiBbICJzdWJsb2NhbGl0
-        eV9sZXZlbF8xIiwgInN1YmxvY2FsaXR5IiwgInBvbGl0aWNhbCIgXQogICAg
-        ICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25n
-        X25hbWUiIDogIlRha2F0c3VraSIsCiAgICAgICAgICAgICAgICJzaG9ydF9u
-        YW1lIiA6ICJUYWthdHN1a2kiLAogICAgICAgICAgICAgICAidHlwZXMiIDog
-        WyAibG9jYWxpdHkiLCAicG9saXRpY2FsIiBdCiAgICAgICAgICAgIH0sCiAg
-        ICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAiT3Nh
-        a2EgUHJlZmVjdHVyZSIsCiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6
-        ICJPc2FrYSBQcmVmZWN0dXJlIiwKICAgICAgICAgICAgICAgInR5cGVzIiA6
-        IFsgImFkbWluaXN0cmF0aXZlX2FyZWFfbGV2ZWxfMSIsICJwb2xpdGljYWwi
-        IF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAgICAgICAg
-        ICAibG9uZ19uYW1lIiA6ICJKYXBhbiIsCiAgICAgICAgICAgICAgICJzaG9y
-        dF9uYW1lIiA6ICJKUCIsCiAgICAgICAgICAgICAgICJ0eXBlcyIgOiBbICJj
-        b3VudHJ5IiwgInBvbGl0aWNhbCIgXQogICAgICAgICAgICB9LAogICAgICAg
-        ICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIjU2OS0wMDY1
-        IiwKICAgICAgICAgICAgICAgInNob3J0X25hbWUiIDogIjU2OS0wMDY1IiwK
-        ICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgInBvc3RhbF9jb2RlIiBdCiAg
-        ICAgICAgICAgIH0KICAgICAgICAgXSwKICAgICAgICAgImZvcm1hdHRlZF9h
-        ZGRyZXNzIiA6ICJKYXBhbiwg44CSNTY5LTAwNjQgT3Nha2EgUHJlZmVjdHVy
-        ZSwgVGFrYXRzdWtpLCBTaG9kb2tvcm9jaG8sIDcg772B772E772E772S772F
-        772T772TIiwKICAgICAgICAgImdlb21ldHJ5IiA6IHsKICAgICAgICAgICAg
-        ImJvdW5kcyIgOiB7CiAgICAgICAgICAgICAgICJub3J0aGVhc3QiIDogewog
-        ICAgICAgICAgICAgICAgICAibGF0IiA6IDM0LjgzOTg1NTIsCiAgICAgICAg
-        ICAgICAgICAgICJsbmciIDogMTM1LjYxNDU3ODEKICAgICAgICAgICAgICAg
-        fSwKICAgICAgICAgICAgICAgInNvdXRod2VzdCIgOiB7CiAgICAgICAgICAg
-        ICAgICAgICJsYXQiIDogMzQuODM5ODExMywKICAgICAgICAgICAgICAgICAg
-        ImxuZyIgOiAxMzUuNjE0NTEyNgogICAgICAgICAgICAgICB9CiAgICAgICAg
-        ICAgIH0sCiAgICAgICAgICAgICJsb2NhdGlvbiIgOiB7CiAgICAgICAgICAg
-        ICAgICJsYXQiIDogMzQuODM5ODI2OCwKICAgICAgICAgICAgICAgImxuZyIg
-        OiAxMzUuNjE0NTU1MwogICAgICAgICAgICB9LAogICAgICAgICAgICAibG9j
-        YXRpb25fdHlwZSIgOiAiQVBQUk9YSU1BVEUiLAogICAgICAgICAgICAidmll
-        d3BvcnQiIDogewogICAgICAgICAgICAgICAibm9ydGhlYXN0IiA6IHsKICAg
-        ICAgICAgICAgICAgICAgImxhdCIgOiAzNC44NDExODIyMzAyOTE0OSwKICAg
-        ICAgICAgICAgICAgICAgImxuZyIgOiAxMzUuNjE1ODk0MzMwMjkxNQogICAg
-        ICAgICAgICAgICB9LAogICAgICAgICAgICAgICAic291dGh3ZXN0IiA6IHsK
-        ICAgICAgICAgICAgICAgICAgImxhdCIgOiAzNC44Mzg0ODQyNjk3MDg1LAog
-        ICAgICAgICAgICAgICAgICAibG5nIiA6IDEzNS42MTMxOTYzNjk3MDg1CiAg
-        ICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICB9LAogICAg
-        ICAgICAidHlwZXMiIDogWyAicHJlbWlzZSIgXQogICAgICB9LAogICAgICB7
-        CiAgICAgICAgICJhZGRyZXNzX2NvbXBvbmVudHMiIDogWwogICAgICAgICAg
-        ICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIu+8oe+8pO+8pO+8
-        su+8pe+8s++8syIsCiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICLv
-        vKHvvKTvvKTvvLLvvKXvvLPvvLMiLAogICAgICAgICAgICAgICAidHlwZXMi
-        IDogWyAicHJlbWlzZSIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7
-        CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIjQiLAogICAgICAgICAg
-        ICAgICAic2hvcnRfbmFtZSIgOiAiNCIsCiAgICAgICAgICAgICAgICJ0eXBl
-        cyIgOiBbICJzdWJsb2NhbGl0eV9sZXZlbF8zIiwgInN1YmxvY2FsaXR5Iiwg
-        InBvbGl0aWNhbCIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAg
-        ICAgICAgICAgICAgICJsb25nX25hbWUiIDogIjIgQ2hvbWUiLAogICAgICAg
-        ICAgICAgICAic2hvcnRfbmFtZSIgOiAiMiBDaG9tZSIsCiAgICAgICAgICAg
-        ICAgICJ0eXBlcyIgOiBbICJzdWJsb2NhbGl0eV9sZXZlbF8yIiwgInN1Ymxv
-        Y2FsaXR5IiwgInBvbGl0aWNhbCIgXQogICAgICAgICAgICB9LAogICAgICAg
-        ICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIk1pbmFtaW1h
-        Y2hpIiwKICAgICAgICAgICAgICAgInNob3J0X25hbWUiIDogIk1pbmFtaW1h
-        Y2hpIiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgInN1YmxvY2FsaXR5
-        X2xldmVsXzEiLCAic3VibG9jYWxpdHkiLCAicG9saXRpY2FsIiBdCiAgICAg
-        ICAgICAgIH0sCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdf
-        bmFtZSIgOiAiTWl0byIsCiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6
-        ICJNaXRvIiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgImxvY2FsaXR5
-        IiwgInBvbGl0aWNhbCIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7
-        CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIkliYXJha2kgUHJlZmVj
-        dHVyZSIsCiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICJJYmFyYWtp
-        IFByZWZlY3R1cmUiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAiYWRt
-        aW5pc3RyYXRpdmVfYXJlYV9sZXZlbF8xIiwgInBvbGl0aWNhbCIgXQogICAg
-        ICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25n
-        X25hbWUiIDogIkphcGFuIiwKICAgICAgICAgICAgICAgInNob3J0X25hbWUi
-        IDogIkpQIiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgImNvdW50cnki
-        LCAicG9saXRpY2FsIiBdCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsK
-        ICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAiMzEwLTAwMjEiLAogICAg
-        ICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiMzEwLTAwMjEiLAogICAgICAg
-        ICAgICAgICAidHlwZXMiIDogWyAicG9zdGFsX2NvZGUiIF0KICAgICAgICAg
-        ICAgfQogICAgICAgICBdLAogICAgICAgICAiZm9ybWF0dGVkX2FkZHJlc3Mi
-        IDogIkphcGFuLCDjgJIzMTAtMDAyMSBJYmFyYWtpIFByZWZlY3R1cmUsIE1p
-        dG8sIE1pbmFtaW1hY2hpLCAyIENob21lNCDvvKHvvKTvvKTvvLLvvKXvvLPv
-        vLMiLAogICAgICAgICAiZ2VvbWV0cnkiIDogewogICAgICAgICAgICAiYm91
-        bmRzIiA6IHsKICAgICAgICAgICAgICAgIm5vcnRoZWFzdCIgOiB7CiAgICAg
-        ICAgICAgICAgICAgICJsYXQiIDogMzYuMzc1MjA3NywKICAgICAgICAgICAg
-        ICAgICAgImxuZyIgOiAxNDAuNDcxOTA0CiAgICAgICAgICAgICAgIH0sCiAg
-        ICAgICAgICAgICAgICJzb3V0aHdlc3QiIDogewogICAgICAgICAgICAgICAg
-        ICAibGF0IiA6IDM2LjM3NTE0OTksCiAgICAgICAgICAgICAgICAgICJsbmci
-        IDogMTQwLjQ3MTgxMjkKICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9
-        LAogICAgICAgICAgICAibG9jYXRpb24iIDogewogICAgICAgICAgICAgICAi
-        bGF0IiA6IDM2LjM3NTE3ODUsCiAgICAgICAgICAgICAgICJsbmciIDogMTQw
-        LjQ3MTg1NTQKICAgICAgICAgICAgfSwKICAgICAgICAgICAgImxvY2F0aW9u
-        X3R5cGUiIDogIkFQUFJPWElNQVRFIiwKICAgICAgICAgICAgInZpZXdwb3J0
-        IiA6IHsKICAgICAgICAgICAgICAgIm5vcnRoZWFzdCIgOiB7CiAgICAgICAg
-        ICAgICAgICAgICJsYXQiIDogMzYuMzc2NTI3NzgwMjkxNSwKICAgICAgICAg
-        ICAgICAgICAgImxuZyIgOiAxNDAuNDczMjA3NDMwMjkxNQogICAgICAgICAg
-        ICAgICB9LAogICAgICAgICAgICAgICAic291dGh3ZXN0IiA6IHsKICAgICAg
-        ICAgICAgICAgICAgImxhdCIgOiAzNi4zNzM4Mjk4MTk3MDg1LAogICAgICAg
-        ICAgICAgICAgICAibG5nIiA6IDE0MC40NzA1MDk0Njk3MDg1CiAgICAgICAg
-        ICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICB9LAogICAgICAgICAi
-        dHlwZXMiIDogWyAicHJlbWlzZSIgXQogICAgICB9CiAgIF0sCiAgICJzdGF0
-        dXMiIDogIk9LIgp9Cg==
-    http_version: 
-  recorded_at: Wed, 19 Feb 2014 21:15:41 GMT
-- request:
-    method: get
-    uri: https://maps.googleapis.com/maps/api/geocode/json?address=1675%20Garnet%20AvenueSan%20Diego,%20CA%2092109&sensor=false
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - '*/*'
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=UTF-8
-      Date:
-      - Wed, 19 Feb 2014 21:15:41 GMT
-      Expires:
-      - Thu, 20 Feb 2014 21:15:41 GMT
-      Cache-Control:
-      - public, max-age=86400
-      Vary:
-      - Accept-Language
-      Access-Control-Allow-Origin:
-      - '*'
-      Server:
-      - mafe
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - SAMEORIGIN
-      Alternate-Protocol:
-      - 443:quic
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: |
-        {
-           "results" : [
-              {
-                 "address_components" : [
-                    {
-                       "long_name" : "1675",
-                       "short_name" : "1675",
-                       "types" : [ "street_number" ]
-                    },
-                    {
-                       "long_name" : "Garnet Avenue",
-                       "short_name" : "Garnet Ave",
-                       "types" : [ "route" ]
-                    },
-                    {
-                       "long_name" : "Pacific Beach",
-                       "short_name" : "Pacific Beach",
-                       "types" : [ "neighborhood", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego",
-                       "short_name" : "San Diego",
-                       "types" : [ "locality", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego County",
-                       "short_name" : "San Diego County",
-                       "types" : [ "administrative_area_level_2", "political" ]
-                    },
-                    {
-                       "long_name" : "California",
-                       "short_name" : "CA",
-                       "types" : [ "administrative_area_level_1", "political" ]
-                    },
-                    {
-                       "long_name" : "United States",
-                       "short_name" : "US",
-                       "types" : [ "country", "political" ]
-                    },
-                    {
-                       "long_name" : "92109",
-                       "short_name" : "92109",
-                       "types" : [ "postal_code" ]
-                    }
-                 ],
-                 "formatted_address" : "1675 Garnet Avenue, San Diego, CA 92109, USA",
-                 "geometry" : {
-                    "location" : {
-                       "lat" : 32.799934,
-                       "lng" : -117.239151
-                    },
-                    "location_type" : "ROOFTOP",
-                    "viewport" : {
-                       "northeast" : {
-                          "lat" : 32.8012829802915,
-                          "lng" : -117.2378020197085
-                       },
-                       "southwest" : {
-                          "lat" : 32.7985850197085,
-                          "lng" : -117.2404999802915
-                       }
-                    }
-                 },
-                 "types" : [ "street_address" ]
-              }
-           ],
-           "status" : "OK"
-        }
-    http_version: 
-  recorded_at: Wed, 19 Feb 2014 21:15:41 GMT
-- request:
-    method: get
-    uri: https://maps.googleapis.com/maps/api/geocode/json?address=1050%20Thomas%20AvenueSan%20Diego,%20CA%2092109-4161&sensor=false
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - '*/*'
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=UTF-8
-      Date:
-      - Wed, 19 Feb 2014 21:15:41 GMT
-      Expires:
-      - Thu, 20 Feb 2014 21:15:41 GMT
-      Cache-Control:
-      - public, max-age=86400
-      Vary:
-      - Accept-Language
-      Access-Control-Allow-Origin:
-      - '*'
-      Server:
-      - mafe
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - SAMEORIGIN
-      Alternate-Protocol:
-      - 443:quic
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: |
-        {
-           "results" : [
-              {
-                 "address_components" : [
-                    {
-                       "long_name" : "1050",
-                       "short_name" : "1050",
-                       "types" : [ "street_number" ]
-                    },
-                    {
-                       "long_name" : "Thomas Avenue",
-                       "short_name" : "Thomas Ave",
-                       "types" : [ "route" ]
-                    },
-                    {
-                       "long_name" : "Pacific Beach",
-                       "short_name" : "Pacific Beach",
-                       "types" : [ "neighborhood", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego",
-                       "short_name" : "San Diego",
-                       "types" : [ "locality", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego County",
-                       "short_name" : "San Diego County",
-                       "types" : [ "administrative_area_level_2", "political" ]
-                    },
-                    {
-                       "long_name" : "California",
-                       "short_name" : "CA",
-                       "types" : [ "administrative_area_level_1", "political" ]
-                    },
-                    {
-                       "long_name" : "United States",
-                       "short_name" : "US",
-                       "types" : [ "country", "political" ]
-                    },
-                    {
-                       "long_name" : "92109",
-                       "short_name" : "92109",
-                       "types" : [ "postal_code" ]
-                    }
-                 ],
-                 "formatted_address" : "1050 Thomas Avenue, San Diego, CA 92109, USA",
-                 "geometry" : {
-                    "location" : {
-                       "lat" : 32.7948975,
-                       "lng" : -117.2497813
-                    },
-                    "location_type" : "ROOFTOP",
-                    "viewport" : {
-                       "northeast" : {
-                          "lat" : 32.79624648029149,
-                          "lng" : -117.2484323197085
-                       },
-                       "southwest" : {
-                          "lat" : 32.7935485197085,
-                          "lng" : -117.2511302802915
-                       }
-                    }
-                 },
-                 "partial_match" : true,
-                 "types" : [ "street_address" ]
-              }
-           ],
-           "status" : "OK"
-        }
-    http_version: 
-  recorded_at: Wed, 19 Feb 2014 21:15:41 GMT
-- request:
-    method: get
-    uri: https://maps.googleapis.com/maps/api/geocode/json?address=1050%20Thomas%20AvenueSan%20Diego,%20CA%2092109-4161&sensor=false
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - '*/*'
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=UTF-8
-      Date:
-      - Wed, 19 Feb 2014 21:15:41 GMT
-      Expires:
-      - Thu, 20 Feb 2014 21:15:41 GMT
-      Cache-Control:
-      - public, max-age=86400
-      Vary:
-      - Accept-Language
-      Access-Control-Allow-Origin:
-      - '*'
-      Server:
-      - mafe
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - SAMEORIGIN
-      Alternate-Protocol:
-      - 443:quic
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: |
-        {
-           "results" : [
-              {
-                 "address_components" : [
-                    {
-                       "long_name" : "1050",
-                       "short_name" : "1050",
-                       "types" : [ "street_number" ]
-                    },
-                    {
-                       "long_name" : "Thomas Avenue",
-                       "short_name" : "Thomas Ave",
-                       "types" : [ "route" ]
-                    },
-                    {
-                       "long_name" : "Pacific Beach",
-                       "short_name" : "Pacific Beach",
-                       "types" : [ "neighborhood", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego",
-                       "short_name" : "San Diego",
-                       "types" : [ "locality", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego County",
-                       "short_name" : "San Diego County",
-                       "types" : [ "administrative_area_level_2", "political" ]
-                    },
-                    {
-                       "long_name" : "California",
-                       "short_name" : "CA",
-                       "types" : [ "administrative_area_level_1", "political" ]
-                    },
-                    {
-                       "long_name" : "United States",
-                       "short_name" : "US",
-                       "types" : [ "country", "political" ]
-                    },
-                    {
-                       "long_name" : "92109",
-                       "short_name" : "92109",
-                       "types" : [ "postal_code" ]
-                    }
-                 ],
-                 "formatted_address" : "1050 Thomas Avenue, San Diego, CA 92109, USA",
-                 "geometry" : {
-                    "location" : {
-                       "lat" : 32.7948975,
-                       "lng" : -117.2497813
-                    },
-                    "location_type" : "ROOFTOP",
-                    "viewport" : {
-                       "northeast" : {
-                          "lat" : 32.79624648029149,
-                          "lng" : -117.2484323197085
-                       },
-                       "southwest" : {
-                          "lat" : 32.7935485197085,
-                          "lng" : -117.2511302802915
-                       }
-                    }
-                 },
-                 "partial_match" : true,
-                 "types" : [ "street_address" ]
-              }
-           ],
-           "status" : "OK"
-        }
-    http_version: 
-  recorded_at: Wed, 19 Feb 2014 21:15:41 GMT
-- request:
-    method: get
-    uri: https://maps.googleapis.com/maps/api/geocode/json?address=1050%20Thomas%20AvenueSan%20Diego,%20CA%2092109-4161&sensor=false
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - '*/*'
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=UTF-8
-      Date:
-      - Wed, 19 Feb 2014 21:15:42 GMT
-      Expires:
-      - Thu, 20 Feb 2014 21:15:42 GMT
-      Cache-Control:
-      - public, max-age=86400
-      Vary:
-      - Accept-Language
-      Access-Control-Allow-Origin:
-      - '*'
-      Server:
-      - mafe
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - SAMEORIGIN
-      Alternate-Protocol:
-      - 443:quic
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: |
-        {
-           "results" : [
-              {
-                 "address_components" : [
-                    {
-                       "long_name" : "1050",
-                       "short_name" : "1050",
-                       "types" : [ "street_number" ]
-                    },
-                    {
-                       "long_name" : "Thomas Avenue",
-                       "short_name" : "Thomas Ave",
-                       "types" : [ "route" ]
-                    },
-                    {
-                       "long_name" : "Pacific Beach",
-                       "short_name" : "Pacific Beach",
-                       "types" : [ "neighborhood", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego",
-                       "short_name" : "San Diego",
-                       "types" : [ "locality", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego County",
-                       "short_name" : "San Diego County",
-                       "types" : [ "administrative_area_level_2", "political" ]
-                    },
-                    {
-                       "long_name" : "California",
-                       "short_name" : "CA",
-                       "types" : [ "administrative_area_level_1", "political" ]
-                    },
-                    {
-                       "long_name" : "United States",
-                       "short_name" : "US",
-                       "types" : [ "country", "political" ]
-                    },
-                    {
-                       "long_name" : "92109",
-                       "short_name" : "92109",
-                       "types" : [ "postal_code" ]
-                    }
-                 ],
-                 "formatted_address" : "1050 Thomas Avenue, San Diego, CA 92109, USA",
-                 "geometry" : {
-                    "location" : {
-                       "lat" : 32.7948975,
-                       "lng" : -117.2497813
-                    },
-                    "location_type" : "ROOFTOP",
-                    "viewport" : {
-                       "northeast" : {
-                          "lat" : 32.79624648029149,
-                          "lng" : -117.2484323197085
-                       },
-                       "southwest" : {
-                          "lat" : 32.7935485197085,
-                          "lng" : -117.2511302802915
-                       }
-                    }
-                 },
-                 "partial_match" : true,
-                 "types" : [ "street_address" ]
-              }
-           ],
-           "status" : "OK"
-        }
-    http_version: 
-  recorded_at: Wed, 19 Feb 2014 21:15:42 GMT
-- request:
-    method: get
-    uri: https://maps.googleapis.com/maps/api/geocode/json?address=1050%20Thomas%20AvenueSan%20Diego,%20CA%2092109-4161&sensor=false
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - '*/*'
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=UTF-8
-      Date:
-      - Wed, 19 Feb 2014 21:15:42 GMT
-      Expires:
-      - Thu, 20 Feb 2014 21:15:42 GMT
-      Cache-Control:
-      - public, max-age=86400
-      Vary:
-      - Accept-Language
-      Access-Control-Allow-Origin:
-      - '*'
-      Server:
-      - mafe
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - SAMEORIGIN
-      Alternate-Protocol:
-      - 443:quic
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: |
-        {
-           "results" : [
-              {
-                 "address_components" : [
-                    {
-                       "long_name" : "1050",
-                       "short_name" : "1050",
-                       "types" : [ "street_number" ]
-                    },
-                    {
-                       "long_name" : "Thomas Avenue",
-                       "short_name" : "Thomas Ave",
-                       "types" : [ "route" ]
-                    },
-                    {
-                       "long_name" : "Pacific Beach",
-                       "short_name" : "Pacific Beach",
-                       "types" : [ "neighborhood", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego",
-                       "short_name" : "San Diego",
-                       "types" : [ "locality", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego County",
-                       "short_name" : "San Diego County",
-                       "types" : [ "administrative_area_level_2", "political" ]
-                    },
-                    {
-                       "long_name" : "California",
-                       "short_name" : "CA",
-                       "types" : [ "administrative_area_level_1", "political" ]
-                    },
-                    {
-                       "long_name" : "United States",
-                       "short_name" : "US",
-                       "types" : [ "country", "political" ]
-                    },
-                    {
-                       "long_name" : "92109",
-                       "short_name" : "92109",
-                       "types" : [ "postal_code" ]
-                    }
-                 ],
-                 "formatted_address" : "1050 Thomas Avenue, San Diego, CA 92109, USA",
-                 "geometry" : {
-                    "location" : {
-                       "lat" : 32.7948975,
-                       "lng" : -117.2497813
-                    },
-                    "location_type" : "ROOFTOP",
-                    "viewport" : {
-                       "northeast" : {
-                          "lat" : 32.79624648029149,
-                          "lng" : -117.2484323197085
-                       },
-                       "southwest" : {
-                          "lat" : 32.7935485197085,
-                          "lng" : -117.2511302802915
-                       }
-                    }
-                 },
-                 "partial_match" : true,
-                 "types" : [ "street_address" ]
-              }
-           ],
-           "status" : "OK"
-        }
-    http_version: 
-  recorded_at: Wed, 19 Feb 2014 21:15:42 GMT
-- request:
-    method: get
-    uri: https://maps.googleapis.com/maps/api/geocode/json?address=1050%20Thomas%20AvenueSan%20Diego,%20CA%2092109-4161&sensor=false
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - '*/*'
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=UTF-8
-      Date:
-      - Wed, 19 Feb 2014 21:15:43 GMT
-      Expires:
-      - Thu, 20 Feb 2014 21:15:43 GMT
-      Cache-Control:
-      - public, max-age=86400
-      Vary:
-      - Accept-Language
-      Access-Control-Allow-Origin:
-      - '*'
-      Server:
-      - mafe
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - SAMEORIGIN
-      Alternate-Protocol:
-      - 443:quic
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: |
-        {
-           "results" : [
-              {
-                 "address_components" : [
-                    {
-                       "long_name" : "1050",
-                       "short_name" : "1050",
-                       "types" : [ "street_number" ]
-                    },
-                    {
-                       "long_name" : "Thomas Avenue",
-                       "short_name" : "Thomas Ave",
-                       "types" : [ "route" ]
-                    },
-                    {
-                       "long_name" : "Pacific Beach",
-                       "short_name" : "Pacific Beach",
-                       "types" : [ "neighborhood", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego",
-                       "short_name" : "San Diego",
-                       "types" : [ "locality", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego County",
-                       "short_name" : "San Diego County",
-                       "types" : [ "administrative_area_level_2", "political" ]
-                    },
-                    {
-                       "long_name" : "California",
-                       "short_name" : "CA",
-                       "types" : [ "administrative_area_level_1", "political" ]
-                    },
-                    {
-                       "long_name" : "United States",
-                       "short_name" : "US",
-                       "types" : [ "country", "political" ]
-                    },
-                    {
-                       "long_name" : "92109",
-                       "short_name" : "92109",
-                       "types" : [ "postal_code" ]
-                    }
-                 ],
-                 "formatted_address" : "1050 Thomas Avenue, San Diego, CA 92109, USA",
-                 "geometry" : {
-                    "location" : {
-                       "lat" : 32.7948975,
-                       "lng" : -117.2497813
-                    },
-                    "location_type" : "ROOFTOP",
-                    "viewport" : {
-                       "northeast" : {
-                          "lat" : 32.79624648029149,
-                          "lng" : -117.2484323197085
-                       },
-                       "southwest" : {
-                          "lat" : 32.7935485197085,
-                          "lng" : -117.2511302802915
-                       }
-                    }
-                 },
-                 "partial_match" : true,
-                 "types" : [ "street_address" ]
-              }
-           ],
-           "status" : "OK"
-        }
-    http_version: 
-  recorded_at: Wed, 19 Feb 2014 21:15:43 GMT
-- request:
-    method: get
-    uri: https://maps.googleapis.com/maps/api/geocode/json?address=1050%20Thomas%20AvenueSan%20Diego,%20CA%2092109-4161&sensor=false
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - '*/*'
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=UTF-8
-      Date:
-      - Wed, 19 Feb 2014 21:15:43 GMT
-      Expires:
-      - Thu, 20 Feb 2014 21:15:43 GMT
-      Cache-Control:
-      - public, max-age=86400
-      Vary:
-      - Accept-Language
-      Access-Control-Allow-Origin:
-      - '*'
-      Server:
-      - mafe
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - SAMEORIGIN
-      Alternate-Protocol:
-      - 443:quic
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: |
-        {
-           "results" : [
-              {
-                 "address_components" : [
-                    {
-                       "long_name" : "1050",
-                       "short_name" : "1050",
-                       "types" : [ "street_number" ]
-                    },
-                    {
-                       "long_name" : "Thomas Avenue",
-                       "short_name" : "Thomas Ave",
-                       "types" : [ "route" ]
-                    },
-                    {
-                       "long_name" : "Pacific Beach",
-                       "short_name" : "Pacific Beach",
-                       "types" : [ "neighborhood", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego",
-                       "short_name" : "San Diego",
-                       "types" : [ "locality", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego County",
-                       "short_name" : "San Diego County",
-                       "types" : [ "administrative_area_level_2", "political" ]
-                    },
-                    {
-                       "long_name" : "California",
-                       "short_name" : "CA",
-                       "types" : [ "administrative_area_level_1", "political" ]
-                    },
-                    {
-                       "long_name" : "United States",
-                       "short_name" : "US",
-                       "types" : [ "country", "political" ]
-                    },
-                    {
-                       "long_name" : "92109",
-                       "short_name" : "92109",
-                       "types" : [ "postal_code" ]
-                    }
-                 ],
-                 "formatted_address" : "1050 Thomas Avenue, San Diego, CA 92109, USA",
-                 "geometry" : {
-                    "location" : {
-                       "lat" : 32.7948975,
-                       "lng" : -117.2497813
-                    },
-                    "location_type" : "ROOFTOP",
-                    "viewport" : {
-                       "northeast" : {
-                          "lat" : 32.79624648029149,
-                          "lng" : -117.2484323197085
-                       },
-                       "southwest" : {
-                          "lat" : 32.7935485197085,
-                          "lng" : -117.2511302802915
-                       }
-                    }
-                 },
-                 "partial_match" : true,
-                 "types" : [ "street_address" ]
-              }
-           ],
-           "status" : "OK"
-        }
-    http_version: 
-  recorded_at: Wed, 19 Feb 2014 21:15:43 GMT
-- request:
-    method: get
-    uri: https://maps.googleapis.com/maps/api/geocode/json?address=1050%20Thomas%20AvenueSan%20Diego,%20CA%2092109-4161&sensor=false
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - '*/*'
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=UTF-8
-      Date:
-      - Wed, 19 Feb 2014 21:15:43 GMT
-      Expires:
-      - Thu, 20 Feb 2014 21:15:43 GMT
-      Cache-Control:
-      - public, max-age=86400
-      Vary:
-      - Accept-Language
-      Access-Control-Allow-Origin:
-      - '*'
-      Server:
-      - mafe
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - SAMEORIGIN
-      Alternate-Protocol:
-      - 443:quic
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: |
-        {
-           "results" : [
-              {
-                 "address_components" : [
-                    {
-                       "long_name" : "1050",
-                       "short_name" : "1050",
-                       "types" : [ "street_number" ]
-                    },
-                    {
-                       "long_name" : "Thomas Avenue",
-                       "short_name" : "Thomas Ave",
-                       "types" : [ "route" ]
-                    },
-                    {
-                       "long_name" : "Pacific Beach",
-                       "short_name" : "Pacific Beach",
-                       "types" : [ "neighborhood", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego",
-                       "short_name" : "San Diego",
-                       "types" : [ "locality", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego County",
-                       "short_name" : "San Diego County",
-                       "types" : [ "administrative_area_level_2", "political" ]
-                    },
-                    {
-                       "long_name" : "California",
-                       "short_name" : "CA",
-                       "types" : [ "administrative_area_level_1", "political" ]
-                    },
-                    {
-                       "long_name" : "United States",
-                       "short_name" : "US",
-                       "types" : [ "country", "political" ]
-                    },
-                    {
-                       "long_name" : "92109",
-                       "short_name" : "92109",
-                       "types" : [ "postal_code" ]
-                    }
-                 ],
-                 "formatted_address" : "1050 Thomas Avenue, San Diego, CA 92109, USA",
-                 "geometry" : {
-                    "location" : {
-                       "lat" : 32.7948975,
-                       "lng" : -117.2497813
-                    },
-                    "location_type" : "ROOFTOP",
-                    "viewport" : {
-                       "northeast" : {
-                          "lat" : 32.79624648029149,
-                          "lng" : -117.2484323197085
-                       },
-                       "southwest" : {
-                          "lat" : 32.7935485197085,
-                          "lng" : -117.2511302802915
-                       }
-                    }
-                 },
-                 "partial_match" : true,
-                 "types" : [ "street_address" ]
-              }
-           ],
-           "status" : "OK"
-        }
-    http_version: 
-  recorded_at: Wed, 19 Feb 2014 21:15:43 GMT
-- request:
-    method: get
-    uri: https://maps.googleapis.com/maps/api/geocode/json?address=1050%20Thomas%20AvenueSan%20Diego,%20CA%2092109-4161&sensor=false
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - '*/*'
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=UTF-8
-      Date:
-      - Wed, 19 Feb 2014 21:15:44 GMT
-      Expires:
-      - Thu, 20 Feb 2014 21:15:44 GMT
-      Cache-Control:
-      - public, max-age=86400
-      Vary:
-      - Accept-Language
-      Access-Control-Allow-Origin:
-      - '*'
-      Server:
-      - mafe
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - SAMEORIGIN
-      Alternate-Protocol:
-      - 443:quic
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: |
-        {
-           "results" : [
-              {
-                 "address_components" : [
-                    {
-                       "long_name" : "1050",
-                       "short_name" : "1050",
-                       "types" : [ "street_number" ]
-                    },
-                    {
-                       "long_name" : "Thomas Avenue",
-                       "short_name" : "Thomas Ave",
-                       "types" : [ "route" ]
-                    },
-                    {
-                       "long_name" : "Pacific Beach",
-                       "short_name" : "Pacific Beach",
-                       "types" : [ "neighborhood", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego",
-                       "short_name" : "San Diego",
-                       "types" : [ "locality", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego County",
-                       "short_name" : "San Diego County",
-                       "types" : [ "administrative_area_level_2", "political" ]
-                    },
-                    {
-                       "long_name" : "California",
-                       "short_name" : "CA",
-                       "types" : [ "administrative_area_level_1", "political" ]
-                    },
-                    {
-                       "long_name" : "United States",
-                       "short_name" : "US",
-                       "types" : [ "country", "political" ]
-                    },
-                    {
-                       "long_name" : "92109",
-                       "short_name" : "92109",
-                       "types" : [ "postal_code" ]
-                    }
-                 ],
-                 "formatted_address" : "1050 Thomas Avenue, San Diego, CA 92109, USA",
-                 "geometry" : {
-                    "location" : {
-                       "lat" : 32.7948975,
-                       "lng" : -117.2497813
-                    },
-                    "location_type" : "ROOFTOP",
-                    "viewport" : {
-                       "northeast" : {
-                          "lat" : 32.79624648029149,
-                          "lng" : -117.2484323197085
-                       },
-                       "southwest" : {
-                          "lat" : 32.7935485197085,
-                          "lng" : -117.2511302802915
-                       }
-                    }
-                 },
-                 "partial_match" : true,
-                 "types" : [ "street_address" ]
-              }
-           ],
-           "status" : "OK"
-        }
-    http_version: 
-  recorded_at: Wed, 19 Feb 2014 21:15:44 GMT
-- request:
-    method: get
-    uri: https://maps.googleapis.com/maps/api/geocode/json?address=1050%20Thomas%20AvenueSan%20Diego,%20CA%2092109-4161&sensor=false
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - '*/*'
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=UTF-8
-      Date:
-      - Wed, 19 Feb 2014 21:15:44 GMT
-      Expires:
-      - Thu, 20 Feb 2014 21:15:44 GMT
-      Cache-Control:
-      - public, max-age=86400
-      Vary:
-      - Accept-Language
-      Access-Control-Allow-Origin:
-      - '*'
-      Server:
-      - mafe
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - SAMEORIGIN
-      Alternate-Protocol:
-      - 443:quic
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: |
-        {
-           "results" : [
-              {
-                 "address_components" : [
-                    {
-                       "long_name" : "1050",
-                       "short_name" : "1050",
-                       "types" : [ "street_number" ]
-                    },
-                    {
-                       "long_name" : "Thomas Avenue",
-                       "short_name" : "Thomas Ave",
-                       "types" : [ "route" ]
-                    },
-                    {
-                       "long_name" : "Pacific Beach",
-                       "short_name" : "Pacific Beach",
-                       "types" : [ "neighborhood", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego",
-                       "short_name" : "San Diego",
-                       "types" : [ "locality", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego County",
-                       "short_name" : "San Diego County",
-                       "types" : [ "administrative_area_level_2", "political" ]
-                    },
-                    {
-                       "long_name" : "California",
-                       "short_name" : "CA",
-                       "types" : [ "administrative_area_level_1", "political" ]
-                    },
-                    {
-                       "long_name" : "United States",
-                       "short_name" : "US",
-                       "types" : [ "country", "political" ]
-                    },
-                    {
-                       "long_name" : "92109",
-                       "short_name" : "92109",
-                       "types" : [ "postal_code" ]
-                    }
-                 ],
-                 "formatted_address" : "1050 Thomas Avenue, San Diego, CA 92109, USA",
-                 "geometry" : {
-                    "location" : {
-                       "lat" : 32.7948975,
-                       "lng" : -117.2497813
-                    },
-                    "location_type" : "ROOFTOP",
-                    "viewport" : {
-                       "northeast" : {
-                          "lat" : 32.79624648029149,
-                          "lng" : -117.2484323197085
-                       },
-                       "southwest" : {
-                          "lat" : 32.7935485197085,
-                          "lng" : -117.2511302802915
-                       }
-                    }
-                 },
-                 "partial_match" : true,
-                 "types" : [ "street_address" ]
-              }
-           ],
-           "status" : "OK"
-        }
-    http_version: 
-  recorded_at: Wed, 19 Feb 2014 21:15:44 GMT
-- request:
-    method: get
-    uri: https://maps.googleapis.com/maps/api/geocode/json?address=1050%20Thomas%20StreetSan%20Diego,%20CA%2092109&sensor=false
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - '*/*'
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=UTF-8
-      Date:
-      - Wed, 19 Feb 2014 21:15:44 GMT
-      Expires:
-      - Thu, 20 Feb 2014 21:15:44 GMT
-      Cache-Control:
-      - public, max-age=86400
-      Vary:
-      - Accept-Language
-      Access-Control-Allow-Origin:
-      - '*'
-      Server:
-      - mafe
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - SAMEORIGIN
-      Alternate-Protocol:
-      - 443:quic
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: |
-        {
-           "results" : [
-              {
-                 "address_components" : [
-                    {
-                       "long_name" : "1050",
-                       "short_name" : "1050",
-                       "types" : [ "street_number" ]
-                    },
-                    {
-                       "long_name" : "Thomas Avenue",
-                       "short_name" : "Thomas Ave",
-                       "types" : [ "route" ]
-                    },
-                    {
-                       "long_name" : "Pacific Beach",
-                       "short_name" : "Pacific Beach",
-                       "types" : [ "neighborhood", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego",
-                       "short_name" : "San Diego",
-                       "types" : [ "locality", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego County",
-                       "short_name" : "San Diego County",
-                       "types" : [ "administrative_area_level_2", "political" ]
-                    },
-                    {
-                       "long_name" : "California",
-                       "short_name" : "CA",
-                       "types" : [ "administrative_area_level_1", "political" ]
-                    },
-                    {
-                       "long_name" : "United States",
-                       "short_name" : "US",
-                       "types" : [ "country", "political" ]
-                    },
-                    {
-                       "long_name" : "92109",
-                       "short_name" : "92109",
-                       "types" : [ "postal_code" ]
-                    }
-                 ],
-                 "formatted_address" : "1050 Thomas Avenue, San Diego, CA 92109, USA",
-                 "geometry" : {
-                    "location" : {
-                       "lat" : 32.7948975,
-                       "lng" : -117.2497813
-                    },
-                    "location_type" : "ROOFTOP",
-                    "viewport" : {
-                       "northeast" : {
-                          "lat" : 32.79624648029149,
-                          "lng" : -117.2484323197085
-                       },
-                       "southwest" : {
-                          "lat" : 32.7935485197085,
-                          "lng" : -117.2511302802915
-                       }
-                    }
-                 },
-                 "partial_match" : true,
-                 "types" : [ "street_address" ]
-              }
-           ],
-           "status" : "OK"
-        }
-    http_version: 
-  recorded_at: Wed, 19 Feb 2014 21:15:44 GMT
-- request:
-    method: get
-    uri: https://maps.googleapis.com/maps/api/geocode/json?address=1050%20Thomas%20StreetSan%20Diego,%20CA%2092109&sensor=false
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - '*/*'
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=UTF-8
-      Date:
-      - Wed, 19 Feb 2014 21:15:45 GMT
-      Expires:
-      - Thu, 20 Feb 2014 21:15:45 GMT
-      Cache-Control:
-      - public, max-age=86400
-      Vary:
-      - Accept-Language
-      Access-Control-Allow-Origin:
-      - '*'
-      Server:
-      - mafe
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - SAMEORIGIN
-      Alternate-Protocol:
-      - 443:quic
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: |
-        {
-           "results" : [
-              {
-                 "address_components" : [
-                    {
-                       "long_name" : "1050",
-                       "short_name" : "1050",
-                       "types" : [ "street_number" ]
-                    },
-                    {
-                       "long_name" : "Thomas Avenue",
-                       "short_name" : "Thomas Ave",
-                       "types" : [ "route" ]
-                    },
-                    {
-                       "long_name" : "Pacific Beach",
-                       "short_name" : "Pacific Beach",
-                       "types" : [ "neighborhood", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego",
-                       "short_name" : "San Diego",
-                       "types" : [ "locality", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego County",
-                       "short_name" : "San Diego County",
-                       "types" : [ "administrative_area_level_2", "political" ]
-                    },
-                    {
-                       "long_name" : "California",
-                       "short_name" : "CA",
-                       "types" : [ "administrative_area_level_1", "political" ]
-                    },
-                    {
-                       "long_name" : "United States",
-                       "short_name" : "US",
-                       "types" : [ "country", "political" ]
-                    },
-                    {
-                       "long_name" : "92109",
-                       "short_name" : "92109",
-                       "types" : [ "postal_code" ]
-                    }
-                 ],
-                 "formatted_address" : "1050 Thomas Avenue, San Diego, CA 92109, USA",
-                 "geometry" : {
-                    "location" : {
-                       "lat" : 32.7948975,
-                       "lng" : -117.2497813
-                    },
-                    "location_type" : "ROOFTOP",
-                    "viewport" : {
-                       "northeast" : {
-                          "lat" : 32.79624648029149,
-                          "lng" : -117.2484323197085
-                       },
-                       "southwest" : {
-                          "lat" : 32.7935485197085,
-                          "lng" : -117.2511302802915
-                       }
-                    }
-                 },
-                 "partial_match" : true,
-                 "types" : [ "street_address" ]
-              }
-           ],
-           "status" : "OK"
-        }
-    http_version: 
-  recorded_at: Wed, 19 Feb 2014 21:15:45 GMT
-- request:
-    method: get
-    uri: https://maps.googleapis.com/maps/api/geocode/json?address=1050%20Thomas%20StreetSan%20Diego,%20CA%2092109&sensor=false
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - '*/*'
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=UTF-8
-      Date:
-      - Wed, 19 Feb 2014 21:15:45 GMT
-      Expires:
-      - Thu, 20 Feb 2014 21:15:45 GMT
-      Cache-Control:
-      - public, max-age=86400
-      Vary:
-      - Accept-Language
-      Access-Control-Allow-Origin:
-      - '*'
-      Server:
-      - mafe
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - SAMEORIGIN
-      Alternate-Protocol:
-      - 443:quic
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: |
-        {
-           "results" : [
-              {
-                 "address_components" : [
-                    {
-                       "long_name" : "1050",
-                       "short_name" : "1050",
-                       "types" : [ "street_number" ]
-                    },
-                    {
-                       "long_name" : "Thomas Avenue",
-                       "short_name" : "Thomas Ave",
-                       "types" : [ "route" ]
-                    },
-                    {
-                       "long_name" : "Pacific Beach",
-                       "short_name" : "Pacific Beach",
-                       "types" : [ "neighborhood", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego",
-                       "short_name" : "San Diego",
-                       "types" : [ "locality", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego County",
-                       "short_name" : "San Diego County",
-                       "types" : [ "administrative_area_level_2", "political" ]
-                    },
-                    {
-                       "long_name" : "California",
-                       "short_name" : "CA",
-                       "types" : [ "administrative_area_level_1", "political" ]
-                    },
-                    {
-                       "long_name" : "United States",
-                       "short_name" : "US",
-                       "types" : [ "country", "political" ]
-                    },
-                    {
-                       "long_name" : "92109",
-                       "short_name" : "92109",
-                       "types" : [ "postal_code" ]
-                    }
-                 ],
-                 "formatted_address" : "1050 Thomas Avenue, San Diego, CA 92109, USA",
-                 "geometry" : {
-                    "location" : {
-                       "lat" : 32.7948975,
-                       "lng" : -117.2497813
-                    },
-                    "location_type" : "ROOFTOP",
-                    "viewport" : {
-                       "northeast" : {
-                          "lat" : 32.79624648029149,
-                          "lng" : -117.2484323197085
-                       },
-                       "southwest" : {
-                          "lat" : 32.7935485197085,
-                          "lng" : -117.2511302802915
-                       }
-                    }
-                 },
-                 "partial_match" : true,
-                 "types" : [ "street_address" ]
-              }
-           ],
-           "status" : "OK"
-        }
-    http_version: 
-  recorded_at: Wed, 19 Feb 2014 21:15:45 GMT
-- request:
-    method: get
-    uri: https://maps.googleapis.com/maps/api/geocode/json?address=1050%20Thomas%20StreetSan%20Diego,%20CA%2092109&sensor=false
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - '*/*'
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=UTF-8
-      Date:
-      - Wed, 19 Feb 2014 21:15:45 GMT
-      Expires:
-      - Thu, 20 Feb 2014 21:15:45 GMT
-      Cache-Control:
-      - public, max-age=86400
-      Vary:
-      - Accept-Language
-      Access-Control-Allow-Origin:
-      - '*'
-      Server:
-      - mafe
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - SAMEORIGIN
-      Alternate-Protocol:
-      - 443:quic
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: |
-        {
-           "results" : [
-              {
-                 "address_components" : [
-                    {
-                       "long_name" : "1050",
-                       "short_name" : "1050",
-                       "types" : [ "street_number" ]
-                    },
-                    {
-                       "long_name" : "Thomas Avenue",
-                       "short_name" : "Thomas Ave",
-                       "types" : [ "route" ]
-                    },
-                    {
-                       "long_name" : "Pacific Beach",
-                       "short_name" : "Pacific Beach",
-                       "types" : [ "neighborhood", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego",
-                       "short_name" : "San Diego",
-                       "types" : [ "locality", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego County",
-                       "short_name" : "San Diego County",
-                       "types" : [ "administrative_area_level_2", "political" ]
-                    },
-                    {
-                       "long_name" : "California",
-                       "short_name" : "CA",
-                       "types" : [ "administrative_area_level_1", "political" ]
-                    },
-                    {
-                       "long_name" : "United States",
-                       "short_name" : "US",
-                       "types" : [ "country", "political" ]
-                    },
-                    {
-                       "long_name" : "92109",
-                       "short_name" : "92109",
-                       "types" : [ "postal_code" ]
-                    }
-                 ],
-                 "formatted_address" : "1050 Thomas Avenue, San Diego, CA 92109, USA",
-                 "geometry" : {
-                    "location" : {
-                       "lat" : 32.7948975,
-                       "lng" : -117.2497813
-                    },
-                    "location_type" : "ROOFTOP",
-                    "viewport" : {
-                       "northeast" : {
-                          "lat" : 32.79624648029149,
-                          "lng" : -117.2484323197085
-                       },
-                       "southwest" : {
-                          "lat" : 32.7935485197085,
-                          "lng" : -117.2511302802915
-                       }
-                    }
-                 },
-                 "partial_match" : true,
-                 "types" : [ "street_address" ]
-              }
-           ],
-           "status" : "OK"
-        }
-    http_version: 
-  recorded_at: Wed, 19 Feb 2014 21:15:46 GMT
+  recorded_at: Sat, 22 Feb 2014 21:48:12 GMT
 - request:
     method: get
     uri: https://maps.googleapis.com/maps/api/geocode/json?address=1050%20Thomas%20st.san_diego,%20CA%2092109&sensor=false
@@ -2509,9 +474,9 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Wed, 19 Feb 2014 21:15:46 GMT
+      - Sat, 22 Feb 2014 21:48:11 GMT
       Expires:
-      - Thu, 20 Feb 2014 21:15:46 GMT
+      - Sun, 23 Feb 2014 21:48:11 GMT
       Cache-Control:
       - public, max-age=86400
       Vary:
@@ -2579,267 +544,95 @@ http_interactions:
                  "formatted_address" : "1050 Thomas Avenue, San Diego, CA 92109, USA",
                  "geometry" : {
                     "location" : {
-                       "lat" : 32.7948975,
-                       "lng" : -117.2497813
-                    },
-                    "location_type" : "ROOFTOP",
-                    "viewport" : {
-                       "northeast" : {
-                          "lat" : 32.79624648029149,
-                          "lng" : -117.2484323197085
-                       },
-                       "southwest" : {
-                          "lat" : 32.7935485197085,
-                          "lng" : -117.2511302802915
-                       }
-                    }
-                 },
-                 "partial_match" : true,
-                 "types" : [ "street_address" ]
-              }
-           ],
-           "status" : "OK"
-        }
-    http_version: 
-  recorded_at: Wed, 19 Feb 2014 21:15:46 GMT
-- request:
-    method: get
-    uri: https://maps.googleapis.com/maps/api/geocode/json?address=2088%20Beryl%20StreetSan%20Diego,%20CA%2092109&sensor=false
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - '*/*'
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=UTF-8
-      Date:
-      - Wed, 19 Feb 2014 21:15:46 GMT
-      Expires:
-      - Thu, 20 Feb 2014 21:15:46 GMT
-      Cache-Control:
-      - public, max-age=86400
-      Vary:
-      - Accept-Language
-      Access-Control-Allow-Origin:
-      - '*'
-      Server:
-      - mafe
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - SAMEORIGIN
-      Alternate-Protocol:
-      - 443:quic
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: |
-        {
-           "results" : [
-              {
-                 "address_components" : [
-                    {
-                       "long_name" : "2088",
-                       "short_name" : "2088",
-                       "types" : [ "street_number" ]
-                    },
-                    {
-                       "long_name" : "Beryl Street",
-                       "short_name" : "Beryl St",
-                       "types" : [ "route" ]
-                    },
-                    {
-                       "long_name" : "Pacific Beach",
-                       "short_name" : "Pacific Beach",
-                       "types" : [ "neighborhood", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego",
-                       "short_name" : "San Diego",
-                       "types" : [ "locality", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego County",
-                       "short_name" : "San Diego County",
-                       "types" : [ "administrative_area_level_2", "political" ]
-                    },
-                    {
-                       "long_name" : "California",
-                       "short_name" : "CA",
-                       "types" : [ "administrative_area_level_1", "political" ]
-                    },
-                    {
-                       "long_name" : "United States",
-                       "short_name" : "US",
-                       "types" : [ "country", "political" ]
-                    },
-                    {
-                       "long_name" : "92109",
-                       "short_name" : "92109",
-                       "types" : [ "postal_code" ]
-                    }
-                 ],
-                 "formatted_address" : "2088 Beryl Street, San Diego, CA 92109, USA",
-                 "geometry" : {
-                    "location" : {
-                       "lat" : 32.8084046,
-                       "lng" : -117.2336894
-                    },
-                    "location_type" : "ROOFTOP",
-                    "viewport" : {
-                       "northeast" : {
-                          "lat" : 32.80975358029149,
-                          "lng" : -117.2323404197085
-                       },
-                       "southwest" : {
-                          "lat" : 32.80705561970849,
-                          "lng" : -117.2350383802915
-                       }
-                    }
-                 },
-                 "types" : [ "street_address" ]
-              }
-           ],
-           "status" : "OK"
-        }
-    http_version: 
-  recorded_at: Wed, 19 Feb 2014 21:15:46 GMT
-- request:
-    method: get
-    uri: https://maps.googleapis.com/maps/api/geocode/json?address=Santa%20Clara%20PlaceMission%20Beach,%20CA%2095055&sensor=false
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - '*/*'
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=UTF-8
-      Date:
-      - Wed, 19 Feb 2014 21:15:46 GMT
-      Expires:
-      - Thu, 20 Feb 2014 21:15:46 GMT
-      Cache-Control:
-      - public, max-age=86400
-      Vary:
-      - Accept-Language
-      Access-Control-Allow-Origin:
-      - '*'
-      Server:
-      - mafe
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - SAMEORIGIN
-      Alternate-Protocol:
-      - 443:quic
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: |
-        {
-           "results" : [
-              {
-                 "address_components" : [
-                    {
-                       "long_name" : "Church in Mission Beach",
-                       "short_name" : "Church in Mission Beach",
-                       "types" : [ "point_of_interest", "establishment" ]
-                    },
-                    {
-                       "long_name" : "1008",
-                       "short_name" : "1008",
-                       "types" : [ "street_number" ]
-                    },
-                    {
-                       "long_name" : "Santa Clara Place",
-                       "short_name" : "Santa Clara Pl",
-                       "types" : [ "route" ]
-                    },
-                    {
-                       "long_name" : "Mission Beach",
-                       "short_name" : "Mission Beach",
-                       "types" : [ "neighborhood", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego",
-                       "short_name" : "San Diego",
-                       "types" : [ "locality", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego County",
-                       "short_name" : "San Diego County",
-                       "types" : [ "administrative_area_level_2", "political" ]
-                    },
-                    {
-                       "long_name" : "California",
-                       "short_name" : "CA",
-                       "types" : [ "administrative_area_level_1", "political" ]
-                    },
-                    {
-                       "long_name" : "United States",
-                       "short_name" : "US",
-                       "types" : [ "country", "political" ]
-                    },
-                    {
-                       "long_name" : "92109",
-                       "short_name" : "92109",
-                       "types" : [ "postal_code" ]
-                    }
-                 ],
-                 "formatted_address" : "Church in Mission Beach, 1008 Santa Clara Place, San Diego, CA 92109, USA",
-                 "geometry" : {
-                    "location" : {
-                       "lat" : 32.7835512,
-                       "lng" : -117.2491375
+                       "lat" : 32.7949622,
+                       "lng" : -117.2496217
                     },
                     "location_type" : "APPROXIMATE",
                     "viewport" : {
                        "northeast" : {
-                          "lat" : 32.7849001802915,
-                          "lng" : -117.2477885197085
+                          "lat" : 32.7963111802915,
+                          "lng" : -117.2482727197085
                        },
                        "southwest" : {
-                          "lat" : 32.7822022197085,
-                          "lng" : -117.2504864802915
+                          "lat" : 32.7936132197085,
+                          "lng" : -117.2509706802915
                        }
                     }
                  },
                  "partial_match" : true,
-                 "types" : [ "church", "place_of_worship", "point_of_interest", "establishment" ]
-              },
+                 "types" : [ "subpremise" ]
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Sat, 22 Feb 2014 21:48:12 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/geocode/json?address=2229%20Bacon%20Streetsan%20diego,%20CA%2092107&sensor=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sat, 22 Feb 2014 21:48:11 GMT
+      Expires:
+      - Sun, 23 Feb 2014 21:48:11 GMT
+      Cache-Control:
+      - public, max-age=86400
+      Vary:
+      - Accept-Language
+      Access-Control-Allow-Origin:
+      - '*'
+      Server:
+      - mafe
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alternate-Protocol:
+      - 443:quic
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "results" : [
               {
                  "address_components" : [
                     {
-                       "long_name" : "Santa Clara Place",
-                       "short_name" : "Santa Clara Pl",
+                       "long_name" : "2229",
+                       "short_name" : "2229",
+                       "types" : [ "street_number" ]
+                    },
+                    {
+                       "long_name" : "Bacon Street",
+                       "short_name" : "Bacon St",
                        "types" : [ "route" ]
                     },
                     {
-                       "long_name" : "Mission Beach",
-                       "short_name" : "Mission Beach",
+                       "long_name" : "Ocean Beach",
+                       "short_name" : "Ocean Beach",
                        "types" : [ "neighborhood", "political" ]
+                    },
+                    {
+                       "long_name" : "Point Loma",
+                       "short_name" : "Point Loma",
+                       "types" : [ "sublocality", "political" ]
                     },
                     {
                        "long_name" : "San Diego",
@@ -2862,36 +655,380 @@ http_interactions:
                        "types" : [ "country", "political" ]
                     },
                     {
-                       "long_name" : "92109",
-                       "short_name" : "92109",
+                       "long_name" : "92107",
+                       "short_name" : "92107",
                        "types" : [ "postal_code" ]
                     }
                  ],
-                 "formatted_address" : "Santa Clara Place, San Diego, CA 92109, USA",
+                 "formatted_address" : "2229 Bacon Street, San Diego, CA 92107, USA",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 32.752438,
+                       "lng" : -117.245951
+                    },
+                    "location_type" : "ROOFTOP",
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 32.7537869802915,
+                          "lng" : -117.2446020197085
+                       },
+                       "southwest" : {
+                          "lat" : 32.7510890197085,
+                          "lng" : -117.2472999802915
+                       }
+                    }
+                 },
+                 "types" : [ "street_address" ]
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Sat, 22 Feb 2014 21:48:13 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/geocode/json?address=2229%20Bacon%20Streetsan%20diego,%20CA%2092107&sensor=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sat, 22 Feb 2014 21:48:11 GMT
+      Expires:
+      - Sun, 23 Feb 2014 21:48:11 GMT
+      Cache-Control:
+      - public, max-age=86400
+      Vary:
+      - Accept-Language
+      Access-Control-Allow-Origin:
+      - '*'
+      Server:
+      - mafe
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alternate-Protocol:
+      - 443:quic
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "results" : [
+              {
+                 "address_components" : [
+                    {
+                       "long_name" : "2229",
+                       "short_name" : "2229",
+                       "types" : [ "street_number" ]
+                    },
+                    {
+                       "long_name" : "Bacon Street",
+                       "short_name" : "Bacon St",
+                       "types" : [ "route" ]
+                    },
+                    {
+                       "long_name" : "Ocean Beach",
+                       "short_name" : "Ocean Beach",
+                       "types" : [ "neighborhood", "political" ]
+                    },
+                    {
+                       "long_name" : "Point Loma",
+                       "short_name" : "Point Loma",
+                       "types" : [ "sublocality", "political" ]
+                    },
+                    {
+                       "long_name" : "San Diego",
+                       "short_name" : "San Diego",
+                       "types" : [ "locality", "political" ]
+                    },
+                    {
+                       "long_name" : "San Diego County",
+                       "short_name" : "San Diego County",
+                       "types" : [ "administrative_area_level_2", "political" ]
+                    },
+                    {
+                       "long_name" : "California",
+                       "short_name" : "CA",
+                       "types" : [ "administrative_area_level_1", "political" ]
+                    },
+                    {
+                       "long_name" : "United States",
+                       "short_name" : "US",
+                       "types" : [ "country", "political" ]
+                    },
+                    {
+                       "long_name" : "92107",
+                       "short_name" : "92107",
+                       "types" : [ "postal_code" ]
+                    }
+                 ],
+                 "formatted_address" : "2229 Bacon Street, San Diego, CA 92107, USA",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 32.752438,
+                       "lng" : -117.245951
+                    },
+                    "location_type" : "ROOFTOP",
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 32.7537869802915,
+                          "lng" : -117.2446020197085
+                       },
+                       "southwest" : {
+                          "lat" : 32.7510890197085,
+                          "lng" : -117.2472999802915
+                       }
+                    }
+                 },
+                 "types" : [ "street_address" ]
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Sat, 22 Feb 2014 21:48:13 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/geocode/json?address=2380%20Sunset%20Cliffs%20Blvd.san%20diego,%20CA%2092107&sensor=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sat, 22 Feb 2014 21:48:12 GMT
+      Expires:
+      - Sun, 23 Feb 2014 21:48:12 GMT
+      Cache-Control:
+      - public, max-age=86400
+      Vary:
+      - Accept-Language
+      Access-Control-Allow-Origin:
+      - '*'
+      Server:
+      - mafe
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alternate-Protocol:
+      - 443:quic
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "results" : [
+              {
+                 "address_components" : [
+                    {
+                       "long_name" : "2380",
+                       "short_name" : "2380",
+                       "types" : [ "street_number" ]
+                    },
+                    {
+                       "long_name" : "Sunset Cliffs Boulevard",
+                       "short_name" : "Sunset Cliffs Blvd",
+                       "types" : [ "route" ]
+                    },
+                    {
+                       "long_name" : "Ocean Beach",
+                       "short_name" : "Ocean Beach",
+                       "types" : [ "neighborhood", "political" ]
+                    },
+                    {
+                       "long_name" : "Point Loma",
+                       "short_name" : "Point Loma",
+                       "types" : [ "sublocality", "political" ]
+                    },
+                    {
+                       "long_name" : "San Diego",
+                       "short_name" : "San Diego",
+                       "types" : [ "locality", "political" ]
+                    },
+                    {
+                       "long_name" : "San Diego County",
+                       "short_name" : "San Diego County",
+                       "types" : [ "administrative_area_level_2", "political" ]
+                    },
+                    {
+                       "long_name" : "California",
+                       "short_name" : "CA",
+                       "types" : [ "administrative_area_level_1", "political" ]
+                    },
+                    {
+                       "long_name" : "United States",
+                       "short_name" : "US",
+                       "types" : [ "country", "political" ]
+                    },
+                    {
+                       "long_name" : "92107",
+                       "short_name" : "92107",
+                       "types" : [ "postal_code" ]
+                    }
+                 ],
+                 "formatted_address" : "2380 Sunset Cliffs Boulevard, San Diego, CA 92107, USA",
                  "geometry" : {
                     "bounds" : {
                        "northeast" : {
-                          "lat" : 32.7851751,
-                          "lng" : -117.2491375
+                          "lat" : 32.7515287,
+                          "lng" : -117.2417043
                        },
                        "southwest" : {
-                          "lat" : 32.7823376,
-                          "lng" : -117.253563
+                          "lat" : 32.7515196,
+                          "lng" : -117.2417193
                        }
                     },
                     "location" : {
-                       "lat" : 32.7828011,
-                       "lng" : -117.250975
+                       "lat" : 32.7515287,
+                       "lng" : -117.2417193
+                    },
+                    "location_type" : "RANGE_INTERPOLATED",
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 32.7528731302915,
+                          "lng" : -117.2403628197085
+                       },
+                       "southwest" : {
+                          "lat" : 32.75017516970851,
+                          "lng" : -117.2430607802915
+                       }
+                    }
+                 },
+                 "types" : [ "street_address" ]
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Sat, 22 Feb 2014 21:48:13 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/geocode/json?address=14941%20Devonshire%20(Church)Mission%20Hills,%20%20&sensor=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sat, 22 Feb 2014 21:48:12 GMT
+      Expires:
+      - Sun, 23 Feb 2014 21:48:12 GMT
+      Cache-Control:
+      - public, max-age=86400
+      Vary:
+      - Accept-Language
+      Access-Control-Allow-Origin:
+      - '*'
+      Server:
+      - mafe
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alternate-Protocol:
+      - 443:quic
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "results" : [
+              {
+                 "address_components" : [
+                    {
+                       "long_name" : "South Church Street",
+                       "short_name" : "S Church St",
+                       "types" : [ "route" ]
+                    },
+                    {
+                       "long_name" : "Olathe",
+                       "short_name" : "Olathe",
+                       "types" : [ "locality", "political" ]
+                    },
+                    {
+                       "long_name" : "Johnson County",
+                       "short_name" : "Johnson County",
+                       "types" : [ "administrative_area_level_2", "political" ]
+                    },
+                    {
+                       "long_name" : "Kansas",
+                       "short_name" : "KS",
+                       "types" : [ "administrative_area_level_1", "political" ]
+                    },
+                    {
+                       "long_name" : "United States",
+                       "short_name" : "US",
+                       "types" : [ "country", "political" ]
+                    }
+                 ],
+                 "formatted_address" : "South Church Street, Olathe, KS, USA",
+                 "geometry" : {
+                    "bounds" : {
+                       "northeast" : {
+                          "lat" : 38.8820108,
+                          "lng" : -94.79579749999999
+                       },
+                       "southwest" : {
+                          "lat" : 38.8308153,
+                          "lng" : -94.80418179999999
+                       }
+                    },
+                    "location" : {
+                       "lat" : 38.8605874,
+                       "lng" : -94.80286529999999
                     },
                     "location_type" : "GEOMETRIC_CENTER",
                     "viewport" : {
                        "northeast" : {
-                          "lat" : 32.7851751,
-                          "lng" : -117.2491375
+                          "lat" : 38.8820108,
+                          "lng" : -94.79579749999999
                        },
                        "southwest" : {
-                          "lat" : 32.7823376,
-                          "lng" : -117.253563
+                          "lat" : 38.8308153,
+                          "lng" : -94.80418179999999
                        }
                     }
                  },
@@ -2902,988 +1039,5 @@ http_interactions:
            "status" : "OK"
         }
     http_version: 
-  recorded_at: Wed, 19 Feb 2014 21:15:46 GMT
-- request:
-    method: get
-    uri: https://maps.googleapis.com/maps/api/geocode/json?address=Santa%20Clara%20PlaceMission%20Beach,%20CA%2095055&sensor=false
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - '*/*'
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=UTF-8
-      Date:
-      - Wed, 19 Feb 2014 21:15:47 GMT
-      Expires:
-      - Thu, 20 Feb 2014 21:15:47 GMT
-      Cache-Control:
-      - public, max-age=86400
-      Vary:
-      - Accept-Language
-      Access-Control-Allow-Origin:
-      - '*'
-      Server:
-      - mafe
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - SAMEORIGIN
-      Alternate-Protocol:
-      - 443:quic
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: |
-        {
-           "results" : [
-              {
-                 "address_components" : [
-                    {
-                       "long_name" : "Church in Mission Beach",
-                       "short_name" : "Church in Mission Beach",
-                       "types" : [ "point_of_interest", "establishment" ]
-                    },
-                    {
-                       "long_name" : "1008",
-                       "short_name" : "1008",
-                       "types" : [ "street_number" ]
-                    },
-                    {
-                       "long_name" : "Santa Clara Place",
-                       "short_name" : "Santa Clara Pl",
-                       "types" : [ "route" ]
-                    },
-                    {
-                       "long_name" : "Mission Beach",
-                       "short_name" : "Mission Beach",
-                       "types" : [ "neighborhood", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego",
-                       "short_name" : "San Diego",
-                       "types" : [ "locality", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego County",
-                       "short_name" : "San Diego County",
-                       "types" : [ "administrative_area_level_2", "political" ]
-                    },
-                    {
-                       "long_name" : "California",
-                       "short_name" : "CA",
-                       "types" : [ "administrative_area_level_1", "political" ]
-                    },
-                    {
-                       "long_name" : "United States",
-                       "short_name" : "US",
-                       "types" : [ "country", "political" ]
-                    },
-                    {
-                       "long_name" : "92109",
-                       "short_name" : "92109",
-                       "types" : [ "postal_code" ]
-                    }
-                 ],
-                 "formatted_address" : "Church in Mission Beach, 1008 Santa Clara Place, San Diego, CA 92109, USA",
-                 "geometry" : {
-                    "location" : {
-                       "lat" : 32.7835512,
-                       "lng" : -117.2491375
-                    },
-                    "location_type" : "APPROXIMATE",
-                    "viewport" : {
-                       "northeast" : {
-                          "lat" : 32.7849001802915,
-                          "lng" : -117.2477885197085
-                       },
-                       "southwest" : {
-                          "lat" : 32.7822022197085,
-                          "lng" : -117.2504864802915
-                       }
-                    }
-                 },
-                 "partial_match" : true,
-                 "types" : [ "church", "place_of_worship", "point_of_interest", "establishment" ]
-              },
-              {
-                 "address_components" : [
-                    {
-                       "long_name" : "Santa Clara Place",
-                       "short_name" : "Santa Clara Pl",
-                       "types" : [ "route" ]
-                    },
-                    {
-                       "long_name" : "Mission Beach",
-                       "short_name" : "Mission Beach",
-                       "types" : [ "neighborhood", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego",
-                       "short_name" : "San Diego",
-                       "types" : [ "locality", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego County",
-                       "short_name" : "San Diego County",
-                       "types" : [ "administrative_area_level_2", "political" ]
-                    },
-                    {
-                       "long_name" : "California",
-                       "short_name" : "CA",
-                       "types" : [ "administrative_area_level_1", "political" ]
-                    },
-                    {
-                       "long_name" : "United States",
-                       "short_name" : "US",
-                       "types" : [ "country", "political" ]
-                    },
-                    {
-                       "long_name" : "92109",
-                       "short_name" : "92109",
-                       "types" : [ "postal_code" ]
-                    }
-                 ],
-                 "formatted_address" : "Santa Clara Place, San Diego, CA 92109, USA",
-                 "geometry" : {
-                    "bounds" : {
-                       "northeast" : {
-                          "lat" : 32.7851751,
-                          "lng" : -117.2491375
-                       },
-                       "southwest" : {
-                          "lat" : 32.7823376,
-                          "lng" : -117.253563
-                       }
-                    },
-                    "location" : {
-                       "lat" : 32.7828011,
-                       "lng" : -117.250975
-                    },
-                    "location_type" : "GEOMETRIC_CENTER",
-                    "viewport" : {
-                       "northeast" : {
-                          "lat" : 32.7851751,
-                          "lng" : -117.2491375
-                       },
-                       "southwest" : {
-                          "lat" : 32.7823376,
-                          "lng" : -117.253563
-                       }
-                    }
-                 },
-                 "partial_match" : true,
-                 "types" : [ "route" ]
-              }
-           ],
-           "status" : "OK"
-        }
-    http_version: 
-  recorded_at: Wed, 19 Feb 2014 21:15:47 GMT
-- request:
-    method: get
-    uri: https://maps.googleapis.com/maps/api/geocode/json?address=1004%20ChalcadonySan%20Diego,%20CA%2092109&sensor=false
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - '*/*'
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=UTF-8
-      Date:
-      - Wed, 19 Feb 2014 21:15:47 GMT
-      Expires:
-      - Thu, 20 Feb 2014 21:15:47 GMT
-      Cache-Control:
-      - public, max-age=86400
-      Vary:
-      - Accept-Language
-      Access-Control-Allow-Origin:
-      - '*'
-      Server:
-      - mafe
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - SAMEORIGIN
-      Alternate-Protocol:
-      - 443:quic
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: |
-        {
-           "results" : [
-              {
-                 "address_components" : [
-                    {
-                       "long_name" : "1004",
-                       "short_name" : "1004",
-                       "types" : [ "street_number" ]
-                    },
-                    {
-                       "long_name" : "Chalcedony Street",
-                       "short_name" : "Chalcedony St",
-                       "types" : [ "route" ]
-                    },
-                    {
-                       "long_name" : "Pacific Beach",
-                       "short_name" : "Pacific Beach",
-                       "types" : [ "neighborhood", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego",
-                       "short_name" : "San Diego",
-                       "types" : [ "locality", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego County",
-                       "short_name" : "San Diego County",
-                       "types" : [ "administrative_area_level_2", "political" ]
-                    },
-                    {
-                       "long_name" : "California",
-                       "short_name" : "CA",
-                       "types" : [ "administrative_area_level_1", "political" ]
-                    },
-                    {
-                       "long_name" : "United States",
-                       "short_name" : "US",
-                       "types" : [ "country", "political" ]
-                    },
-                    {
-                       "long_name" : "92109",
-                       "short_name" : "92109",
-                       "types" : [ "postal_code" ]
-                    }
-                 ],
-                 "formatted_address" : "1004 Chalcedony Street, San Diego, CA 92109, USA",
-                 "geometry" : {
-                    "location" : {
-                       "lat" : 32.802167,
-                       "lng" : -117.2530845
-                    },
-                    "location_type" : "ROOFTOP",
-                    "viewport" : {
-                       "northeast" : {
-                          "lat" : 32.80351598029149,
-                          "lng" : -117.2517355197085
-                       },
-                       "southwest" : {
-                          "lat" : 32.80081801970849,
-                          "lng" : -117.2544334802915
-                       }
-                    }
-                 },
-                 "partial_match" : true,
-                 "types" : [ "street_address" ]
-              }
-           ],
-           "status" : "OK"
-        }
-    http_version: 
-  recorded_at: Wed, 19 Feb 2014 21:15:47 GMT
-- request:
-    method: get
-    uri: https://maps.googleapis.com/maps/api/geocode/json?address=1004%20Chalcedony%20StreetSan%20Diego,%20CA%2092109-2625&sensor=false
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - '*/*'
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=UTF-8
-      Date:
-      - Wed, 19 Feb 2014 21:15:48 GMT
-      Expires:
-      - Thu, 20 Feb 2014 21:15:48 GMT
-      Cache-Control:
-      - public, max-age=86400
-      Vary:
-      - Accept-Language
-      Access-Control-Allow-Origin:
-      - '*'
-      Server:
-      - mafe
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - SAMEORIGIN
-      Alternate-Protocol:
-      - 443:quic
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: |
-        {
-           "results" : [
-              {
-                 "address_components" : [
-                    {
-                       "long_name" : "1004",
-                       "short_name" : "1004",
-                       "types" : [ "street_number" ]
-                    },
-                    {
-                       "long_name" : "Chalcedony Street",
-                       "short_name" : "Chalcedony St",
-                       "types" : [ "route" ]
-                    },
-                    {
-                       "long_name" : "Pacific Beach",
-                       "short_name" : "Pacific Beach",
-                       "types" : [ "neighborhood", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego",
-                       "short_name" : "San Diego",
-                       "types" : [ "locality", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego County",
-                       "short_name" : "San Diego County",
-                       "types" : [ "administrative_area_level_2", "political" ]
-                    },
-                    {
-                       "long_name" : "California",
-                       "short_name" : "CA",
-                       "types" : [ "administrative_area_level_1", "political" ]
-                    },
-                    {
-                       "long_name" : "United States",
-                       "short_name" : "US",
-                       "types" : [ "country", "political" ]
-                    },
-                    {
-                       "long_name" : "92109",
-                       "short_name" : "92109",
-                       "types" : [ "postal_code" ]
-                    }
-                 ],
-                 "formatted_address" : "1004 Chalcedony Street, San Diego, CA 92109, USA",
-                 "geometry" : {
-                    "location" : {
-                       "lat" : 32.802167,
-                       "lng" : -117.2530845
-                    },
-                    "location_type" : "ROOFTOP",
-                    "viewport" : {
-                       "northeast" : {
-                          "lat" : 32.80351598029149,
-                          "lng" : -117.2517355197085
-                       },
-                       "southwest" : {
-                          "lat" : 32.80081801970849,
-                          "lng" : -117.2544334802915
-                       }
-                    }
-                 },
-                 "partial_match" : true,
-                 "types" : [ "street_address" ]
-              }
-           ],
-           "status" : "OK"
-        }
-    http_version: 
-  recorded_at: Wed, 19 Feb 2014 21:15:48 GMT
-- request:
-    method: get
-    uri: https://maps.googleapis.com/maps/api/geocode/json?address=5115%20Soledad%20RoadSan%20Diego,%20CA%2092109&sensor=false
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - '*/*'
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=UTF-8
-      Date:
-      - Wed, 19 Feb 2014 21:15:48 GMT
-      Expires:
-      - Thu, 20 Feb 2014 21:15:48 GMT
-      Cache-Control:
-      - public, max-age=86400
-      Vary:
-      - Accept-Language
-      Access-Control-Allow-Origin:
-      - '*'
-      Server:
-      - mafe
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - SAMEORIGIN
-      Alternate-Protocol:
-      - 443:quic
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: |
-        {
-           "results" : [
-              {
-                 "address_components" : [
-                    {
-                       "long_name" : "5115",
-                       "short_name" : "5115",
-                       "types" : [ "street_number" ]
-                    },
-                    {
-                       "long_name" : "Soledad Road",
-                       "short_name" : "Soledad Rd",
-                       "types" : [ "route" ]
-                    },
-                    {
-                       "long_name" : "Pacific Beach",
-                       "short_name" : "Pacific Beach",
-                       "types" : [ "neighborhood", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego",
-                       "short_name" : "San Diego",
-                       "types" : [ "locality", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego County",
-                       "short_name" : "San Diego County",
-                       "types" : [ "administrative_area_level_2", "political" ]
-                    },
-                    {
-                       "long_name" : "California",
-                       "short_name" : "CA",
-                       "types" : [ "administrative_area_level_1", "political" ]
-                    },
-                    {
-                       "long_name" : "United States",
-                       "short_name" : "US",
-                       "types" : [ "country", "political" ]
-                    },
-                    {
-                       "long_name" : "92109",
-                       "short_name" : "92109",
-                       "types" : [ "postal_code" ]
-                    }
-                 ],
-                 "formatted_address" : "5115 Soledad Road, San Diego, CA 92109, USA",
-                 "geometry" : {
-                    "location" : {
-                       "lat" : 32.8113799,
-                       "lng" : -117.2400155
-                    },
-                    "location_type" : "ROOFTOP",
-                    "viewport" : {
-                       "northeast" : {
-                          "lat" : 32.8127288802915,
-                          "lng" : -117.2386665197085
-                       },
-                       "southwest" : {
-                          "lat" : 32.8100309197085,
-                          "lng" : -117.2413644802915
-                       }
-                    }
-                 },
-                 "types" : [ "street_address" ]
-              }
-           ],
-           "status" : "OK"
-        }
-    http_version: 
-  recorded_at: Wed, 19 Feb 2014 21:15:48 GMT
-- request:
-    method: get
-    uri: https://maps.googleapis.com/maps/api/geocode/json?address=4861%20Cass%20StreetSan%20Diego,%20CA%2092109&sensor=false
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - '*/*'
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=UTF-8
-      Date:
-      - Wed, 19 Feb 2014 21:15:48 GMT
-      Expires:
-      - Thu, 20 Feb 2014 21:15:48 GMT
-      Cache-Control:
-      - public, max-age=86400
-      Vary:
-      - Accept-Language
-      Access-Control-Allow-Origin:
-      - '*'
-      Server:
-      - mafe
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - SAMEORIGIN
-      Alternate-Protocol:
-      - 443:quic
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: |
-        {
-           "results" : [
-              {
-                 "address_components" : [
-                    {
-                       "long_name" : "4861",
-                       "short_name" : "4861",
-                       "types" : [ "street_number" ]
-                    },
-                    {
-                       "long_name" : "Cass Street",
-                       "short_name" : "Cass St",
-                       "types" : [ "route" ]
-                    },
-                    {
-                       "long_name" : "Pacific Beach",
-                       "short_name" : "Pacific Beach",
-                       "types" : [ "neighborhood", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego",
-                       "short_name" : "San Diego",
-                       "types" : [ "locality", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego County",
-                       "short_name" : "San Diego County",
-                       "types" : [ "administrative_area_level_2", "political" ]
-                    },
-                    {
-                       "long_name" : "California",
-                       "short_name" : "CA",
-                       "types" : [ "administrative_area_level_1", "political" ]
-                    },
-                    {
-                       "long_name" : "United States",
-                       "short_name" : "US",
-                       "types" : [ "country", "political" ]
-                    },
-                    {
-                       "long_name" : "92109",
-                       "short_name" : "92109",
-                       "types" : [ "postal_code" ]
-                    }
-                 ],
-                 "formatted_address" : "4861 Cass Street, San Diego, CA 92109, USA",
-                 "geometry" : {
-                    "location" : {
-                       "lat" : 32.803205,
-                       "lng" : -117.253401
-                    },
-                    "location_type" : "ROOFTOP",
-                    "viewport" : {
-                       "northeast" : {
-                          "lat" : 32.80455398029149,
-                          "lng" : -117.2520520197085
-                       },
-                       "southwest" : {
-                          "lat" : 32.8018560197085,
-                          "lng" : -117.2547499802915
-                       }
-                    }
-                 },
-                 "types" : [ "street_address" ]
-              }
-           ],
-           "status" : "OK"
-        }
-    http_version: 
-  recorded_at: Wed, 19 Feb 2014 21:15:48 GMT
-- request:
-    method: get
-    uri: https://maps.googleapis.com/maps/api/geocode/json?address=1074%20Loring%20StreetSan%20Diego,%20CA%2092109&sensor=false
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - '*/*'
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=UTF-8
-      Date:
-      - Wed, 19 Feb 2014 21:15:49 GMT
-      Expires:
-      - Thu, 20 Feb 2014 21:15:49 GMT
-      Cache-Control:
-      - public, max-age=86400
-      Vary:
-      - Accept-Language
-      Access-Control-Allow-Origin:
-      - '*'
-      Server:
-      - mafe
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - SAMEORIGIN
-      Alternate-Protocol:
-      - 443:quic
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: |
-        {
-           "results" : [
-              {
-                 "address_components" : [
-                    {
-                       "long_name" : "1074",
-                       "short_name" : "1074",
-                       "types" : [ "street_number" ]
-                    },
-                    {
-                       "long_name" : "Loring Street",
-                       "short_name" : "Loring St",
-                       "types" : [ "route" ]
-                    },
-                    {
-                       "long_name" : "Pacific Beach",
-                       "short_name" : "Pacific Beach",
-                       "types" : [ "neighborhood", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego",
-                       "short_name" : "San Diego",
-                       "types" : [ "locality", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego County",
-                       "short_name" : "San Diego County",
-                       "types" : [ "administrative_area_level_2", "political" ]
-                    },
-                    {
-                       "long_name" : "California",
-                       "short_name" : "CA",
-                       "types" : [ "administrative_area_level_1", "political" ]
-                    },
-                    {
-                       "long_name" : "United States",
-                       "short_name" : "US",
-                       "types" : [ "country", "political" ]
-                    },
-                    {
-                       "long_name" : "92109",
-                       "short_name" : "92109",
-                       "types" : [ "postal_code" ]
-                    }
-                 ],
-                 "formatted_address" : "1074 Loring Street, San Diego, CA 92109, USA",
-                 "geometry" : {
-                    "location" : {
-                       "lat" : 32.806429,
-                       "lng" : -117.253057
-                    },
-                    "location_type" : "ROOFTOP",
-                    "viewport" : {
-                       "northeast" : {
-                          "lat" : 32.8077779802915,
-                          "lng" : -117.2517080197085
-                       },
-                       "southwest" : {
-                          "lat" : 32.80508001970851,
-                          "lng" : -117.2544059802915
-                       }
-                    }
-                 },
-                 "types" : [ "street_address" ]
-              }
-           ],
-           "status" : "OK"
-        }
-    http_version: 
-  recorded_at: Wed, 19 Feb 2014 21:15:49 GMT
-- request:
-    method: get
-    uri: https://maps.googleapis.com/maps/api/geocode/json?address=3450%20Clairemont%20DriveSan%20Diego,%20CA%2092117-5937&sensor=false
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - '*/*'
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=UTF-8
-      Date:
-      - Wed, 19 Feb 2014 21:15:49 GMT
-      Expires:
-      - Thu, 20 Feb 2014 21:15:49 GMT
-      Cache-Control:
-      - public, max-age=86400
-      Vary:
-      - Accept-Language
-      Access-Control-Allow-Origin:
-      - '*'
-      Server:
-      - mafe
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - SAMEORIGIN
-      Alternate-Protocol:
-      - 443:quic
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: |
-        {
-           "results" : [
-              {
-                 "address_components" : [
-                    {
-                       "long_name" : "3450",
-                       "short_name" : "3450",
-                       "types" : [ "street_number" ]
-                    },
-                    {
-                       "long_name" : "Clairemont Drive",
-                       "short_name" : "Clairemont Dr",
-                       "types" : [ "route" ]
-                    },
-                    {
-                       "long_name" : "Bay Park",
-                       "short_name" : "Bay Park",
-                       "types" : [ "neighborhood", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego",
-                       "short_name" : "San Diego",
-                       "types" : [ "locality", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego County",
-                       "short_name" : "San Diego County",
-                       "types" : [ "administrative_area_level_2", "political" ]
-                    },
-                    {
-                       "long_name" : "California",
-                       "short_name" : "CA",
-                       "types" : [ "administrative_area_level_1", "political" ]
-                    },
-                    {
-                       "long_name" : "United States",
-                       "short_name" : "US",
-                       "types" : [ "country", "political" ]
-                    },
-                    {
-                       "long_name" : "92117",
-                       "short_name" : "92117",
-                       "types" : [ "postal_code" ]
-                    }
-                 ],
-                 "formatted_address" : "3450 Clairemont Drive, San Diego, CA 92117, USA",
-                 "geometry" : {
-                    "location" : {
-                       "lat" : 32.80366,
-                       "lng" : -117.1995393
-                    },
-                    "location_type" : "ROOFTOP",
-                    "viewport" : {
-                       "northeast" : {
-                          "lat" : 32.8050089802915,
-                          "lng" : -117.1981903197085
-                       },
-                       "southwest" : {
-                          "lat" : 32.8023110197085,
-                          "lng" : -117.2008882802915
-                       }
-                    }
-                 },
-                 "partial_match" : true,
-                 "types" : [ "street_address" ]
-              }
-           ],
-           "status" : "OK"
-        }
-    http_version: 
-  recorded_at: Wed, 19 Feb 2014 21:15:49 GMT
-- request:
-    method: get
-    uri: https://maps.googleapis.com/maps/api/geocode/json?address=3450%20Clairemont%20DriveSan%20Diego,%20CA%2092117-5937&sensor=false
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - '*/*'
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=UTF-8
-      Date:
-      - Wed, 19 Feb 2014 21:15:50 GMT
-      Expires:
-      - Thu, 20 Feb 2014 21:15:50 GMT
-      Cache-Control:
-      - public, max-age=86400
-      Vary:
-      - Accept-Language
-      Access-Control-Allow-Origin:
-      - '*'
-      Server:
-      - mafe
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - SAMEORIGIN
-      Alternate-Protocol:
-      - 443:quic
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: |
-        {
-           "results" : [
-              {
-                 "address_components" : [
-                    {
-                       "long_name" : "3450",
-                       "short_name" : "3450",
-                       "types" : [ "street_number" ]
-                    },
-                    {
-                       "long_name" : "Clairemont Drive",
-                       "short_name" : "Clairemont Dr",
-                       "types" : [ "route" ]
-                    },
-                    {
-                       "long_name" : "Bay Park",
-                       "short_name" : "Bay Park",
-                       "types" : [ "neighborhood", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego",
-                       "short_name" : "San Diego",
-                       "types" : [ "locality", "political" ]
-                    },
-                    {
-                       "long_name" : "San Diego County",
-                       "short_name" : "San Diego County",
-                       "types" : [ "administrative_area_level_2", "political" ]
-                    },
-                    {
-                       "long_name" : "California",
-                       "short_name" : "CA",
-                       "types" : [ "administrative_area_level_1", "political" ]
-                    },
-                    {
-                       "long_name" : "United States",
-                       "short_name" : "US",
-                       "types" : [ "country", "political" ]
-                    },
-                    {
-                       "long_name" : "92117",
-                       "short_name" : "92117",
-                       "types" : [ "postal_code" ]
-                    }
-                 ],
-                 "formatted_address" : "3450 Clairemont Drive, San Diego, CA 92117, USA",
-                 "geometry" : {
-                    "location" : {
-                       "lat" : 32.80366,
-                       "lng" : -117.1995393
-                    },
-                    "location_type" : "ROOFTOP",
-                    "viewport" : {
-                       "northeast" : {
-                          "lat" : 32.8050089802915,
-                          "lng" : -117.1981903197085
-                       },
-                       "southwest" : {
-                          "lat" : 32.8023110197085,
-                          "lng" : -117.2008882802915
-                       }
-                    }
-                 },
-                 "partial_match" : true,
-                 "types" : [ "street_address" ]
-              }
-           ],
-           "status" : "OK"
-        }
-    http_version: 
-  recorded_at: Wed, 19 Feb 2014 21:15:50 GMT
+  recorded_at: Sat, 22 Feb 2014 21:48:13 GMT
 recorded_with: VCR 2.8.0
