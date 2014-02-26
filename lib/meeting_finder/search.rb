@@ -22,7 +22,7 @@ module MeetingFinder
             attributes['day'] = meeting.children[6].text
             attributes['time'] = meeting.children[8].text
             attributes['fellowship'] = meeting.children[10].text
-            attributes['lat'], attributes['lng'] = find_lat_long_from(attributes['address'])
+            # attributes['lat'], attributes['lng'] = find_lat_long_from(attributes['address'])
             meetings << MeetingFinder::Meeting.new(attributes)
           end
         end
