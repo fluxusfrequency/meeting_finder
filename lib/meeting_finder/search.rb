@@ -18,7 +18,7 @@ module MeetingFinder
           unless i == 0
             attributes['name'] = meeting.children[0].text
             attributes['location'] = meeting.children[2].text
-            attributes['address'] = meeting.children[4].text.gsub(" ", "%20")
+            attributes['address'] = meeting.children[4].text
             attributes['day'] = meeting.children[6].text
             attributes['time'] = meeting.children[8].text
             attributes['fellowship'] = meeting.children[10].text
